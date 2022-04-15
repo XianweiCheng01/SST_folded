@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" name="SST TESTING FRAMEWORKS" tests="3" time="1.27989792824">
+	<testsuite disabled="0" errors="0" failures="0" name="testsuite_default_RNGComponent" skipped="0" tests="3" time="1.27989792824">
+		<testcase classname="testcase_RNGComponent" name="test_RNG_Marsaglia" time="0.459709" timestamp="2021_0729_21:13:38.712928 utc"/>
+		<testcase classname="testcase_RNGComponent" name="test_RNG_Mersenne" time="0.410331" timestamp="2021_0729_21:13:39.174261 utc"/>
+		<testcase classname="testcase_RNGComponent" name="test_RNG_xorshift" time="0.409858" timestamp="2021_0729_21:13:39.586290 utc"/>
+	</testsuite>
+</testsuites>

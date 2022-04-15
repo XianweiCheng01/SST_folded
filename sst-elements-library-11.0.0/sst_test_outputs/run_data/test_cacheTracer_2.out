@@ -1,0 +1,6 @@
+l2cache: No MSHR lookup latency provided (mshr_latency_cycles)...intrapolated to 5 cycles.
+Writing trace to file: test_cacheTracer_2_mem_ref_trace.txt
+Writing stats to file: test_cacheTracer_2_mem_ref_stats.txt
+TrivialCPU: Test Completed Successfuly
+TrivialCPU cpu0 Finished after 100 issued reads, 100 returned (10045 clocks)
+Simulation is complete, simulated time: 10.045 us

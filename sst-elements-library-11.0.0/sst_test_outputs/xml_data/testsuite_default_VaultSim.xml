@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" name="SST TESTING FRAMEWORKS" tests="2" time="2.78748989105">
+	<testsuite disabled="0" errors="0" failures="0" name="testsuite_default_VaultSim" skipped="0" tests="2" time="2.78748989105">
+		<testcase classname="testcase_VaultSim" name="test_VaultSim_sdl1" time="0.541548" timestamp="2021_0802_18:22:08.037618 utc"/>
+		<testcase classname="testcase_VaultSim" name="test_VaultSim_sdls" time="2.245942" timestamp="2021_0802_18:22:08.580981 utc"/>
+	</testsuite>
+</testsuites>

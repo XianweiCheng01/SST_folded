@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" name="SST TESTING FRAMEWORKS" tests="3" time="8.30156731606">
+	<testsuite disabled="0" errors="0" failures="0" name="testsuite_default_ember_qos" skipped="0" tests="3" time="8.30156731606">
+		<testcase classname="testcase_QOS" name="test_qos_dragonfly" time="3.248855" timestamp="2021_0802_18:38:22.838468 utc"/>
+		<testcase classname="testcase_QOS" name="test_qos_fattree" time="2.534249" timestamp="2021_0802_18:38:26.090791 utc"/>
+		<testcase classname="testcase_QOS" name="test_qos_hyperx" time="2.518463" timestamp="2021_0802_18:38:28.628549 utc"/>
+	</testsuite>
+</testsuites>

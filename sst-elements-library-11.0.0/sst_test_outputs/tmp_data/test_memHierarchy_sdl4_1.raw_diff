@@ -1,0 +1,4 @@
+4d3
+< TrivialCPU cpu1 Finished after 1000 issued reads, 1000 returned (104055 clocks)
+5a5
+> TrivialCPU cpu1 Finished after 1000 issued reads, 1000 returned (104055 clocks)

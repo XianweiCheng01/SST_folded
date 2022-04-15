@@ -1,0 +1,4 @@
+6d5
+< TrivialCPU cpu1 Finished after 1000 issued reads, 1000 returned (104054 clocks)
+7a7
+> TrivialCPU cpu1 Finished after 1000 issued reads, 1000 returned (104054 clocks)

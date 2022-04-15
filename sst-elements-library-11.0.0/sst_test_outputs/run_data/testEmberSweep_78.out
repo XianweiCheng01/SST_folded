@@ -1,0 +1,12 @@
+EMBER: using param directory: paramFiles
+EMBER: platform: default
+EMBER: network: topology=torus shape=2
+EMBER: numNodes=2 numNics=2
+EMBER: network: BW=4GB/s pktSize=2048B flitSize=8B
+EMBER: Job=0, nidList='0-1'
+EMBER: Motif='Init'
+EMBER: Motif='PingPong iterations=1 messageSize=10000'
+EMBER: Motif='Fini'
+rank2=1 messageSize=10000 iterations=1
+PingPong: otherRank 1, total time 13.236 us, loop 1, bufLen 10000, latency 6.618 us. bandwidth 1.511031 GB/s
+Simulation is complete, simulated time: 15.15 us

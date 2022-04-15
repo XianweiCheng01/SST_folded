@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="1" name="SST TESTING FRAMEWORKS" tests="1" time="0.438653945923">
+	<testsuite disabled="0" errors="0" failures="1" name="testsuite_default_simpleSimulation" skipped="0" tests="1" time="0.438653945923">
+		<testcase classname="testcase_simpleSimulation" name="test_simplesimulation_carwash" time="0.438654" timestamp="2021_0802_18:42:57.742981 utc">
+			<failure message="AssertionError: Sorted Output file /home/xianwei/scratch/src/sst-elements-library-11.0.0/sst_test_outputs/run_data/test_simpleSimulationCarWash.out does not match sorted Reference File /home/xianwei/scratch/src/sst-elements-library-11.0.0/src/sst/elements/simpleSimulation/tests/refFiles/test_simpleSimulationCarWash.out " type="failure"/>
+		</testcase>
+	</testsuite>
+</testsuites>

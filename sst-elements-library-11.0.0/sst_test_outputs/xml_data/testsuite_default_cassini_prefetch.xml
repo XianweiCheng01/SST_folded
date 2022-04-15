@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" name="SST TESTING FRAMEWORKS" tests="3" time="4.75528311729">
+	<testsuite disabled="0" errors="0" failures="0" name="testsuite_default_cassini_prefetch" skipped="0" tests="3" time="4.75528311729">
+		<testcase classname="testcase_cassini_prefetch" name="test_cassini_prefetch_nextblock" time="1.498784" timestamp="2021_0802_18:22:11.835340 utc"/>
+		<testcase classname="testcase_cassini_prefetch" name="test_cassini_prefetch_none" time="1.604859" timestamp="2021_0802_18:22:13.336077 utc"/>
+		<testcase classname="testcase_cassini_prefetch" name="test_cassini_prefetch_stride" time="1.651640" timestamp="2021_0802_18:22:14.942889 utc"/>
+	</testsuite>
+</testsuites>

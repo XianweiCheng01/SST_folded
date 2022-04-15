@@ -1,0 +1,8 @@
+7c7
+< TrivialCPU cpu2 Finished after 1500 issued reads, 1500 returned (8592 clocks)
+---
+> TrivialCPU cpu5 Finished after 1500 issued reads, 1500 returned (8695 clocks)
+9a10
+> TrivialCPU cpu2 Finished after 1500 issued reads, 1500 returned (8592 clocks)
+12d12
+< TrivialCPU cpu5 Finished after 1500 issued reads, 1500 returned (8695 clocks)

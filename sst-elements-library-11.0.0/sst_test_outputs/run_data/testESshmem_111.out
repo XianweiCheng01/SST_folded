@@ -1,0 +1,10 @@
+EMBER: using param directory: paramFiles
+EMBER: platform: default
+EMBER: network: topology=torus shape=1
+EMBER: numNodes=1 numNics=1
+EMBER: network: BW=4GB/s pktSize=2048B flitSize=8B
+EMBER: Job=0, nidList='0-0'
+EMBER: Motif='ShmemBarrier iterations=99'
+1:ShmemBarrier: numPes=4 m_count=99
+1:ShmemBarrier: exit
+Simulation is complete, simulated time: 44.483 us

@@ -1,0 +1,88 @@
+Launching SST with automatic environment processing enabled...
+SST Environment Variable: LD_LIBRARY_PATH=/home/xianwei/local/sstelements-11.0.0/lib/sst-elements-library:/home/xianwei/local/sstcore-11.0.0/lib/sstcore:::::::::/home/xianwei/local/packages/OpenMPI-4.0.5/lib:
+SST Environment Variable: LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+SST Environment Variable: SSH_CONNECTION=169.237.74.116 51936 169.237.79.11 22
+SST Environment Variable: LESSCLOSE=/usr/bin/lesspipe %s %s
+SST Environment Variable: PMIX_MCA_gds=hash
+SST Environment Variable: LANG=en_US.UTF-8
+SST Environment Variable: MPIHOME=/home/xianwei/local/packages/OpenMPI-4.0.5
+SST Environment Variable: DYLD_LIBRARY_PATH=/home/xianwei/local/sstelements-11.0.0/lib/sst-elements-library:/home/xianwei/local/sstcore-11.0.0/lib/sstcore:::::::::/home/xianwei/local/packages/OpenMPI-4.0.5/lib:
+SST Environment Variable: XDG_SESSION_ID=202
+SST Environment Variable: USER=xianwei
+SST Environment Variable: MPICXX=mpicxx
+SST Environment Variable: PWD=/home/xianwei/scratch/src/sst-elements-library-11.0.0
+SST Environment Variable: HOME=/home/xianwei
+SST Environment Variable: SSH_CLIENT=169.237.74.116 51936 22
+SST Environment Variable: LIBVIRT_DEFAULT_URI=qemu:///system
+SST Environment Variable: KRB5CCNAME=FILE:/tmp/krb5cc_1006_whiGVR
+SST Environment Variable: XDG_DATA_DIRS=/usr/local/share:/usr/share:/var/lib/snapd/desktop
+SST Environment Variable: MPICC=mpicc
+SST Environment Variable: SSH_TTY=/dev/pts/13
+SST Environment Variable: MAIL=/var/mail/xianwei
+SST Environment Variable: TERM=xterm
+SST Environment Variable: SHELL=/bin/bash
+SST Environment Variable: SST_CORE_HOME=/home/xianwei/local/sstcore-11.0.0
+SST Environment Variable: SST_ELEMENTS_HOME=/home/xianwei/local/sstelements-11.0.0
+SST Environment Variable: SST_CORE_ROOT=/home/xianwei/scratch/src/sstcore-11.0.0
+SST Environment Variable: SHLVL=1
+SST Environment Variable: MANPATH=/home/xianwei/local/packages/OpenMPI-4.0.5/share/man:/home/xianwei/local/packages/OpenMPI-4.0.5/lib:
+SST Environment Variable: LOGNAME=xianwei
+SST Environment Variable: DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1006/bus
+SST Environment Variable: SST_ELEMENTS_ROOT=/home/xianwei/scratch/src/sst-elements-library-11.0.0
+SST Environment Variable: XDG_RUNTIME_DIR=/run/user/1006
+SST Environment Variable: PATH=/home/xianwei/.local/bin:/home/xianwei/local/sstcore-11.0.0/bin:/home/xianwei/local/packages/OpenMPI-4.0.5/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+SST Environment Variable: LESSOPEN=| /usr/bin/lesspipe %s
+SST Environment Variable: _=/home/xianwei/local/sstcore-11.0.0/bin/sst-test-elements
+SST Environment Variable: OLDPWD=/home/xianwei/scratch/src/sstcore-11.0.0
+SST Environment Variable: SST_ROOT=/home/xianwei/local/sstcore-11.0.0
+Launching SST executable (/home/xianwei/local/sstcore-11.0.0/libexec/sstsim.x)...
+SST-Core: Configuration Library Path will read from: /home/xianwei/local/sstcore-11.0.0/lib/sst:/home/xianwei/local/sstcore-11.0.0/lib/sstcore:/home/xianwei/local/sstelements-11.0.0/lib/sst-elements-library
+EMBER: using param directory: paramFiles
+EMBER: platform: default
+EMBER: network: topology=torus shape=4x4x4
+EMBER: numNodes=64 numNics=64
+EMBER: network: BW=4GB/s pktSize=2048B flitSize=8B
+EMBER: Job=0, nidList='0-63'
+EMBER: Motif='Init'
+EMBER: Motif='Allreduce'
+EMBER: Motif='Fini'
+ SST Core: #main() My rank is (0.0), on 1/1 nodes/threads
+SSTPythonModel: Creating config graph for SST using Python model...
+SSTPythonModel: Construction of config graph with Python is complete.
+ SST Core: # ------------------------------------------------------------
+ SST Core: # Graph construction took 0.052392 seconds.
+ SST Core: # Graph partitioning took 3.8147e-06 seconds.
+ SST Core: # Graph construction and partition raised RSS by 9256 KB
+ SST Core: # ------------------------------------------------------------
+ SST Core: Signal handlers will be registered for USR1, USR2, INT and TERM...
+ SST Core: Signal handler registration is completed
+ SST Core: # Starting main event loop
+ SST Core: # Start time: 2021/08/02 at: 11:38:32
+Allreduce: ranks 64, loop 1, 1 double(s), latency 8.676 us
+
+
+------------------------------------------------------------
+Simulation Timing Information:
+Build time:                      0.142420 seconds
+Simulation time:                 0.034982 seconds
+Total time:                      0.180149 seconds
+Simulated time:                  31.86 us
+
+Simulation Resource Information:
+Max Resident Set Size:           77.296 MB
+Approx. Global Max RSS Size:     77.296 MB
+Max Local Page Faults:           0 faults
+Global Page Faults:              0 faults
+Max Output Blocks:               0 blocks
+Max Input Blocks:                16 blocks
+Max mempool usage:               27.1554 MB
+Global mempool usage:            27.1554 MB
+Global active activities:        321 activities
+Current global TimeVortex depth: 3 entries
+Max TimeVortex depth:            386 entries
+Max Sync data size:              0 B
+Global Sync data size:           0 B
+------------------------------------------------------------
+
+
+Simulation is complete, simulated time: 31.86 us

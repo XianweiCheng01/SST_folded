@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" name="SST TESTING FRAMEWORKS" tests="1" time="0.441208839417">
+	<testsuite disabled="0" errors="0" failures="0" name="testsuite_default_kingsley" skipped="0" tests="1" time="0.441208839417">
+		<testcase classname="testcase_kingsley_Component" name="test_kingsly_noc_mesh_32" time="0.441209" timestamp="2021_0802_18:38:32.643990 utc"/>
+	</testsuite>
+</testsuites>

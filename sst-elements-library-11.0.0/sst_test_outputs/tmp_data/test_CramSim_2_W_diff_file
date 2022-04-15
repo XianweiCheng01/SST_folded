@@ -1,0 +1,61 @@
+1,10c1,2
+< Config file list: ['/home/xianwei/scratch/src/sst-elements-library-11.0.0/sst_test_outputs/tmp_data/testCramSim/ddr4_verimem.cfg']
+< Override:  traceFile=/home/xianwei/scratch/src/sst-elements-library-11.0.0/sst_test_outputs/tmp_data/testCramSim/tests/sst-CramSim-trace_verimem_2_W.trc
+< Override cfg traceFile /home/xianwei/scratch/src/sst-elements-library-11.0.0/sst_test_outputs/tmp_data/testCramSim/tests/sst-CramSim-trace_verimem_2_W.trc
+< TraceFileReader: tracefile name is /home/xianwei/scratch/src/sst-elements-library-11.0.0/sst_test_outputs/tmp_data/testCramSim/tests/sst-CramSim-trace_verimem_2_W.trc
+< TraceFileReader: traceFile type is missing... default (DRAMSim2 type)
+< boolDualCommandBus value is missing... disabled
+< boolMultiCycleACT value is missing... disabled
+< numPChannelsPerChannel value is missing... disabled
+< boolUseSBRefresh (single bank refresh) param value is missing... disabled
+< cmdScheduligPolicy is missing... it will be "bank round robin" (default)
+---
+> Config file: ddr4_verimem.cfg
+> Trace file: traces/sst-CramSim-trace_verimem_2_W.trc
+12,13c4,5
+< [c_Dimm] numPChannelsPerChannel value is missing... disabled
+< [c_Dimm] boolPowerCalc value is missing... disabled
+---
+> Attaching Channel0 to Rank0
+> Attaching Channel0 to Rank1
+15,32c7,13
+< ======= CramSim Simulation Report [Memory Device] ===================================
+<  1. Received Commands
+<   - Total : 500
+<   - Active : 167(33.40%)
+<   - Read : 0(0.00%)
+<   - Write : 167(33.40%
+<   - Precharge : 166(33.20%)
+<   - Refresh : 0 (0.00%)
+< =====================================================================================
+< 
+< ======= CramSim Simulation Report [Transaction Generator] ============================
+< Total Read-Txns Requests sent: 0
+< Total Write-Txns Requests sent: 167
+< Total Txns Sents: 167
+< Total Read-Txns Responses received: 0
+< Total Write-Txns Responses received: 167
+< Total Txns Received: 167
+< Cycles Per Transaction (CPT) = 65.86
+---
+> Refresh's sent out: 0
+> Total Read-Txns Requests send: 0
+> Total Write-Txns Requests send: 1670
+> Read-Txns-Received: 0
+> Write-Txns-Received: 1618
+> Total Txns Received: 1618
+> Cycles Per Transaction (CPT) = 67.9852
+34,43c15,16
+< ========================================================================================
+< 
+<  TxnGen.readTxnsCompleted : Accumulator : Sum.u64 = 0; SumSQ.u64 = 0; Count.u64 = 0; Min.u64 = 0; Max.u64 = 0; 
+<  TxnGen.writeTxnsCompleted : Accumulator : Sum.u64 = 167; SumSQ.u64 = 167; Count.u64 = 167; Min.u64 = 1; Max.u64 = 1; 
+<  TxnGen.readTxnsSent : Accumulator : Sum.u64 = 295; SumSQ.u64 = 295; Count.u64 = 295; Min.u64 = 1; Max.u64 = 1; 
+<  TxnGen.txnsPerCycle : Accumulator : Sum.f64 = 0.015183; SumSQ.f64 = 0.000231; Count.u64 = 1; Min.f64 = 0.015183; Max.f64 = 0.015183; 
+<  TxnGen.readTxnsLatency : Accumulator : Sum.u64 = 0; SumSQ.u64 = 0; Count.u64 = 0; Min.u64 = 0; Max.u64 = 0; 
+<  TxnGen.writeTxnsLatency : Accumulator : Sum.u64 = 860684; SumSQ.u64 = 5724751638; Count.u64 = 167; Min.u64 = 24; Max.u64 = 8447; 
+<  TxnGen.txnsLatency : Accumulator : Sum.u64 = 860684; SumSQ.u64 = 5724751638; Count.u64 = 167; Min.u64 = 24; Max.u64 = 8447; 
+< virtual SST::CramSim::c_DeviceDriver::~c_DeviceDriver()Simulation is complete, simulated time: 11 us
+---
+> virtual SST::n_Bank::c_CmdUnit::~c_CmdUnit()
+> Simulation is complete, simulated time: 110 us

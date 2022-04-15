@@ -1,0 +1,32 @@
+['--param=object_type:array', '--param=num_entities:12', '--param=full_initialization:false', '--param=late_write:true', '--param=publish:false']
+{'object_type': 'array', 'num_entities': '12', 'full_initialization': 'false', 'late_write': 'true', 'publish': 'false'}
+FATAL:  SST Core: ERROR: attempt to write to SharedArray test_shared_array after init phase
+WARNING: Building component "obj0" with no links assigned.
+WARNING: Building component "obj1" with no links assigned.
+WARNING: Building component "obj2" with no links assigned.
+WARNING: Building component "obj3" with no links assigned.
+WARNING: Building component "obj4" with no links assigned.
+WARNING: Building component "obj5" with no links assigned.
+WARNING: Building component "obj6" with no links assigned.
+WARNING: Building component "obj7" with no links assigned.
+WARNING: Building component "obj8" with no links assigned.
+WARNING: Building component "obj9" with no links assigned.
+WARNING: Building component "obj10" with no links assigned.
+WARNING: Building component "obj11" with no links assigned.
+SST Fatal Backtrace Information:
+    0 : /home/xianwei/local/sstcore-11.0.0/bin/sst(_ZNK3SST6Output5fatalEjPKcS2_iS2_z+0x409) [0x562ba625cee9]
+    1 : /home/xianwei/local/sstcore-11.0.0/lib/sstcore/libcoreTestElement.so(+0x673cd) [0x7f337b7923cd]
+    2 : /home/xianwei/local/sstcore-11.0.0/lib/sstcore/libcoreTestElement.so(_ZN3SST30CoreTestSharedObjectsComponent30coreTestSharedObjectsComponent5setupEv+0x242) [0x7f337b792de2]
+    3 : /home/xianwei/local/sstcore-11.0.0/bin/sst(_ZN3SST15Simulation_impl5setupEv+0x7e) [0x562ba6264bce]
+    4 : /home/xianwei/local/sstcore-11.0.0/bin/sst(+0xa6795) [0x562ba6212795]
+    5 : /home/xianwei/local/sstcore-11.0.0/bin/sst(main+0xf47) [0x562ba62005e7]
+    6 : /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7) [0x7f338bbadbf7]
+    7 : /home/xianwei/local/sstcore-11.0.0/bin/sst(_start+0x2a) [0x562ba62120aa]
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 0 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------

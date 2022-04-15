@@ -1,0 +1,10 @@
+EMBER: using param directory: paramFiles
+EMBER: platform: default
+EMBER: network: topology=torus shape=2
+EMBER: numNodes=2 numNics=2
+EMBER: network: BW=4GB/s pktSize=2048B flitSize=8B
+EMBER: Job=0, nidList='0-1'
+EMBER: Motif='ShmemWaitUntilLong op=EQ'
+0:ShmemWaitUntil: type="long"
+0:ShmemWaitUntil: op=EQ init=0 wait=1 put=1 got=1
+Simulation is complete, simulated time: 6.217 us

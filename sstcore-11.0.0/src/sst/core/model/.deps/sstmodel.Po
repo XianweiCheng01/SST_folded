@@ -1,0 +1,8 @@
+model/sstmodel.o: model/sstmodel.cc /usr/include/stdc-predef.h \
+ sst_config.h ../../../src/sst/core/model/sstmodel.h
+
+/usr/include/stdc-predef.h:
+
+sst_config.h:
+
+../../../src/sst/core/model/sstmodel.h:

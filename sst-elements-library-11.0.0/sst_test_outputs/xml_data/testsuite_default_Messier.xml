@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" name="SST TESTING FRAMEWORKS" tests="5" time="57.5672738552">
+	<testsuite disabled="0" errors="0" failures="0" name="testsuite_default_Messier" skipped="0" tests="5" time="57.5672738552">
+		<testcase classname="testcase_Messier_Component" name="test_Messier_gupsgen" time="16.416852" timestamp="2021_0802_18:20:50.278246 utc"/>
+		<testcase classname="testcase_Messier_Component" name="test_Messier_gupsgen_2RANKS" time="16.176968" timestamp="2021_0802_18:21:06.696317 utc"/>
+		<testcase classname="testcase_Messier_Component" name="test_Messier_gupsgen_fastNVM" time="3.954213" timestamp="2021_0802_18:21:22.875729 utc"/>
+		<testcase classname="testcase_Messier_Component" name="test_Messier_stencil3dbench_messier" time="17.214976" timestamp="2021_0802_18:21:26.832364 utc"/>
+		<testcase classname="testcase_Messier_Component" name="test_Messier_streambench_messier" time="3.804265" timestamp="2021_0802_18:21:44.049338 utc"/>
+	</testsuite>
+</testsuites>

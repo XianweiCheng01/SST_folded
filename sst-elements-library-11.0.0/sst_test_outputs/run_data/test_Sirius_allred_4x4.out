@@ -1,0 +1,1887 @@
+16
+16
+0:0:Nic::Nic():169 IdToNet()=0
+0:0:Nic::Shmem::Shmem():96 this=0x558835103ae0
+Local params:
+  key=debug, value=1
+  key=verbose, value=1
+  key=bufLen, value=8
+  key=hermesModule, value=firefly.hades
+  key=os.module, value=firefly.hades
+  key=trace, value=npe-16/allred-16.stf
+  key=sharedTrace, value=allred-128.stf
+  key=printStats, value=1
+  key=buffersize, value=140
+  key=os.name, value=hermesParams
+  key=hermesParams.debug, value=0
+  key=hermesParams.verboseLevel, value=1
+  key=hermesParams.nicModule, value=firefly.VirtNic
+  key=hermesParams.nicParams.debug, value=0
+  key=hermesParams.nicParams.debugLevel, value=1
+  key=hermesParams.functionSM.defaultEnterLatency, value=30000
+  key=hermesParams.functionSM.defaultReturnLatency, value=30000
+  key=hermesParams.functionSM.defaultDebug, value=0
+  key=hermesParams.functionSM.defaultVerbose, value=2
+  key=hermesParams.ctrlMsg.debug, value=0
+  key=hermesParams.ctrlMsg.verboseLevel, value=2
+  key=hermesParams.ctrlMsg.shortMsgLength, value=12000
+  key=hermesParams.ctrlMsg.matchDelay_ns, value=150
+  key=hermesParams.ctrlMsg.txSetupMod, value=firefly.LatencyMod
+  key=hermesParams.ctrlMsg.txSetupModParams.range.0, value=0-:130ns
+  key=hermesParams.ctrlMsg.rxSetupMod, value=firefly.LatencyMod
+  key=hermesParams.ctrlMsg.rxSetupModParams.range.0, value=0-:100ns
+  key=hermesParams.ctrlMsg.txMemcpyMod, value=firefly.LatencyMod
+  key=hermesParams.ctrlMsg.txMemcpyModParams.op, value=Mult
+  key=hermesParams.ctrlMsg.txMemcpyModParams.range.0, value=0-:344ps
+  key=hermesParams.ctrlMsg.rxMemcpyMod, value=firefly.LatencyMod
+  key=hermesParams.ctrlMsg.rxMemcpyModParams.range.0, value=0-:344ps
+  key=hermesParams.ctrlMsg.txNicDelay_ns, value=0
+  key=hermesParams.ctrlMsg.rxNicDelay_ns, value=0
+  key=hermesParams.ctrlMsg.sendReqFiniDelay_ns, value=0
+  key=hermesParams.ctrlMsg.sendAckDelay_ns, value=0
+  key=hermesParams.ctrlMsg.regRegionBaseDelay_ns, value=3000
+  key=hermesParams.ctrlMsg.regRegionPerPageDelay_ns, value=100
+  key=hermesParams.ctrlMsg.regRegionXoverLength, value=4096
+  key=hermesParams.loadMap.0.start, value=0
+  key=hermesParams.loadMap.0.len, value=2
+Trace prefix: npe-16/allred-16.stf
+Set verbosity level to 1
+0:1:Nic::Nic():169 IdToNet()=1
+0:1:Nic::Shmem::Shmem():96 this=0x558834e16eb0
+Local params:
+  key=debug, value=1
+  key=verbose, value=1
+  key=bufLen, value=8
+  key=hermesModule, value=firefly.hades
+  key=os.module, value=firefly.hades
+  key=trace, value=npe-16/allred-16.stf
+  key=sharedTrace, value=allred-128.stf
+  key=printStats, value=1
+  key=buffersize, value=140
+  key=os.name, value=hermesParams
+  key=hermesParams.debug, value=0
+  key=hermesParams.verboseLevel, value=1
+  key=hermesParams.nicModule, value=firefly.VirtNic
+  key=hermesParams.nicParams.debug, value=0
+  key=hermesParams.nicParams.debugLevel, value=1
+  key=hermesParams.functionSM.defaultEnterLatency, value=30000
+  key=hermesParams.functionSM.defaultReturnLatency, value=30000
+  key=hermesParams.functionSM.defaultDebug, value=0
+  key=hermesParams.functionSM.defaultVerbose, value=2
+  key=hermesParams.ctrlMsg.debug, value=0
+  key=hermesParams.ctrlMsg.verboseLevel, value=2
+  key=hermesParams.ctrlMsg.shortMsgLength, value=12000
+  key=hermesParams.ctrlMsg.matchDelay_ns, value=150
+  key=hermesParams.ctrlMsg.txSetupMod, value=firefly.LatencyMod
+  key=hermesParams.ctrlMsg.txSetupModParams.range.0, value=0-:130ns
+  key=hermesParams.ctrlMsg.rxSetupMod, value=firefly.LatencyMod
+  key=hermesParams.ctrlMsg.rxSetupModParams.range.0, value=0-:100ns
+  key=hermesParams.ctrlMsg.txMemcpyMod, value=firefly.LatencyMod
+  key=hermesParams.ctrlMsg.txMemcpyModParams.op, value=Mult
+  key=hermesParams.ctrlMsg.txMemcpyModParams.range.0, value=0-:344ps
+  key=hermesParams.ctrlMsg.rxMemcpyMod, value=firefly.LatencyMod
+  key=hermesParams.ctrlMsg.rxMemcpyModParams.range.0, value=0-:344ps
+  key=hermesParams.ctrlMsg.txNicDelay_ns, value=0
+  key=hermesParams.ctrlMsg.rxNicDelay_ns, value=0
+  key=hermesParams.ctrlMsg.sendReqFiniDelay_ns, value=0
+  key=hermesParams.ctrlMsg.sendAckDelay_ns, value=0
+  key=hermesParams.ctrlMsg.regRegionBaseDelay_ns, value=3000
+  key=hermesParams.ctrlMsg.regRegionPerPageDelay_ns, value=100
+  key=hermesParams.ctrlMsg.regRegionXoverLength, value=4096
+  key=hermesParams.loadMap.0.start, value=0
+  key=hermesParams.loadMap.0.len, value=2
+Trace prefix: npe-16/allred-16.stf
+Set verbosity level to 1
+0:2:Nic::Nic():169 IdToNet()=2
+0:2:Nic::Shmem::Shmem():96 this=0x55883523d2a0
+Local params:
+  key=debug, value=1
+  key=verbose, value=1
+  key=bufLen, value=8
+  key=hermesModule, value=firefly.hades
+  key=os.module, value=firefly.hades
+  key=trace, value=npe-16/allred-16.stf
+  key=sharedTrace, value=allred-128.stf
+  key=printStats, value=1
+  key=buffersize, value=140
+  key=os.name, value=hermesParams
+  key=hermesParams.debug, value=0
+  key=hermesParams.verboseLevel, value=1
+  key=hermesParams.nicModule, value=firefly.VirtNic
+  key=hermesParams.nicParams.debug, value=0
+  key=hermesParams.nicParams.debugLevel, value=1
+  key=hermesParams.functionSM.defaultEnterLatency, value=30000
+  key=hermesParams.functionSM.defaultReturnLatency, value=30000
+  key=hermesParams.functionSM.defaultDebug, value=0
+  key=hermesParams.functionSM.defaultVerbose, value=2
+  key=hermesParams.ctrlMsg.debug, value=0
+  key=hermesParams.ctrlMsg.verboseLevel, value=2
+  key=hermesParams.ctrlMsg.shortMsgLength, value=12000
+  key=hermesParams.ctrlMsg.matchDelay_ns, value=150
+  key=hermesParams.ctrlMsg.txSetupMod, value=firefly.LatencyMod
+  key=hermesParams.ctrlMsg.txSetupModParams.range.0, value=0-:130ns
+  key=hermesParams.ctrlMsg.rxSetupMod, value=firefly.LatencyMod
+  key=hermesParams.ctrlMsg.rxSetupModParams.range.0, value=0-:100ns
+  key=hermesParams.ctrlMsg.txMemcpyMod, value=firefly.LatencyMod
+  key=hermesParams.ctrlMsg.txMemcpyModParams.op, value=Mult
+  key=hermesParams.ctrlMsg.txMemcpyModParams.range.0, value=0-:344ps
+  key=hermesParams.ctrlMsg.rxMemcpyMod, value=firefly.LatencyMod
+  key=hermesParams.ctrlMsg.rxMemcpyModParams.range.0, value=0-:344ps
+  key=hermesParams.ctrlMsg.txNicDelay_ns, value=0
+  key=hermesParams.ctrlMsg.rxNicDelay_ns, value=0
+  key=hermesParams.ctrlMsg.sendReqFiniDelay_ns, value=0
+  key=hermesParams.ctrlMsg.sendAckDelay_ns, value=0
+  key=hermesParams.ctrlMsg.regRegionBaseDelay_ns, value=3000
+  key=hermesParams.ctrlMsg.regRegionPerPageDelay_ns, value=100
+  key=hermesParams.ctrlMsg.regRegionXoverLength, value=4096
+  key=hermesParams.loadMap.0.start, value=0
+  key=hermesParams.loadMap.0.len, value=2
+Trace prefix: npe-16/allred-16.stf
+Set verbosity level to 1
+0:3:Nic::Nic():169 IdToNet()=3
+0:3:Nic::Shmem::Shmem():96 this=0x55883525b6b0
+Local params:
+  key=debug, value=1
+  key=verbose, value=1
+  key=bufLen, value=8
+  key=hermesModule, value=firefly.hades
+  key=os.module, value=firefly.hades
+  key=trace, value=npe-16/allred-16.stf
+  key=sharedTrace, value=allred-128.stf
+  key=printStats, value=1
+  key=buffersize, value=140
+  key=os.name, value=hermesParams
+  key=hermesParams.debug, value=0
+  key=hermesParams.verboseLevel, value=1
+  key=hermesParams.nicModule, value=firefly.VirtNic
+  key=hermesParams.nicParams.debug, value=0
+  key=hermesParams.nicParams.debugLevel, value=1
+  key=hermesParams.functionSM.defaultEnterLatency, value=30000
+  key=hermesParams.functionSM.defaultReturnLatency, value=30000
+  key=hermesParams.functionSM.defaultDebug, value=0
+  key=hermesParams.functionSM.defaultVerbose, value=2
+  key=hermesParams.ctrlMsg.debug, value=0
+  key=hermesParams.ctrlMsg.verboseLevel, value=2
+  key=hermesParams.ctrlMsg.shortMsgLength, value=12000
+  key=hermesParams.ctrlMsg.matchDelay_ns, value=150
+  key=hermesParams.ctrlMsg.txSetupMod, value=firefly.LatencyMod
+  key=hermesParams.ctrlMsg.txSetupModParams.range.0, value=0-:130ns
+  key=hermesParams.ctrlMsg.rxSetupMod, value=firefly.LatencyMod
+  key=hermesParams.ctrlMsg.rxSetupModParams.range.0, value=0-:100ns
+  key=hermesParams.ctrlMsg.txMemcpyMod, value=firefly.LatencyMod
+  key=hermesParams.ctrlMsg.txMemcpyModParams.op, value=Mult
+  key=hermesParams.ctrlMsg.txMemcpyModParams.range.0, value=0-:344ps
+  key=hermesParams.ctrlMsg.rxMemcpyMod, value=firefly.LatencyMod
+  key=hermesParams.ctrlMsg.rxMemcpyModParams.range.0, value=0-:344ps
+  key=hermesParams.ctrlMsg.txNicDelay_ns, value=0
+  key=hermesParams.ctrlMsg.rxNicDelay_ns, value=0
+  key=hermesParams.ctrlMsg.sendReqFiniDelay_ns, value=0
+  key=hermesParams.ctrlMsg.sendAckDelay_ns, value=0
+  key=hermesParams.ctrlMsg.regRegionBaseDelay_ns, value=3000
+  key=hermesParams.ctrlMsg.regRegionPerPageDelay_ns, value=100
+  key=hermesParams.ctrlMsg.regRegionXoverLength, value=4096
+  key=hermesParams.loadMap.0.start, value=0
+  key=hermesParams.loadMap.0.len, value=2
+Trace prefix: npe-16/allred-16.stf
+Set verbosity level to 1
+0:4:Nic::Nic():169 IdToNet()=4
+0:4:Nic::Shmem::Shmem():96 this=0x558835279cd0
+Local params:
+  key=debug, value=1
+  key=verbose, value=1
+  key=bufLen, value=8
+  key=hermesModule, value=firefly.hades
+  key=os.module, value=firefly.hades
+  key=trace, value=npe-16/allred-16.stf
+  key=sharedTrace, value=allred-128.stf
+  key=printStats, value=1
+  key=buffersize, value=140
+  key=os.name, value=hermesParams
+  key=hermesParams.debug, value=0
+  key=hermesParams.verboseLevel, value=1
+  key=hermesParams.nicModule, value=firefly.VirtNic
+  key=hermesParams.nicParams.debug, value=0
+  key=hermesParams.nicParams.debugLevel, value=1
+  key=hermesParams.functionSM.defaultEnterLatency, value=30000
+  key=hermesParams.functionSM.defaultReturnLatency, value=30000
+  key=hermesParams.functionSM.defaultDebug, value=0
+  key=hermesParams.functionSM.defaultVerbose, value=2
+  key=hermesParams.ctrlMsg.debug, value=0
+  key=hermesParams.ctrlMsg.verboseLevel, value=2
+  key=hermesParams.ctrlMsg.shortMsgLength, value=12000
+  key=hermesParams.ctrlMsg.matchDelay_ns, value=150
+  key=hermesParams.ctrlMsg.txSetupMod, value=firefly.LatencyMod
+  key=hermesParams.ctrlMsg.txSetupModParams.range.0, value=0-:130ns
+  key=hermesParams.ctrlMsg.rxSetupMod, value=firefly.LatencyMod
+  key=hermesParams.ctrlMsg.rxSetupModParams.range.0, value=0-:100ns
+  key=hermesParams.ctrlMsg.txMemcpyMod, value=firefly.LatencyMod
+  key=hermesParams.ctrlMsg.txMemcpyModParams.op, value=Mult
+  key=hermesParams.ctrlMsg.txMemcpyModParams.range.0, value=0-:344ps
+  key=hermesParams.ctrlMsg.rxMemcpyMod, value=firefly.LatencyMod
+  key=hermesParams.ctrlMsg.rxMemcpyModParams.range.0, value=0-:344ps
+  key=hermesParams.ctrlMsg.txNicDelay_ns, value=0
+  key=hermesParams.ctrlMsg.rxNicDelay_ns, value=0
+  key=hermesParams.ctrlMsg.sendReqFiniDelay_ns, value=0
+  key=hermesParams.ctrlMsg.sendAckDelay_ns, value=0
+  key=hermesParams.ctrlMsg.regRegionBaseDelay_ns, value=3000
+  key=hermesParams.ctrlMsg.regRegionPerPageDelay_ns, value=100
+  key=hermesParams.ctrlMsg.regRegionXoverLength, value=4096
+  key=hermesParams.loadMap.0.start, value=0
+  key=hermesParams.loadMap.0.len, value=2
+Trace prefix: npe-16/allred-16.stf
+Set verbosity level to 1
+0:5:Nic::Nic():169 IdToNet()=5
+0:5:Nic::Shmem::Shmem():96 this=0x5588352982a0
+Local params:
+  key=debug, value=1
+  key=verbose, value=1
+  key=bufLen, value=8
+  key=hermesModule, value=firefly.hades
+  key=os.module, value=firefly.hades
+  key=trace, value=npe-16/allred-16.stf
+  key=sharedTrace, value=allred-128.stf
+  key=printStats, value=1
+  key=buffersize, value=140
+  key=os.name, value=hermesParams
+  key=hermesParams.debug, value=0
+  key=hermesParams.verboseLevel, value=1
+  key=hermesParams.nicModule, value=firefly.VirtNic
+  key=hermesParams.nicParams.debug, value=0
+  key=hermesParams.nicParams.debugLevel, value=1
+  key=hermesParams.functionSM.defaultEnterLatency, value=30000
+  key=hermesParams.functionSM.defaultReturnLatency, value=30000
+  key=hermesParams.functionSM.defaultDebug, value=0
+  key=hermesParams.functionSM.defaultVerbose, value=2
+  key=hermesParams.ctrlMsg.debug, value=0
+  key=hermesParams.ctrlMsg.verboseLevel, value=2
+  key=hermesParams.ctrlMsg.shortMsgLength, value=12000
+  key=hermesParams.ctrlMsg.matchDelay_ns, value=150
+  key=hermesParams.ctrlMsg.txSetupMod, value=firefly.LatencyMod
+  key=hermesParams.ctrlMsg.txSetupModParams.range.0, value=0-:130ns
+  key=hermesParams.ctrlMsg.rxSetupMod, value=firefly.LatencyMod
+  key=hermesParams.ctrlMsg.rxSetupModParams.range.0, value=0-:100ns
+  key=hermesParams.ctrlMsg.txMemcpyMod, value=firefly.LatencyMod
+  key=hermesParams.ctrlMsg.txMemcpyModParams.op, value=Mult
+  key=hermesParams.ctrlMsg.txMemcpyModParams.range.0, value=0-:344ps
+  key=hermesParams.ctrlMsg.rxMemcpyMod, value=firefly.LatencyMod
+  key=hermesParams.ctrlMsg.rxMemcpyModParams.range.0, value=0-:344ps
+  key=hermesParams.ctrlMsg.txNicDelay_ns, value=0
+  key=hermesParams.ctrlMsg.rxNicDelay_ns, value=0
+  key=hermesParams.ctrlMsg.sendReqFiniDelay_ns, value=0
+  key=hermesParams.ctrlMsg.sendAckDelay_ns, value=0
+  key=hermesParams.ctrlMsg.regRegionBaseDelay_ns, value=3000
+  key=hermesParams.ctrlMsg.regRegionPerPageDelay_ns, value=100
+  key=hermesParams.ctrlMsg.regRegionXoverLength, value=4096
+  key=hermesParams.loadMap.0.start, value=0
+  key=hermesParams.loadMap.0.len, value=2
+Trace prefix: npe-16/allred-16.stf
+Set verbosity level to 1
+0:6:Nic::Nic():169 IdToNet()=6
+0:6:Nic::Shmem::Shmem():96 this=0x5588352b6870
+Local params:
+  key=debug, value=1
+  key=verbose, value=1
+  key=bufLen, value=8
+  key=hermesModule, value=firefly.hades
+  key=os.module, value=firefly.hades
+  key=trace, value=npe-16/allred-16.stf
+  key=sharedTrace, value=allred-128.stf
+  key=printStats, value=1
+  key=buffersize, value=140
+  key=os.name, value=hermesParams
+  key=hermesParams.debug, value=0
+  key=hermesParams.verboseLevel, value=1
+  key=hermesParams.nicModule, value=firefly.VirtNic
+  key=hermesParams.nicParams.debug, value=0
+  key=hermesParams.nicParams.debugLevel, value=1
+  key=hermesParams.functionSM.defaultEnterLatency, value=30000
+  key=hermesParams.functionSM.defaultReturnLatency, value=30000
+  key=hermesParams.functionSM.defaultDebug, value=0
+  key=hermesParams.functionSM.defaultVerbose, value=2
+  key=hermesParams.ctrlMsg.debug, value=0
+  key=hermesParams.ctrlMsg.verboseLevel, value=2
+  key=hermesParams.ctrlMsg.shortMsgLength, value=12000
+  key=hermesParams.ctrlMsg.matchDelay_ns, value=150
+  key=hermesParams.ctrlMsg.txSetupMod, value=firefly.LatencyMod
+  key=hermesParams.ctrlMsg.txSetupModParams.range.0, value=0-:130ns
+  key=hermesParams.ctrlMsg.rxSetupMod, value=firefly.LatencyMod
+  key=hermesParams.ctrlMsg.rxSetupModParams.range.0, value=0-:100ns
+  key=hermesParams.ctrlMsg.txMemcpyMod, value=firefly.LatencyMod
+  key=hermesParams.ctrlMsg.txMemcpyModParams.op, value=Mult
+  key=hermesParams.ctrlMsg.txMemcpyModParams.range.0, value=0-:344ps
+  key=hermesParams.ctrlMsg.rxMemcpyMod, value=firefly.LatencyMod
+  key=hermesParams.ctrlMsg.rxMemcpyModParams.range.0, value=0-:344ps
+  key=hermesParams.ctrlMsg.txNicDelay_ns, value=0
+  key=hermesParams.ctrlMsg.rxNicDelay_ns, value=0
+  key=hermesParams.ctrlMsg.sendReqFiniDelay_ns, value=0
+  key=hermesParams.ctrlMsg.sendAckDelay_ns, value=0
+  key=hermesParams.ctrlMsg.regRegionBaseDelay_ns, value=3000
+  key=hermesParams.ctrlMsg.regRegionPerPageDelay_ns, value=100
+  key=hermesParams.ctrlMsg.regRegionXoverLength, value=4096
+  key=hermesParams.loadMap.0.start, value=0
+  key=hermesParams.loadMap.0.len, value=2
+Trace prefix: npe-16/allred-16.stf
+Set verbosity level to 1
+0:7:Nic::Nic():169 IdToNet()=7
+0:7:Nic::Shmem::Shmem():96 this=0x5588352d5120
+Local params:
+  key=debug, value=1
+  key=verbose, value=1
+  key=bufLen, value=8
+  key=hermesModule, value=firefly.hades
+  key=os.module, value=firefly.hades
+  key=trace, value=npe-16/allred-16.stf
+  key=sharedTrace, value=allred-128.stf
+  key=printStats, value=1
+  key=buffersize, value=140
+  key=os.name, value=hermesParams
+  key=hermesParams.debug, value=0
+  key=hermesParams.verboseLevel, value=1
+  key=hermesParams.nicModule, value=firefly.VirtNic
+  key=hermesParams.nicParams.debug, value=0
+  key=hermesParams.nicParams.debugLevel, value=1
+  key=hermesParams.functionSM.defaultEnterLatency, value=30000
+  key=hermesParams.functionSM.defaultReturnLatency, value=30000
+  key=hermesParams.functionSM.defaultDebug, value=0
+  key=hermesParams.functionSM.defaultVerbose, value=2
+  key=hermesParams.ctrlMsg.debug, value=0
+  key=hermesParams.ctrlMsg.verboseLevel, value=2
+  key=hermesParams.ctrlMsg.shortMsgLength, value=12000
+  key=hermesParams.ctrlMsg.matchDelay_ns, value=150
+  key=hermesParams.ctrlMsg.txSetupMod, value=firefly.LatencyMod
+  key=hermesParams.ctrlMsg.txSetupModParams.range.0, value=0-:130ns
+  key=hermesParams.ctrlMsg.rxSetupMod, value=firefly.LatencyMod
+  key=hermesParams.ctrlMsg.rxSetupModParams.range.0, value=0-:100ns
+  key=hermesParams.ctrlMsg.txMemcpyMod, value=firefly.LatencyMod
+  key=hermesParams.ctrlMsg.txMemcpyModParams.op, value=Mult
+  key=hermesParams.ctrlMsg.txMemcpyModParams.range.0, value=0-:344ps
+  key=hermesParams.ctrlMsg.rxMemcpyMod, value=firefly.LatencyMod
+  key=hermesParams.ctrlMsg.rxMemcpyModParams.range.0, value=0-:344ps
+  key=hermesParams.ctrlMsg.txNicDelay_ns, value=0
+  key=hermesParams.ctrlMsg.rxNicDelay_ns, value=0
+  key=hermesParams.ctrlMsg.sendReqFiniDelay_ns, value=0
+  key=hermesParams.ctrlMsg.sendAckDelay_ns, value=0
+  key=hermesParams.ctrlMsg.regRegionBaseDelay_ns, value=3000
+  key=hermesParams.ctrlMsg.regRegionPerPageDelay_ns, value=100
+  key=hermesParams.ctrlMsg.regRegionXoverLength, value=4096
+  key=hermesParams.loadMap.0.start, value=0
+  key=hermesParams.loadMap.0.len, value=2
+Trace prefix: npe-16/allred-16.stf
+Set verbosity level to 1
+0:8:Nic::Nic():169 IdToNet()=8
+0:8:Nic::Shmem::Shmem():96 this=0x5588352f3b70
+Local params:
+  key=debug, value=1
+  key=verbose, value=1
+  key=bufLen, value=8
+  key=hermesModule, value=firefly.hades
+  key=os.module, value=firefly.hades
+  key=trace, value=npe-16/allred-16.stf
+  key=sharedTrace, value=allred-128.stf
+  key=printStats, value=1
+  key=buffersize, value=140
+  key=os.name, value=hermesParams
+  key=hermesParams.debug, value=0
+  key=hermesParams.verboseLevel, value=1
+  key=hermesParams.nicModule, value=firefly.VirtNic
+  key=hermesParams.nicParams.debug, value=0
+  key=hermesParams.nicParams.debugLevel, value=1
+  key=hermesParams.functionSM.defaultEnterLatency, value=30000
+  key=hermesParams.functionSM.defaultReturnLatency, value=30000
+  key=hermesParams.functionSM.defaultDebug, value=0
+  key=hermesParams.functionSM.defaultVerbose, value=2
+  key=hermesParams.ctrlMsg.debug, value=0
+  key=hermesParams.ctrlMsg.verboseLevel, value=2
+  key=hermesParams.ctrlMsg.shortMsgLength, value=12000
+  key=hermesParams.ctrlMsg.matchDelay_ns, value=150
+  key=hermesParams.ctrlMsg.txSetupMod, value=firefly.LatencyMod
+  key=hermesParams.ctrlMsg.txSetupModParams.range.0, value=0-:130ns
+  key=hermesParams.ctrlMsg.rxSetupMod, value=firefly.LatencyMod
+  key=hermesParams.ctrlMsg.rxSetupModParams.range.0, value=0-:100ns
+  key=hermesParams.ctrlMsg.txMemcpyMod, value=firefly.LatencyMod
+  key=hermesParams.ctrlMsg.txMemcpyModParams.op, value=Mult
+  key=hermesParams.ctrlMsg.txMemcpyModParams.range.0, value=0-:344ps
+  key=hermesParams.ctrlMsg.rxMemcpyMod, value=firefly.LatencyMod
+  key=hermesParams.ctrlMsg.rxMemcpyModParams.range.0, value=0-:344ps
+  key=hermesParams.ctrlMsg.txNicDelay_ns, value=0
+  key=hermesParams.ctrlMsg.rxNicDelay_ns, value=0
+  key=hermesParams.ctrlMsg.sendReqFiniDelay_ns, value=0
+  key=hermesParams.ctrlMsg.sendAckDelay_ns, value=0
+  key=hermesParams.ctrlMsg.regRegionBaseDelay_ns, value=3000
+  key=hermesParams.ctrlMsg.regRegionPerPageDelay_ns, value=100
+  key=hermesParams.ctrlMsg.regRegionXoverLength, value=4096
+  key=hermesParams.loadMap.0.start, value=0
+  key=hermesParams.loadMap.0.len, value=2
+Trace prefix: npe-16/allred-16.stf
+Set verbosity level to 1
+0:9:Nic::Nic():169 IdToNet()=9
+0:9:Nic::Shmem::Shmem():96 this=0x558835312570
+Local params:
+  key=debug, value=1
+  key=verbose, value=1
+  key=bufLen, value=8
+  key=hermesModule, value=firefly.hades
+  key=os.module, value=firefly.hades
+  key=trace, value=npe-16/allred-16.stf
+  key=sharedTrace, value=allred-128.stf
+  key=printStats, value=1
+  key=buffersize, value=140
+  key=os.name, value=hermesParams
+  key=hermesParams.debug, value=0
+  key=hermesParams.verboseLevel, value=1
+  key=hermesParams.nicModule, value=firefly.VirtNic
+  key=hermesParams.nicParams.debug, value=0
+  key=hermesParams.nicParams.debugLevel, value=1
+  key=hermesParams.functionSM.defaultEnterLatency, value=30000
+  key=hermesParams.functionSM.defaultReturnLatency, value=30000
+  key=hermesParams.functionSM.defaultDebug, value=0
+  key=hermesParams.functionSM.defaultVerbose, value=2
+  key=hermesParams.ctrlMsg.debug, value=0
+  key=hermesParams.ctrlMsg.verboseLevel, value=2
+  key=hermesParams.ctrlMsg.shortMsgLength, value=12000
+  key=hermesParams.ctrlMsg.matchDelay_ns, value=150
+  key=hermesParams.ctrlMsg.txSetupMod, value=firefly.LatencyMod
+  key=hermesParams.ctrlMsg.txSetupModParams.range.0, value=0-:130ns
+  key=hermesParams.ctrlMsg.rxSetupMod, value=firefly.LatencyMod
+  key=hermesParams.ctrlMsg.rxSetupModParams.range.0, value=0-:100ns
+  key=hermesParams.ctrlMsg.txMemcpyMod, value=firefly.LatencyMod
+  key=hermesParams.ctrlMsg.txMemcpyModParams.op, value=Mult
+  key=hermesParams.ctrlMsg.txMemcpyModParams.range.0, value=0-:344ps
+  key=hermesParams.ctrlMsg.rxMemcpyMod, value=firefly.LatencyMod
+  key=hermesParams.ctrlMsg.rxMemcpyModParams.range.0, value=0-:344ps
+  key=hermesParams.ctrlMsg.txNicDelay_ns, value=0
+  key=hermesParams.ctrlMsg.rxNicDelay_ns, value=0
+  key=hermesParams.ctrlMsg.sendReqFiniDelay_ns, value=0
+  key=hermesParams.ctrlMsg.sendAckDelay_ns, value=0
+  key=hermesParams.ctrlMsg.regRegionBaseDelay_ns, value=3000
+  key=hermesParams.ctrlMsg.regRegionPerPageDelay_ns, value=100
+  key=hermesParams.ctrlMsg.regRegionXoverLength, value=4096
+  key=hermesParams.loadMap.0.start, value=0
+  key=hermesParams.loadMap.0.len, value=2
+Trace prefix: npe-16/allred-16.stf
+Set verbosity level to 1
+0:10:Nic::Nic():169 IdToNet()=10
+0:10:Nic::Shmem::Shmem():96 this=0x558835330f70
+Local params:
+  key=debug, value=1
+  key=verbose, value=1
+  key=bufLen, value=8
+  key=hermesModule, value=firefly.hades
+  key=os.module, value=firefly.hades
+  key=trace, value=npe-16/allred-16.stf
+  key=sharedTrace, value=allred-128.stf
+  key=printStats, value=1
+  key=buffersize, value=140
+  key=os.name, value=hermesParams
+  key=hermesParams.debug, value=0
+  key=hermesParams.verboseLevel, value=1
+  key=hermesParams.nicModule, value=firefly.VirtNic
+  key=hermesParams.nicParams.debug, value=0
+  key=hermesParams.nicParams.debugLevel, value=1
+  key=hermesParams.functionSM.defaultEnterLatency, value=30000
+  key=hermesParams.functionSM.defaultReturnLatency, value=30000
+  key=hermesParams.functionSM.defaultDebug, value=0
+  key=hermesParams.functionSM.defaultVerbose, value=2
+  key=hermesParams.ctrlMsg.debug, value=0
+  key=hermesParams.ctrlMsg.verboseLevel, value=2
+  key=hermesParams.ctrlMsg.shortMsgLength, value=12000
+  key=hermesParams.ctrlMsg.matchDelay_ns, value=150
+  key=hermesParams.ctrlMsg.txSetupMod, value=firefly.LatencyMod
+  key=hermesParams.ctrlMsg.txSetupModParams.range.0, value=0-:130ns
+  key=hermesParams.ctrlMsg.rxSetupMod, value=firefly.LatencyMod
+  key=hermesParams.ctrlMsg.rxSetupModParams.range.0, value=0-:100ns
+  key=hermesParams.ctrlMsg.txMemcpyMod, value=firefly.LatencyMod
+  key=hermesParams.ctrlMsg.txMemcpyModParams.op, value=Mult
+  key=hermesParams.ctrlMsg.txMemcpyModParams.range.0, value=0-:344ps
+  key=hermesParams.ctrlMsg.rxMemcpyMod, value=firefly.LatencyMod
+  key=hermesParams.ctrlMsg.rxMemcpyModParams.range.0, value=0-:344ps
+  key=hermesParams.ctrlMsg.txNicDelay_ns, value=0
+  key=hermesParams.ctrlMsg.rxNicDelay_ns, value=0
+  key=hermesParams.ctrlMsg.sendReqFiniDelay_ns, value=0
+  key=hermesParams.ctrlMsg.sendAckDelay_ns, value=0
+  key=hermesParams.ctrlMsg.regRegionBaseDelay_ns, value=3000
+  key=hermesParams.ctrlMsg.regRegionPerPageDelay_ns, value=100
+  key=hermesParams.ctrlMsg.regRegionXoverLength, value=4096
+  key=hermesParams.loadMap.0.start, value=0
+  key=hermesParams.loadMap.0.len, value=2
+Trace prefix: npe-16/allred-16.stf
+Set verbosity level to 1
+0:11:Nic::Nic():169 IdToNet()=11
+0:11:Nic::Shmem::Shmem():96 this=0x55883534f970
+Local params:
+  key=debug, value=1
+  key=verbose, value=1
+  key=bufLen, value=8
+  key=hermesModule, value=firefly.hades
+  key=os.module, value=firefly.hades
+  key=trace, value=npe-16/allred-16.stf
+  key=sharedTrace, value=allred-128.stf
+  key=printStats, value=1
+  key=buffersize, value=140
+  key=os.name, value=hermesParams
+  key=hermesParams.debug, value=0
+  key=hermesParams.verboseLevel, value=1
+  key=hermesParams.nicModule, value=firefly.VirtNic
+  key=hermesParams.nicParams.debug, value=0
+  key=hermesParams.nicParams.debugLevel, value=1
+  key=hermesParams.functionSM.defaultEnterLatency, value=30000
+  key=hermesParams.functionSM.defaultReturnLatency, value=30000
+  key=hermesParams.functionSM.defaultDebug, value=0
+  key=hermesParams.functionSM.defaultVerbose, value=2
+  key=hermesParams.ctrlMsg.debug, value=0
+  key=hermesParams.ctrlMsg.verboseLevel, value=2
+  key=hermesParams.ctrlMsg.shortMsgLength, value=12000
+  key=hermesParams.ctrlMsg.matchDelay_ns, value=150
+  key=hermesParams.ctrlMsg.txSetupMod, value=firefly.LatencyMod
+  key=hermesParams.ctrlMsg.txSetupModParams.range.0, value=0-:130ns
+  key=hermesParams.ctrlMsg.rxSetupMod, value=firefly.LatencyMod
+  key=hermesParams.ctrlMsg.rxSetupModParams.range.0, value=0-:100ns
+  key=hermesParams.ctrlMsg.txMemcpyMod, value=firefly.LatencyMod
+  key=hermesParams.ctrlMsg.txMemcpyModParams.op, value=Mult
+  key=hermesParams.ctrlMsg.txMemcpyModParams.range.0, value=0-:344ps
+  key=hermesParams.ctrlMsg.rxMemcpyMod, value=firefly.LatencyMod
+  key=hermesParams.ctrlMsg.rxMemcpyModParams.range.0, value=0-:344ps
+  key=hermesParams.ctrlMsg.txNicDelay_ns, value=0
+  key=hermesParams.ctrlMsg.rxNicDelay_ns, value=0
+  key=hermesParams.ctrlMsg.sendReqFiniDelay_ns, value=0
+  key=hermesParams.ctrlMsg.sendAckDelay_ns, value=0
+  key=hermesParams.ctrlMsg.regRegionBaseDelay_ns, value=3000
+  key=hermesParams.ctrlMsg.regRegionPerPageDelay_ns, value=100
+  key=hermesParams.ctrlMsg.regRegionXoverLength, value=4096
+  key=hermesParams.loadMap.0.start, value=0
+  key=hermesParams.loadMap.0.len, value=2
+Trace prefix: npe-16/allred-16.stf
+Set verbosity level to 1
+0:12:Nic::Nic():169 IdToNet()=12
+0:12:Nic::Shmem::Shmem():96 this=0x55883536e370
+Local params:
+  key=debug, value=1
+  key=verbose, value=1
+  key=bufLen, value=8
+  key=hermesModule, value=firefly.hades
+  key=os.module, value=firefly.hades
+  key=trace, value=npe-16/allred-16.stf
+  key=sharedTrace, value=allred-128.stf
+  key=printStats, value=1
+  key=buffersize, value=140
+  key=os.name, value=hermesParams
+  key=hermesParams.debug, value=0
+  key=hermesParams.verboseLevel, value=1
+  key=hermesParams.nicModule, value=firefly.VirtNic
+  key=hermesParams.nicParams.debug, value=0
+  key=hermesParams.nicParams.debugLevel, value=1
+  key=hermesParams.functionSM.defaultEnterLatency, value=30000
+  key=hermesParams.functionSM.defaultReturnLatency, value=30000
+  key=hermesParams.functionSM.defaultDebug, value=0
+  key=hermesParams.functionSM.defaultVerbose, value=2
+  key=hermesParams.ctrlMsg.debug, value=0
+  key=hermesParams.ctrlMsg.verboseLevel, value=2
+  key=hermesParams.ctrlMsg.shortMsgLength, value=12000
+  key=hermesParams.ctrlMsg.matchDelay_ns, value=150
+  key=hermesParams.ctrlMsg.txSetupMod, value=firefly.LatencyMod
+  key=hermesParams.ctrlMsg.txSetupModParams.range.0, value=0-:130ns
+  key=hermesParams.ctrlMsg.rxSetupMod, value=firefly.LatencyMod
+  key=hermesParams.ctrlMsg.rxSetupModParams.range.0, value=0-:100ns
+  key=hermesParams.ctrlMsg.txMemcpyMod, value=firefly.LatencyMod
+  key=hermesParams.ctrlMsg.txMemcpyModParams.op, value=Mult
+  key=hermesParams.ctrlMsg.txMemcpyModParams.range.0, value=0-:344ps
+  key=hermesParams.ctrlMsg.rxMemcpyMod, value=firefly.LatencyMod
+  key=hermesParams.ctrlMsg.rxMemcpyModParams.range.0, value=0-:344ps
+  key=hermesParams.ctrlMsg.txNicDelay_ns, value=0
+  key=hermesParams.ctrlMsg.rxNicDelay_ns, value=0
+  key=hermesParams.ctrlMsg.sendReqFiniDelay_ns, value=0
+  key=hermesParams.ctrlMsg.sendAckDelay_ns, value=0
+  key=hermesParams.ctrlMsg.regRegionBaseDelay_ns, value=3000
+  key=hermesParams.ctrlMsg.regRegionPerPageDelay_ns, value=100
+  key=hermesParams.ctrlMsg.regRegionXoverLength, value=4096
+  key=hermesParams.loadMap.0.start, value=0
+  key=hermesParams.loadMap.0.len, value=2
+Trace prefix: npe-16/allred-16.stf
+Set verbosity level to 1
+0:13:Nic::Nic():169 IdToNet()=13
+0:13:Nic::Shmem::Shmem():96 this=0x55883538cd70
+Local params:
+  key=debug, value=1
+  key=verbose, value=1
+  key=bufLen, value=8
+  key=hermesModule, value=firefly.hades
+  key=os.module, value=firefly.hades
+  key=trace, value=npe-16/allred-16.stf
+  key=sharedTrace, value=allred-128.stf
+  key=printStats, value=1
+  key=buffersize, value=140
+  key=os.name, value=hermesParams
+  key=hermesParams.debug, value=0
+  key=hermesParams.verboseLevel, value=1
+  key=hermesParams.nicModule, value=firefly.VirtNic
+  key=hermesParams.nicParams.debug, value=0
+  key=hermesParams.nicParams.debugLevel, value=1
+  key=hermesParams.functionSM.defaultEnterLatency, value=30000
+  key=hermesParams.functionSM.defaultReturnLatency, value=30000
+  key=hermesParams.functionSM.defaultDebug, value=0
+  key=hermesParams.functionSM.defaultVerbose, value=2
+  key=hermesParams.ctrlMsg.debug, value=0
+  key=hermesParams.ctrlMsg.verboseLevel, value=2
+  key=hermesParams.ctrlMsg.shortMsgLength, value=12000
+  key=hermesParams.ctrlMsg.matchDelay_ns, value=150
+  key=hermesParams.ctrlMsg.txSetupMod, value=firefly.LatencyMod
+  key=hermesParams.ctrlMsg.txSetupModParams.range.0, value=0-:130ns
+  key=hermesParams.ctrlMsg.rxSetupMod, value=firefly.LatencyMod
+  key=hermesParams.ctrlMsg.rxSetupModParams.range.0, value=0-:100ns
+  key=hermesParams.ctrlMsg.txMemcpyMod, value=firefly.LatencyMod
+  key=hermesParams.ctrlMsg.txMemcpyModParams.op, value=Mult
+  key=hermesParams.ctrlMsg.txMemcpyModParams.range.0, value=0-:344ps
+  key=hermesParams.ctrlMsg.rxMemcpyMod, value=firefly.LatencyMod
+  key=hermesParams.ctrlMsg.rxMemcpyModParams.range.0, value=0-:344ps
+  key=hermesParams.ctrlMsg.txNicDelay_ns, value=0
+  key=hermesParams.ctrlMsg.rxNicDelay_ns, value=0
+  key=hermesParams.ctrlMsg.sendReqFiniDelay_ns, value=0
+  key=hermesParams.ctrlMsg.sendAckDelay_ns, value=0
+  key=hermesParams.ctrlMsg.regRegionBaseDelay_ns, value=3000
+  key=hermesParams.ctrlMsg.regRegionPerPageDelay_ns, value=100
+  key=hermesParams.ctrlMsg.regRegionXoverLength, value=4096
+  key=hermesParams.loadMap.0.start, value=0
+  key=hermesParams.loadMap.0.len, value=2
+Trace prefix: npe-16/allred-16.stf
+Set verbosity level to 1
+0:14:Nic::Nic():169 IdToNet()=14
+0:14:Nic::Shmem::Shmem():96 this=0x5588353ab770
+Local params:
+  key=debug, value=1
+  key=verbose, value=1
+  key=bufLen, value=8
+  key=hermesModule, value=firefly.hades
+  key=os.module, value=firefly.hades
+  key=trace, value=npe-16/allred-16.stf
+  key=sharedTrace, value=allred-128.stf
+  key=printStats, value=1
+  key=buffersize, value=140
+  key=os.name, value=hermesParams
+  key=hermesParams.debug, value=0
+  key=hermesParams.verboseLevel, value=1
+  key=hermesParams.nicModule, value=firefly.VirtNic
+  key=hermesParams.nicParams.debug, value=0
+  key=hermesParams.nicParams.debugLevel, value=1
+  key=hermesParams.functionSM.defaultEnterLatency, value=30000
+  key=hermesParams.functionSM.defaultReturnLatency, value=30000
+  key=hermesParams.functionSM.defaultDebug, value=0
+  key=hermesParams.functionSM.defaultVerbose, value=2
+  key=hermesParams.ctrlMsg.debug, value=0
+  key=hermesParams.ctrlMsg.verboseLevel, value=2
+  key=hermesParams.ctrlMsg.shortMsgLength, value=12000
+  key=hermesParams.ctrlMsg.matchDelay_ns, value=150
+  key=hermesParams.ctrlMsg.txSetupMod, value=firefly.LatencyMod
+  key=hermesParams.ctrlMsg.txSetupModParams.range.0, value=0-:130ns
+  key=hermesParams.ctrlMsg.rxSetupMod, value=firefly.LatencyMod
+  key=hermesParams.ctrlMsg.rxSetupModParams.range.0, value=0-:100ns
+  key=hermesParams.ctrlMsg.txMemcpyMod, value=firefly.LatencyMod
+  key=hermesParams.ctrlMsg.txMemcpyModParams.op, value=Mult
+  key=hermesParams.ctrlMsg.txMemcpyModParams.range.0, value=0-:344ps
+  key=hermesParams.ctrlMsg.rxMemcpyMod, value=firefly.LatencyMod
+  key=hermesParams.ctrlMsg.rxMemcpyModParams.range.0, value=0-:344ps
+  key=hermesParams.ctrlMsg.txNicDelay_ns, value=0
+  key=hermesParams.ctrlMsg.rxNicDelay_ns, value=0
+  key=hermesParams.ctrlMsg.sendReqFiniDelay_ns, value=0
+  key=hermesParams.ctrlMsg.sendAckDelay_ns, value=0
+  key=hermesParams.ctrlMsg.regRegionBaseDelay_ns, value=3000
+  key=hermesParams.ctrlMsg.regRegionPerPageDelay_ns, value=100
+  key=hermesParams.ctrlMsg.regRegionXoverLength, value=4096
+  key=hermesParams.loadMap.0.start, value=0
+  key=hermesParams.loadMap.0.len, value=2
+Trace prefix: npe-16/allred-16.stf
+Set verbosity level to 1
+0:15:Nic::Nic():169 IdToNet()=15
+0:15:Nic::Shmem::Shmem():96 this=0x5588353ca170
+Local params:
+  key=debug, value=1
+  key=verbose, value=1
+  key=bufLen, value=8
+  key=hermesModule, value=firefly.hades
+  key=os.module, value=firefly.hades
+  key=trace, value=npe-16/allred-16.stf
+  key=sharedTrace, value=allred-128.stf
+  key=printStats, value=1
+  key=buffersize, value=140
+  key=os.name, value=hermesParams
+  key=hermesParams.debug, value=0
+  key=hermesParams.verboseLevel, value=1
+  key=hermesParams.nicModule, value=firefly.VirtNic
+  key=hermesParams.nicParams.debug, value=0
+  key=hermesParams.nicParams.debugLevel, value=1
+  key=hermesParams.functionSM.defaultEnterLatency, value=30000
+  key=hermesParams.functionSM.defaultReturnLatency, value=30000
+  key=hermesParams.functionSM.defaultDebug, value=0
+  key=hermesParams.functionSM.defaultVerbose, value=2
+  key=hermesParams.ctrlMsg.debug, value=0
+  key=hermesParams.ctrlMsg.verboseLevel, value=2
+  key=hermesParams.ctrlMsg.shortMsgLength, value=12000
+  key=hermesParams.ctrlMsg.matchDelay_ns, value=150
+  key=hermesParams.ctrlMsg.txSetupMod, value=firefly.LatencyMod
+  key=hermesParams.ctrlMsg.txSetupModParams.range.0, value=0-:130ns
+  key=hermesParams.ctrlMsg.rxSetupMod, value=firefly.LatencyMod
+  key=hermesParams.ctrlMsg.rxSetupModParams.range.0, value=0-:100ns
+  key=hermesParams.ctrlMsg.txMemcpyMod, value=firefly.LatencyMod
+  key=hermesParams.ctrlMsg.txMemcpyModParams.op, value=Mult
+  key=hermesParams.ctrlMsg.txMemcpyModParams.range.0, value=0-:344ps
+  key=hermesParams.ctrlMsg.rxMemcpyMod, value=firefly.LatencyMod
+  key=hermesParams.ctrlMsg.rxMemcpyModParams.range.0, value=0-:344ps
+  key=hermesParams.ctrlMsg.txNicDelay_ns, value=0
+  key=hermesParams.ctrlMsg.rxNicDelay_ns, value=0
+  key=hermesParams.ctrlMsg.sendReqFiniDelay_ns, value=0
+  key=hermesParams.ctrlMsg.sendAckDelay_ns, value=0
+  key=hermesParams.ctrlMsg.regRegionBaseDelay_ns, value=3000
+  key=hermesParams.ctrlMsg.regRegionPerPageDelay_ns, value=100
+  key=hermesParams.ctrlMsg.regRegionXoverLength, value=4096
+  key=hermesParams.loadMap.0.start, value=0
+  key=hermesParams.loadMap.0.len, value=2
+Trace prefix: npe-16/allred-16.stf
+Set verbosity level to 1
+Opening trace file: npe-16/allred-16.stf.15
+Obtained: 7 events
+Opening trace file: npe-16/allred-16.stf.14
+Obtained: 7 events
+Opening trace file: npe-16/allred-16.stf.13
+Obtained: 7 events
+Opening trace file: npe-16/allred-16.stf.12
+Obtained: 7 events
+Opening trace file: npe-16/allred-16.stf.11
+Obtained: 7 events
+Opening trace file: npe-16/allred-16.stf.10
+Obtained: 7 events
+Opening trace file: npe-16/allred-16.stf.9
+Obtained: 7 events
+Opening trace file: npe-16/allred-16.stf.3
+Obtained: 7 events
+Opening trace file: npe-16/allred-16.stf.2
+Obtained: 7 events
+Opening trace file: npe-16/allred-16.stf.1
+Obtained: 7 events
+Opening trace file: npe-16/allred-16.stf.0
+Obtained: 7 events
+Opening trace file: npe-16/allred-16.stf.4
+Obtained: 7 events
+Opening trace file: npe-16/allred-16.stf.5
+Obtained: 7 events
+Opening trace file: npe-16/allred-16.stf.6
+Obtained: 7 events
+Opening trace file: npe-16/allred-16.stf.7
+Obtained: 7 events
+Opening trace file: npe-16/allred-16.stf.8
+Obtained: 7 events
+30670687000:14:Nic::SendMachine0::InQ::enque():103 get timing for packet 0 size=53 numPending=1
+30670687000:14:Nic::SendMachine0::InQ::ready():114 packet 0 is ready, expected=0
+30670687000:14:Nic::SendMachine0::InQ::ready2():130 pass packet to OutQ numBytes=53
+30670687000:14:Nic::SendMachine0::OutQ::enque():171 qCnt=1 priority=30670687000.1
+30671011000:6:Nic::RecvMachine::Ctx0::newStream():25 
+30671011000:6:Nic::RecvMachine::StreamBase::StreamBase():28 this=0x5588355eff80
+30671011000:6:Nic::RecvMachine::Ctx0::findRecv():47 need a recv entry, srcNic=14 srcPid=0 tag=0xf00d len=40
+30671111000:6:Nic::RecvMachine::StreamBase::processPktBody():53 get timing for packet 0 size=40
+30671111000:6:Nic::RecvMachine::StreamBase::processPktBody():64 network event is done
+30671111000:6:Nic::RecvMachine::StreamBase::ready():76 packet 0 is ready
+30671111000:6:Nic::RecvMachine::StreamBase::ready():81 this stream is done
+30671111000:6:Nic::RecvMachine::Ctx0::deleteStream():97 0x5588355eff80
+30671111000:6:Nic::RecvMachine::StreamBase::~StreamBase():41 this=0x5588355eff80 bytes=12064 latency=100
+30996496000:15:Nic::SendMachine0::InQ::enque():103 get timing for packet 0 size=53 numPending=1
+30996496000:15:Nic::SendMachine0::InQ::ready():114 packet 0 is ready, expected=0
+30996496000:15:Nic::SendMachine0::InQ::ready2():130 pass packet to OutQ numBytes=53
+30996496000:15:Nic::SendMachine0::OutQ::enque():171 qCnt=1 priority=30996496000.1
+30996819000:7:Nic::RecvMachine::Ctx0::newStream():25 
+30996819000:7:Nic::RecvMachine::StreamBase::StreamBase():28 this=0x5588355eff80
+30996819000:7:Nic::RecvMachine::Ctx0::findRecv():47 need a recv entry, srcNic=15 srcPid=0 tag=0xf00d len=40
+30996919000:7:Nic::RecvMachine::StreamBase::processPktBody():53 get timing for packet 0 size=40
+30996919000:7:Nic::RecvMachine::StreamBase::processPktBody():64 network event is done
+30996919000:7:Nic::RecvMachine::StreamBase::ready():76 packet 0 is ready
+30996919000:7:Nic::RecvMachine::StreamBase::ready():81 this stream is done
+30996919000:7:Nic::RecvMachine::Ctx0::deleteStream():97 0x5588355eff80
+30996919000:7:Nic::RecvMachine::StreamBase::~StreamBase():41 this=0x5588355eff80 bytes=12064 latency=100
+32231385000:13:Nic::SendMachine0::InQ::enque():103 get timing for packet 0 size=53 numPending=1
+32231385000:13:Nic::SendMachine0::InQ::ready():114 packet 0 is ready, expected=0
+32231385000:13:Nic::SendMachine0::InQ::ready2():130 pass packet to OutQ numBytes=53
+32231385000:13:Nic::SendMachine0::OutQ::enque():171 qCnt=1 priority=32231385000.1
+32231803000:6:Nic::RecvMachine::Ctx0::newStream():25 
+32231803000:6:Nic::RecvMachine::StreamBase::StreamBase():28 this=0x5588355eff80
+32231803000:6:Nic::RecvMachine::Ctx0::findRecv():47 need a recv entry, srcNic=13 srcPid=0 tag=0xf00d len=40
+32231903000:6:Nic::RecvMachine::StreamBase::processPktBody():53 get timing for packet 0 size=40
+32231903000:6:Nic::RecvMachine::StreamBase::processPktBody():64 network event is done
+32231903000:6:Nic::RecvMachine::StreamBase::ready():76 packet 0 is ready
+32231903000:6:Nic::RecvMachine::StreamBase::ready():81 this stream is done
+32231903000:6:Nic::RecvMachine::Ctx0::deleteStream():97 0x5588355eff80
+32231903000:6:Nic::RecvMachine::StreamBase::~StreamBase():41 this=0x5588355eff80 bytes=12064 latency=100
+33185429000:12:Nic::SendMachine0::InQ::enque():103 get timing for packet 0 size=53 numPending=1
+33185429000:12:Nic::SendMachine0::InQ::ready():114 packet 0 is ready, expected=0
+33185429000:12:Nic::SendMachine0::InQ::ready2():130 pass packet to OutQ numBytes=53
+33185429000:12:Nic::SendMachine0::OutQ::enque():171 qCnt=1 priority=33185429000.1
+33185847000:5:Nic::RecvMachine::Ctx0::newStream():25 
+33185847000:5:Nic::RecvMachine::StreamBase::StreamBase():28 this=0x5588355eff80
+33185847000:5:Nic::RecvMachine::Ctx0::findRecv():47 need a recv entry, srcNic=12 srcPid=0 tag=0xf00d len=40
+33185947000:5:Nic::RecvMachine::StreamBase::processPktBody():53 get timing for packet 0 size=40
+33185947000:5:Nic::RecvMachine::StreamBase::processPktBody():64 network event is done
+33185947000:5:Nic::RecvMachine::StreamBase::ready():76 packet 0 is ready
+33185947000:5:Nic::RecvMachine::StreamBase::ready():81 this stream is done
+33185947000:5:Nic::RecvMachine::Ctx0::deleteStream():97 0x5588355eff80
+33185947000:5:Nic::RecvMachine::StreamBase::~StreamBase():41 this=0x5588355eff80 bytes=12064 latency=100
+33630832000:11:Nic::SendMachine0::InQ::enque():103 get timing for packet 0 size=53 numPending=1
+33630832000:11:Nic::SendMachine0::InQ::ready():114 packet 0 is ready, expected=0
+33630832000:11:Nic::SendMachine0::InQ::ready2():130 pass packet to OutQ numBytes=53
+33630832000:11:Nic::SendMachine0::OutQ::enque():171 qCnt=1 priority=33630832000.1
+33631249000:5:Nic::RecvMachine::Ctx0::newStream():25 
+33631249000:5:Nic::RecvMachine::StreamBase::StreamBase():28 this=0x5588355eff80
+33631249000:5:Nic::RecvMachine::Ctx0::findRecv():47 need a recv entry, srcNic=11 srcPid=0 tag=0xf00d len=40
+33631349000:5:Nic::RecvMachine::StreamBase::processPktBody():53 get timing for packet 0 size=40
+33631349000:5:Nic::RecvMachine::StreamBase::processPktBody():64 network event is done
+33631349000:5:Nic::RecvMachine::StreamBase::ready():76 packet 0 is ready
+33631349000:5:Nic::RecvMachine::StreamBase::ready():81 this stream is done
+33631349000:5:Nic::RecvMachine::Ctx0::deleteStream():97 0x5588355eff80
+33631349000:5:Nic::RecvMachine::StreamBase::~StreamBase():41 this=0x5588355eff80 bytes=12064 latency=100
+35210545000:10:Nic::SendMachine0::InQ::enque():103 get timing for packet 0 size=53 numPending=1
+35210545000:10:Nic::SendMachine0::InQ::ready():114 packet 0 is ready, expected=0
+35210545000:10:Nic::SendMachine0::InQ::ready2():130 pass packet to OutQ numBytes=53
+35210545000:10:Nic::SendMachine0::OutQ::enque():171 qCnt=1 priority=35210545000.1
+35210963000:4:Nic::RecvMachine::Ctx0::newStream():25 
+35210963000:4:Nic::RecvMachine::StreamBase::StreamBase():28 this=0x5588355eff80
+35210963000:4:Nic::RecvMachine::Ctx0::findRecv():47 need a recv entry, srcNic=10 srcPid=0 tag=0xf00d len=40
+35211063000:4:Nic::RecvMachine::StreamBase::processPktBody():53 get timing for packet 0 size=40
+35211063000:4:Nic::RecvMachine::StreamBase::processPktBody():64 network event is done
+35211063000:4:Nic::RecvMachine::StreamBase::ready():76 packet 0 is ready
+35211063000:4:Nic::RecvMachine::StreamBase::ready():81 this stream is done
+35211063000:4:Nic::RecvMachine::Ctx0::deleteStream():97 0x5588355eff80
+35211063000:4:Nic::RecvMachine::StreamBase::~StreamBase():41 this=0x5588355eff80 bytes=12064 latency=100
+36162392000:9:Nic::SendMachine0::InQ::enque():103 get timing for packet 0 size=53 numPending=1
+36162392000:9:Nic::SendMachine0::InQ::ready():114 packet 0 is ready, expected=0
+36162392000:9:Nic::SendMachine0::InQ::ready2():130 pass packet to OutQ numBytes=53
+36162392000:9:Nic::SendMachine0::OutQ::enque():171 qCnt=1 priority=36162392000.1
+36162715000:4:Nic::RecvMachine::Ctx0::newStream():25 
+36162715000:4:Nic::RecvMachine::StreamBase::StreamBase():28 this=0x5588355eff80
+36162715000:4:Nic::RecvMachine::Ctx0::findRecv():47 need a recv entry, srcNic=9 srcPid=0 tag=0xf00d len=40
+36162815000:4:Nic::RecvMachine::StreamBase::processPktBody():53 get timing for packet 0 size=40
+36162815000:4:Nic::RecvMachine::StreamBase::processPktBody():64 network event is done
+36162815000:4:Nic::RecvMachine::StreamBase::ready():76 packet 0 is ready
+36162815000:4:Nic::RecvMachine::StreamBase::ready():81 this stream is done
+36162815000:4:Nic::RecvMachine::Ctx0::deleteStream():97 0x5588355eff80
+36162815000:4:Nic::RecvMachine::StreamBase::~StreamBase():41 this=0x5588355eff80 bytes=12064 latency=100
+37751889000:8:Nic::SendMachine0::InQ::enque():103 get timing for packet 0 size=53 numPending=1
+37751889000:8:Nic::SendMachine0::InQ::ready():114 packet 0 is ready, expected=0
+37751889000:8:Nic::SendMachine0::InQ::ready2():130 pass packet to OutQ numBytes=53
+37751889000:8:Nic::SendMachine0::OutQ::enque():171 qCnt=1 priority=37751889000.1
+37752307000:3:Nic::RecvMachine::Ctx0::newStream():25 
+37752307000:3:Nic::RecvMachine::StreamBase::StreamBase():28 this=0x5588355eff80
+37752307000:3:Nic::RecvMachine::Ctx0::findRecv():47 need a recv entry, srcNic=8 srcPid=0 tag=0xf00d len=40
+37752407000:3:Nic::RecvMachine::StreamBase::processPktBody():53 get timing for packet 0 size=40
+37752407000:3:Nic::RecvMachine::StreamBase::processPktBody():64 network event is done
+37752407000:3:Nic::RecvMachine::StreamBase::ready():76 packet 0 is ready
+37752407000:3:Nic::RecvMachine::StreamBase::ready():81 this stream is done
+37752407000:3:Nic::RecvMachine::Ctx0::deleteStream():97 0x5588355eff80
+37752407000:3:Nic::RecvMachine::StreamBase::~StreamBase():41 this=0x5588355eff80 bytes=12064 latency=100
+38389257000:7:Nic::SendMachine0::InQ::enque():103 get timing for packet 0 size=53 numPending=1
+38389257000:7:Nic::SendMachine0::InQ::ready():114 packet 0 is ready, expected=0
+38389257000:7:Nic::SendMachine0::InQ::ready2():130 pass packet to OutQ numBytes=53
+38389257000:7:Nic::SendMachine0::OutQ::enque():171 qCnt=1 priority=38389257000.1
+38389487000:3:Nic::RecvMachine::Ctx0::newStream():25 
+38389487000:3:Nic::RecvMachine::StreamBase::StreamBase():28 this=0x5588355eff80
+38389487000:3:Nic::RecvMachine::Ctx0::findRecv():47 need a recv entry, srcNic=7 srcPid=0 tag=0xf00d len=40
+38389587000:3:Nic::RecvMachine::StreamBase::processPktBody():53 get timing for packet 0 size=40
+38389587000:3:Nic::RecvMachine::StreamBase::processPktBody():64 network event is done
+38389587000:3:Nic::RecvMachine::StreamBase::ready():76 packet 0 is ready
+38389587000:3:Nic::RecvMachine::StreamBase::ready():81 this stream is done
+38389587000:3:Nic::RecvMachine::Ctx0::deleteStream():97 0x5588355eff80
+38389587000:3:Nic::RecvMachine::StreamBase::~StreamBase():41 this=0x5588355eff80 bytes=12064 latency=100
+39201628000:6:Nic::SendMachine0::InQ::enque():103 get timing for packet 0 size=53 numPending=1
+39201628000:6:Nic::SendMachine0::InQ::ready():114 packet 0 is ready, expected=0
+39201628000:6:Nic::SendMachine0::InQ::ready2():130 pass packet to OutQ numBytes=53
+39201628000:6:Nic::SendMachine0::OutQ::enque():171 qCnt=1 priority=39201628000.1
+39201857000:2:Nic::RecvMachine::Ctx0::newStream():25 
+39201857000:2:Nic::RecvMachine::StreamBase::StreamBase():28 this=0x5588355eff80
+39201857000:2:Nic::RecvMachine::Ctx0::findRecv():47 need a recv entry, srcNic=6 srcPid=0 tag=0xf00d len=40
+39201957000:2:Nic::RecvMachine::StreamBase::processPktBody():53 get timing for packet 0 size=40
+39201957000:2:Nic::RecvMachine::StreamBase::processPktBody():64 network event is done
+39201957000:2:Nic::RecvMachine::StreamBase::ready():76 packet 0 is ready
+39201957000:2:Nic::RecvMachine::StreamBase::ready():81 this stream is done
+39201957000:2:Nic::RecvMachine::Ctx0::deleteStream():97 0x5588355eff80
+39201957000:2:Nic::RecvMachine::StreamBase::~StreamBase():41 this=0x5588355eff80 bytes=12064 latency=100
+39307440000:5:Nic::SendMachine0::InQ::enque():103 get timing for packet 0 size=53 numPending=1
+39307440000:5:Nic::SendMachine0::InQ::ready():114 packet 0 is ready, expected=0
+39307440000:5:Nic::SendMachine0::InQ::ready2():130 pass packet to OutQ numBytes=53
+39307440000:5:Nic::SendMachine0::OutQ::enque():171 qCnt=1 priority=39307440000.1
+39307763000:2:Nic::RecvMachine::Ctx0::newStream():25 
+39307763000:2:Nic::RecvMachine::StreamBase::StreamBase():28 this=0x5588355eff80
+39307763000:2:Nic::RecvMachine::Ctx0::findRecv():47 need a recv entry, srcNic=5 srcPid=0 tag=0xf00d len=40
+39307863000:2:Nic::RecvMachine::StreamBase::processPktBody():53 get timing for packet 0 size=40
+39307863000:2:Nic::RecvMachine::StreamBase::processPktBody():64 network event is done
+39307863000:2:Nic::RecvMachine::StreamBase::ready():76 packet 0 is ready
+39307863000:2:Nic::RecvMachine::StreamBase::ready():81 this stream is done
+39307863000:2:Nic::RecvMachine::Ctx0::deleteStream():97 0x5588355eff80
+39307863000:2:Nic::RecvMachine::StreamBase::~StreamBase():41 this=0x5588355eff80 bytes=12064 latency=100
+39936590000:4:Nic::SendMachine0::InQ::enque():103 get timing for packet 0 size=53 numPending=1
+39936590000:4:Nic::SendMachine0::InQ::ready():114 packet 0 is ready, expected=0
+39936590000:4:Nic::SendMachine0::InQ::ready2():130 pass packet to OutQ numBytes=53
+39936590000:4:Nic::SendMachine0::OutQ::enque():171 qCnt=1 priority=39936590000.1
+39936913000:1:Nic::RecvMachine::Ctx0::newStream():25 
+39936913000:1:Nic::RecvMachine::StreamBase::StreamBase():28 this=0x5588355eff80
+39936913000:1:Nic::RecvMachine::Ctx0::findRecv():47 need a recv entry, srcNic=4 srcPid=0 tag=0xf00d len=40
+39937013000:1:Nic::RecvMachine::StreamBase::processPktBody():53 get timing for packet 0 size=40
+39937013000:1:Nic::RecvMachine::StreamBase::processPktBody():64 network event is done
+39937013000:1:Nic::RecvMachine::StreamBase::ready():76 packet 0 is ready
+39937013000:1:Nic::RecvMachine::StreamBase::ready():81 this stream is done
+39937013000:1:Nic::RecvMachine::Ctx0::deleteStream():97 0x5588355eff80
+39937013000:1:Nic::RecvMachine::StreamBase::~StreamBase():41 this=0x5588355eff80 bytes=12064 latency=100
+41476483000:3:Nic::SendMachine0::InQ::enque():103 get timing for packet 0 size=53 numPending=1
+41476483000:3:Nic::SendMachine0::InQ::ready():114 packet 0 is ready, expected=0
+41476483000:3:Nic::SendMachine0::InQ::ready2():130 pass packet to OutQ numBytes=53
+41476483000:3:Nic::SendMachine0::OutQ::enque():171 qCnt=1 priority=41476483000.1
+41476807000:1:Nic::RecvMachine::Ctx0::newStream():25 
+41476807000:1:Nic::RecvMachine::StreamBase::StreamBase():28 this=0x5588355eff80
+41476807000:1:Nic::RecvMachine::Ctx0::findRecv():47 need a recv entry, srcNic=3 srcPid=0 tag=0xf00d len=40
+41476907000:1:Nic::RecvMachine::StreamBase::processPktBody():53 get timing for packet 0 size=40
+41476907000:1:Nic::RecvMachine::StreamBase::processPktBody():64 network event is done
+41476907000:1:Nic::RecvMachine::StreamBase::ready():76 packet 0 is ready
+41476907000:1:Nic::RecvMachine::StreamBase::ready():81 this stream is done
+41476907000:1:Nic::RecvMachine::Ctx0::deleteStream():97 0x5588355eff80
+41476907000:1:Nic::RecvMachine::StreamBase::~StreamBase():41 this=0x5588355eff80 bytes=12064 latency=100
+41887272000:1:Nic::SendMachine0::InQ::enque():103 get timing for packet 0 size=53 numPending=1
+41887272000:1:Nic::SendMachine0::InQ::ready():114 packet 0 is ready, expected=0
+41887272000:1:Nic::SendMachine0::InQ::ready2():130 pass packet to OutQ numBytes=53
+41887272000:1:Nic::SendMachine0::OutQ::enque():171 qCnt=1 priority=41887272000.1
+41887501000:0:Nic::RecvMachine::Ctx0::newStream():25 
+41887501000:0:Nic::RecvMachine::StreamBase::StreamBase():28 this=0x5588355eff80
+41887501000:0:Nic::RecvMachine::Ctx0::findRecv():47 need a recv entry, srcNic=1 srcPid=0 tag=0xf00d len=40
+41887601000:0:Nic::RecvMachine::StreamBase::processPktBody():53 get timing for packet 0 size=40
+41887601000:0:Nic::RecvMachine::StreamBase::processPktBody():64 network event is done
+41887601000:0:Nic::RecvMachine::StreamBase::ready():76 packet 0 is ready
+41887601000:0:Nic::RecvMachine::StreamBase::ready():81 this stream is done
+41887601000:0:Nic::RecvMachine::Ctx0::deleteStream():97 0x5588355eff80
+41887601000:0:Nic::RecvMachine::StreamBase::~StreamBase():41 this=0x5588355eff80 bytes=12064 latency=100
+41976604000:2:Nic::SendMachine0::InQ::enque():103 get timing for packet 0 size=53 numPending=1
+41976604000:2:Nic::SendMachine0::InQ::ready():114 packet 0 is ready, expected=0
+41976604000:2:Nic::SendMachine0::InQ::ready2():130 pass packet to OutQ numBytes=53
+41976604000:2:Nic::SendMachine0::OutQ::enque():171 qCnt=1 priority=41976604000.1
+41976927000:0:Nic::RecvMachine::Ctx0::newStream():25 
+41976927000:0:Nic::RecvMachine::StreamBase::StreamBase():28 this=0x5588355eff80
+41976927000:0:Nic::RecvMachine::Ctx0::findRecv():47 need a recv entry, srcNic=2 srcPid=0 tag=0xf00d len=40
+41977027000:0:Nic::RecvMachine::StreamBase::processPktBody():53 get timing for packet 0 size=40
+41977027000:0:Nic::RecvMachine::StreamBase::processPktBody():64 network event is done
+41977027000:0:Nic::RecvMachine::StreamBase::ready():76 packet 0 is ready
+41977027000:0:Nic::RecvMachine::StreamBase::ready():81 this stream is done
+41977027000:0:Nic::RecvMachine::Ctx0::deleteStream():97 0x5588355eff80
+41977027000:0:Nic::RecvMachine::StreamBase::~StreamBase():41 this=0x5588355eff80 bytes=12064 latency=100
+42076651000:0:Nic::SendMachine0::InQ::enque():103 get timing for packet 0 size=53 numPending=1
+42076651000:0:Nic::SendMachine0::InQ::ready():114 packet 0 is ready, expected=0
+42076651000:0:Nic::SendMachine0::InQ::ready2():130 pass packet to OutQ numBytes=53
+42076651000:0:Nic::SendMachine0::OutQ::enque():171 qCnt=1 priority=42076651000.1
+42076795000:0:Nic::SendMachine0::InQ::enque():103 get timing for packet 1 size=53 numPending=1
+42076795000:0:Nic::SendMachine0::InQ::ready():114 packet 1 is ready, expected=1
+42076795000:0:Nic::SendMachine0::InQ::ready2():130 pass packet to OutQ numBytes=53
+42076795000:0:Nic::SendMachine0::OutQ::enque():171 qCnt=1 priority=42076795000.1
+42076881000:1:Nic::RecvMachine::Ctx0::newStream():25 
+42076881000:1:Nic::RecvMachine::StreamBase::StreamBase():28 this=0x5588355eff80
+42076881000:1:Nic::RecvMachine::Ctx0::findRecv():47 need a recv entry, srcNic=0 srcPid=0 tag=0xf00d len=40
+42076981000:1:Nic::RecvMachine::StreamBase::processPktBody():53 get timing for packet 0 size=40
+42076981000:1:Nic::RecvMachine::StreamBase::processPktBody():64 network event is done
+42076981000:1:Nic::RecvMachine::StreamBase::ready():76 packet 0 is ready
+42076981000:1:Nic::RecvMachine::StreamBase::ready():81 this stream is done
+42076981000:1:Nic::RecvMachine::Ctx0::deleteStream():97 0x5588355eff80
+42076981000:1:Nic::RecvMachine::StreamBase::~StreamBase():41 this=0x5588355eff80 bytes=12064 latency=100
+42077119000:2:Nic::RecvMachine::Ctx0::newStream():25 
+42077119000:2:Nic::RecvMachine::StreamBase::StreamBase():28 this=0x5588355eff80
+42077119000:2:Nic::RecvMachine::Ctx0::findRecv():47 need a recv entry, srcNic=0 srcPid=0 tag=0xf00d len=40
+42077219000:2:Nic::RecvMachine::StreamBase::processPktBody():53 get timing for packet 0 size=40
+42077219000:2:Nic::RecvMachine::StreamBase::processPktBody():64 network event is done
+42077219000:2:Nic::RecvMachine::StreamBase::ready():76 packet 0 is ready
+42077219000:2:Nic::RecvMachine::StreamBase::ready():81 this stream is done
+42077219000:2:Nic::RecvMachine::Ctx0::deleteStream():97 0x5588355eff80
+42077219000:2:Nic::RecvMachine::StreamBase::~StreamBase():41 this=0x5588355eff80 bytes=12064 latency=100
+42077924000:1:Nic::SendMachine0::InQ::enque():103 get timing for packet 1 size=53 numPending=1
+42077924000:1:Nic::SendMachine0::InQ::ready():114 packet 1 is ready, expected=1
+42077924000:1:Nic::SendMachine0::InQ::ready2():130 pass packet to OutQ numBytes=53
+42077924000:1:Nic::SendMachine0::OutQ::enque():171 qCnt=1 priority=42077924000.1
+42078068000:1:Nic::SendMachine0::InQ::enque():103 get timing for packet 2 size=53 numPending=1
+42078068000:1:Nic::SendMachine0::InQ::ready():114 packet 2 is ready, expected=2
+42078068000:1:Nic::SendMachine0::InQ::ready2():130 pass packet to OutQ numBytes=53
+42078068000:1:Nic::SendMachine0::OutQ::enque():171 qCnt=1 priority=42078068000.1
+42078162000:2:Nic::SendMachine0::InQ::enque():103 get timing for packet 1 size=53 numPending=1
+42078162000:2:Nic::SendMachine0::InQ::ready():114 packet 1 is ready, expected=1
+42078162000:2:Nic::SendMachine0::InQ::ready2():130 pass packet to OutQ numBytes=53
+42078162000:2:Nic::SendMachine0::OutQ::enque():171 qCnt=1 priority=42078162000.1
+42078247000:3:Nic::RecvMachine::Ctx0::newStream():25 
+42078247000:3:Nic::RecvMachine::StreamBase::StreamBase():28 this=0x5588355eff80
+42078247000:3:Nic::RecvMachine::Ctx0::findRecv():47 need a recv entry, srcNic=1 srcPid=0 tag=0xf00d len=40
+42078306000:2:Nic::SendMachine0::InQ::enque():103 get timing for packet 2 size=53 numPending=1
+42078306000:2:Nic::SendMachine0::InQ::ready():114 packet 2 is ready, expected=2
+42078306000:2:Nic::SendMachine0::InQ::ready2():130 pass packet to OutQ numBytes=53
+42078306000:2:Nic::SendMachine0::OutQ::enque():171 qCnt=1 priority=42078306000.1
+42078347000:3:Nic::RecvMachine::StreamBase::processPktBody():53 get timing for packet 0 size=40
+42078347000:3:Nic::RecvMachine::StreamBase::processPktBody():64 network event is done
+42078347000:3:Nic::RecvMachine::StreamBase::ready():76 packet 0 is ready
+42078347000:3:Nic::RecvMachine::StreamBase::ready():81 this stream is done
+42078347000:3:Nic::RecvMachine::Ctx0::deleteStream():97 0x5588355eff80
+42078347000:3:Nic::RecvMachine::StreamBase::~StreamBase():41 this=0x5588355eff80 bytes=12064 latency=100
+42078391000:4:Nic::RecvMachine::Ctx0::newStream():25 
+42078391000:4:Nic::RecvMachine::StreamBase::StreamBase():28 this=0x5588355eff80
+42078391000:4:Nic::RecvMachine::Ctx0::findRecv():47 need a recv entry, srcNic=1 srcPid=0 tag=0xf00d len=40
+42078485000:5:Nic::RecvMachine::Ctx0::newStream():25 
+42078485000:5:Nic::RecvMachine::StreamBase::StreamBase():28 this=0x5588355f00b0
+42078485000:5:Nic::RecvMachine::Ctx0::findRecv():47 need a recv entry, srcNic=2 srcPid=0 tag=0xf00d len=40
+42078491000:4:Nic::RecvMachine::StreamBase::processPktBody():53 get timing for packet 0 size=40
+42078491000:4:Nic::RecvMachine::StreamBase::processPktBody():64 network event is done
+42078491000:4:Nic::RecvMachine::StreamBase::ready():76 packet 0 is ready
+42078491000:4:Nic::RecvMachine::StreamBase::ready():81 this stream is done
+42078491000:4:Nic::RecvMachine::Ctx0::deleteStream():97 0x5588355eff80
+42078491000:4:Nic::RecvMachine::StreamBase::~StreamBase():41 this=0x5588355eff80 bytes=12064 latency=100
+42078535000:6:Nic::RecvMachine::Ctx0::newStream():25 
+42078535000:6:Nic::RecvMachine::StreamBase::StreamBase():28 this=0x5588355eff80
+42078535000:6:Nic::RecvMachine::Ctx0::findRecv():47 need a recv entry, srcNic=2 srcPid=0 tag=0xf00d len=40
+42078585000:5:Nic::RecvMachine::StreamBase::processPktBody():53 get timing for packet 0 size=40
+42078585000:5:Nic::RecvMachine::StreamBase::processPktBody():64 network event is done
+42078585000:5:Nic::RecvMachine::StreamBase::ready():76 packet 0 is ready
+42078585000:5:Nic::RecvMachine::StreamBase::ready():81 this stream is done
+42078585000:5:Nic::RecvMachine::Ctx0::deleteStream():97 0x5588355f00b0
+42078585000:5:Nic::RecvMachine::StreamBase::~StreamBase():41 this=0x5588355f00b0 bytes=12064 latency=100
+42078635000:6:Nic::RecvMachine::StreamBase::processPktBody():53 get timing for packet 0 size=40
+42078635000:6:Nic::RecvMachine::StreamBase::processPktBody():64 network event is done
+42078635000:6:Nic::RecvMachine::StreamBase::ready():76 packet 0 is ready
+42078635000:6:Nic::RecvMachine::StreamBase::ready():81 this stream is done
+42078635000:6:Nic::RecvMachine::Ctx0::deleteStream():97 0x5588355eff80
+42078635000:6:Nic::RecvMachine::StreamBase::~StreamBase():41 this=0x5588355eff80 bytes=12064 latency=100
+42079290000:3:Nic::SendMachine0::InQ::enque():103 get timing for packet 1 size=53 numPending=1
+42079290000:3:Nic::SendMachine0::InQ::ready():114 packet 1 is ready, expected=1
+42079290000:3:Nic::SendMachine0::InQ::ready2():130 pass packet to OutQ numBytes=53
+42079290000:3:Nic::SendMachine0::OutQ::enque():171 qCnt=1 priority=42079290000.1
+42079434000:3:Nic::SendMachine0::InQ::enque():103 get timing for packet 2 size=53 numPending=1
+42079434000:3:Nic::SendMachine0::InQ::ready():114 packet 2 is ready, expected=2
+42079434000:3:Nic::SendMachine0::InQ::ready2():130 pass packet to OutQ numBytes=53
+42079434000:3:Nic::SendMachine0::OutQ::enque():171 qCnt=1 priority=42079434000.1
+42079434000:4:Nic::SendMachine0::InQ::enque():103 get timing for packet 1 size=53 numPending=1
+42079434000:4:Nic::SendMachine0::InQ::ready():114 packet 1 is ready, expected=1
+42079434000:4:Nic::SendMachine0::InQ::ready2():130 pass packet to OutQ numBytes=53
+42079434000:4:Nic::SendMachine0::OutQ::enque():171 qCnt=1 priority=42079434000.1
+42079519000:7:Nic::RecvMachine::Ctx0::newStream():25 
+42079519000:7:Nic::RecvMachine::StreamBase::StreamBase():28 this=0x5588355eff80
+42079519000:7:Nic::RecvMachine::Ctx0::findRecv():47 need a recv entry, srcNic=3 srcPid=0 tag=0xf00d len=40
+42079528000:5:Nic::SendMachine0::InQ::enque():103 get timing for packet 1 size=53 numPending=1
+42079528000:5:Nic::SendMachine0::InQ::ready():114 packet 1 is ready, expected=1
+42079528000:5:Nic::SendMachine0::InQ::ready2():130 pass packet to OutQ numBytes=53
+42079528000:5:Nic::SendMachine0::OutQ::enque():171 qCnt=1 priority=42079528000.1
+42079578000:4:Nic::SendMachine0::InQ::enque():103 get timing for packet 2 size=53 numPending=1
+42079578000:4:Nic::SendMachine0::InQ::ready():114 packet 2 is ready, expected=2
+42079578000:4:Nic::SendMachine0::InQ::ready2():130 pass packet to OutQ numBytes=53
+42079578000:4:Nic::SendMachine0::OutQ::enque():171 qCnt=1 priority=42079578000.1
+42079578000:6:Nic::SendMachine0::InQ::enque():103 get timing for packet 1 size=53 numPending=1
+42079578000:6:Nic::SendMachine0::InQ::ready():114 packet 1 is ready, expected=1
+42079578000:6:Nic::SendMachine0::InQ::ready2():130 pass packet to OutQ numBytes=53
+42079578000:6:Nic::SendMachine0::OutQ::enque():171 qCnt=1 priority=42079578000.1
+42079619000:7:Nic::RecvMachine::StreamBase::processPktBody():53 get timing for packet 0 size=40
+42079619000:7:Nic::RecvMachine::StreamBase::processPktBody():64 network event is done
+42079619000:7:Nic::RecvMachine::StreamBase::ready():76 packet 0 is ready
+42079619000:7:Nic::RecvMachine::StreamBase::ready():81 this stream is done
+42079619000:7:Nic::RecvMachine::Ctx0::deleteStream():97 0x5588355eff80
+42079619000:7:Nic::RecvMachine::StreamBase::~StreamBase():41 this=0x5588355eff80 bytes=12064 latency=100
+42079672000:5:Nic::SendMachine0::InQ::enque():103 get timing for packet 2 size=53 numPending=1
+42079672000:5:Nic::SendMachine0::InQ::ready():114 packet 2 is ready, expected=2
+42079672000:5:Nic::SendMachine0::InQ::ready2():130 pass packet to OutQ numBytes=53
+42079672000:5:Nic::SendMachine0::OutQ::enque():171 qCnt=1 priority=42079672000.1
+42079722000:6:Nic::SendMachine0::InQ::enque():103 get timing for packet 2 size=53 numPending=1
+42079722000:6:Nic::SendMachine0::InQ::ready():114 packet 2 is ready, expected=2
+42079722000:6:Nic::SendMachine0::InQ::ready2():130 pass packet to OutQ numBytes=53
+42079722000:6:Nic::SendMachine0::OutQ::enque():171 qCnt=1 priority=42079722000.1
+42079757000:9:Nic::RecvMachine::Ctx0::newStream():25 
+42079757000:9:Nic::RecvMachine::StreamBase::StreamBase():28 this=0x5588355eff80
+42079757000:9:Nic::RecvMachine::Ctx0::findRecv():47 need a recv entry, srcNic=4 srcPid=0 tag=0xf00d len=40
+42079851000:8:Nic::RecvMachine::Ctx0::newStream():25 
+42079851000:8:Nic::RecvMachine::StreamBase::StreamBase():28 this=0x5588355f00b0
+42079851000:8:Nic::RecvMachine::Ctx0::findRecv():47 need a recv entry, srcNic=3 srcPid=0 tag=0xf00d len=40
+42079857000:9:Nic::RecvMachine::StreamBase::processPktBody():53 get timing for packet 0 size=40
+42079857000:9:Nic::RecvMachine::StreamBase::processPktBody():64 network event is done
+42079857000:9:Nic::RecvMachine::StreamBase::ready():76 packet 0 is ready
+42079857000:9:Nic::RecvMachine::StreamBase::ready():81 this stream is done
+42079857000:9:Nic::RecvMachine::Ctx0::deleteStream():97 0x5588355eff80
+42079857000:9:Nic::RecvMachine::StreamBase::~StreamBase():41 this=0x5588355eff80 bytes=12064 latency=100
+42079945000:11:Nic::RecvMachine::Ctx0::newStream():25 
+42079945000:11:Nic::RecvMachine::StreamBase::StreamBase():28 this=0x5588355eff80
+42079945000:11:Nic::RecvMachine::Ctx0::findRecv():47 need a recv entry, srcNic=5 srcPid=0 tag=0xf00d len=40
+42079951000:8:Nic::RecvMachine::StreamBase::processPktBody():53 get timing for packet 0 size=40
+42079951000:8:Nic::RecvMachine::StreamBase::processPktBody():64 network event is done
+42079951000:8:Nic::RecvMachine::StreamBase::ready():76 packet 0 is ready
+42079951000:8:Nic::RecvMachine::StreamBase::ready():81 this stream is done
+42079951000:8:Nic::RecvMachine::Ctx0::deleteStream():97 0x5588355f00b0
+42079951000:8:Nic::RecvMachine::StreamBase::~StreamBase():41 this=0x5588355f00b0 bytes=12064 latency=100
+42079995000:10:Nic::RecvMachine::Ctx0::newStream():25 
+42079995000:10:Nic::RecvMachine::StreamBase::StreamBase():28 this=0x5588355f00b0
+42079995000:10:Nic::RecvMachine::Ctx0::findRecv():47 need a recv entry, srcNic=4 srcPid=0 tag=0xf00d len=40
+42079995000:13:Nic::RecvMachine::Ctx0::newStream():25 
+42079995000:13:Nic::RecvMachine::StreamBase::StreamBase():28 this=0x5588355805a0
+42079995000:13:Nic::RecvMachine::Ctx0::findRecv():47 need a recv entry, srcNic=6 srcPid=0 tag=0xf00d len=40
+42080045000:11:Nic::RecvMachine::StreamBase::processPktBody():53 get timing for packet 0 size=40
+42080045000:11:Nic::RecvMachine::StreamBase::processPktBody():64 network event is done
+42080045000:11:Nic::RecvMachine::StreamBase::ready():76 packet 0 is ready
+42080045000:11:Nic::RecvMachine::StreamBase::ready():81 this stream is done
+42080045000:11:Nic::RecvMachine::Ctx0::deleteStream():97 0x5588355eff80
+42080045000:11:Nic::RecvMachine::StreamBase::~StreamBase():41 this=0x5588355eff80 bytes=12064 latency=100
+42080045000:14:Nic::RecvMachine::Ctx0::newStream():25 
+42080045000:14:Nic::RecvMachine::StreamBase::StreamBase():28 this=0x5588355eff80
+42080045000:14:Nic::RecvMachine::Ctx0::findRecv():47 need a recv entry, srcNic=6 srcPid=0 tag=0xf00d len=40
+42080089000:12:Nic::RecvMachine::Ctx0::newStream():25 
+42080089000:12:Nic::RecvMachine::StreamBase::StreamBase():28 this=0x5588355815d0
+42080089000:12:Nic::RecvMachine::Ctx0::findRecv():47 need a recv entry, srcNic=5 srcPid=0 tag=0xf00d len=40
+42080095000:10:Nic::RecvMachine::StreamBase::processPktBody():53 get timing for packet 0 size=40
+42080095000:10:Nic::RecvMachine::StreamBase::processPktBody():64 network event is done
+42080095000:10:Nic::RecvMachine::StreamBase::ready():76 packet 0 is ready
+42080095000:10:Nic::RecvMachine::StreamBase::ready():81 this stream is done
+42080095000:13:Nic::RecvMachine::StreamBase::processPktBody():53 get timing for packet 0 size=40
+42080095000:13:Nic::RecvMachine::StreamBase::processPktBody():64 network event is done
+42080095000:13:Nic::RecvMachine::StreamBase::ready():76 packet 0 is ready
+42080095000:13:Nic::RecvMachine::StreamBase::ready():81 this stream is done
+42080095000:10:Nic::RecvMachine::Ctx0::deleteStream():97 0x5588355f00b0
+42080095000:10:Nic::RecvMachine::StreamBase::~StreamBase():41 this=0x5588355f00b0 bytes=12064 latency=100
+42080095000:13:Nic::RecvMachine::Ctx0::deleteStream():97 0x5588355805a0
+42080095000:13:Nic::RecvMachine::StreamBase::~StreamBase():41 this=0x5588355805a0 bytes=12064 latency=100
+42080145000:14:Nic::RecvMachine::StreamBase::processPktBody():53 get timing for packet 0 size=40
+42080145000:14:Nic::RecvMachine::StreamBase::processPktBody():64 network event is done
+42080145000:14:Nic::RecvMachine::StreamBase::ready():76 packet 0 is ready
+42080145000:14:Nic::RecvMachine::StreamBase::ready():81 this stream is done
+42080145000:14:Nic::RecvMachine::Ctx0::deleteStream():97 0x5588355eff80
+42080145000:14:Nic::RecvMachine::StreamBase::~StreamBase():41 this=0x5588355eff80 bytes=12064 latency=100
+42080189000:12:Nic::RecvMachine::StreamBase::processPktBody():53 get timing for packet 0 size=40
+42080189000:12:Nic::RecvMachine::StreamBase::processPktBody():64 network event is done
+42080189000:12:Nic::RecvMachine::StreamBase::ready():76 packet 0 is ready
+42080189000:12:Nic::RecvMachine::StreamBase::ready():81 this stream is done
+42080189000:12:Nic::RecvMachine::Ctx0::deleteStream():97 0x5588355815d0
+42080189000:12:Nic::RecvMachine::StreamBase::~StreamBase():41 this=0x5588355815d0 bytes=12064 latency=100
+42080562000:7:Nic::SendMachine0::InQ::enque():103 get timing for packet 1 size=53 numPending=1
+42080562000:7:Nic::SendMachine0::InQ::ready():114 packet 1 is ready, expected=1
+42080562000:7:Nic::SendMachine0::InQ::ready2():130 pass packet to OutQ numBytes=53
+42080562000:7:Nic::SendMachine0::OutQ::enque():171 qCnt=1 priority=42080562000.1
+42080885000:15:Nic::RecvMachine::Ctx0::newStream():25 
+42080885000:15:Nic::RecvMachine::StreamBase::StreamBase():28 this=0x5588355815d0
+42080885000:15:Nic::RecvMachine::Ctx0::findRecv():47 need a recv entry, srcNic=7 srcPid=0 tag=0xf00d len=40
+42080985000:15:Nic::RecvMachine::StreamBase::processPktBody():53 get timing for packet 0 size=40
+42080985000:15:Nic::RecvMachine::StreamBase::processPktBody():64 network event is done
+42080985000:15:Nic::RecvMachine::StreamBase::ready():76 packet 0 is ready
+42080985000:15:Nic::RecvMachine::StreamBase::ready():81 this stream is done
+42080985000:15:Nic::RecvMachine::Ctx0::deleteStream():97 0x5588355815d0
+42080985000:15:Nic::RecvMachine::StreamBase::~StreamBase():41 this=0x5588355815d0 bytes=12064 latency=100
+42081617000:9:Nic::SendMachine0::InQ::enque():103 get timing for packet 1 size=45 numPending=1
+42081617000:9:Nic::SendMachine0::InQ::ready():114 packet 1 is ready, expected=1
+42081617000:9:Nic::SendMachine0::InQ::ready2():130 pass packet to OutQ numBytes=45
+42081617000:9:Nic::SendMachine0::OutQ::enque():171 qCnt=1 priority=42081617000.1
+42081799000:13:Nic::SendMachine0::InQ::enque():103 get timing for packet 1 size=45 numPending=1
+42081799000:13:Nic::SendMachine0::InQ::ready():114 packet 1 is ready, expected=1
+42081799000:13:Nic::SendMachine0::InQ::ready2():130 pass packet to OutQ numBytes=45
+42081799000:13:Nic::SendMachine0::OutQ::enque():171 qCnt=1 priority=42081799000.1
+42081864000:14:Nic::SendMachine0::InQ::enque():103 get timing for packet 1 size=45 numPending=1
+42081864000:14:Nic::SendMachine0::InQ::ready():114 packet 1 is ready, expected=1
+42081864000:14:Nic::SendMachine0::InQ::ready2():130 pass packet to OutQ numBytes=45
+42081864000:14:Nic::SendMachine0::OutQ::enque():171 qCnt=1 priority=42081864000.1
+42081938000:11:Nic::SendMachine0::InQ::enque():103 get timing for packet 1 size=45 numPending=1
+42081938000:11:Nic::SendMachine0::InQ::ready():114 packet 1 is ready, expected=1
+42081938000:11:Nic::SendMachine0::InQ::ready2():130 pass packet to OutQ numBytes=45
+42081938000:11:Nic::SendMachine0::OutQ::enque():171 qCnt=1 priority=42081938000.1
+42081941000:4:Nic::RecvMachine::Ctx0::newStream():25 
+42081941000:4:Nic::RecvMachine::StreamBase::StreamBase():28 this=0x5588355815d0
+42081941000:4:Nic::RecvMachine::Ctx0::findRecv():47 need a recv entry, srcNic=9 srcPid=0 tag=0xf00d len=32
+42081988000:10:Nic::SendMachine0::InQ::enque():103 get timing for packet 1 size=45 numPending=1
+42081988000:10:Nic::SendMachine0::InQ::ready():114 packet 1 is ready, expected=1
+42081988000:10:Nic::SendMachine0::InQ::ready2():130 pass packet to OutQ numBytes=45
+42081988000:10:Nic::SendMachine0::OutQ::enque():171 qCnt=1 priority=42081988000.1
+42081995000:12:Nic::SendMachine0::InQ::enque():103 get timing for packet 1 size=45 numPending=1
+42081995000:12:Nic::SendMachine0::InQ::ready():114 packet 1 is ready, expected=1
+42081995000:12:Nic::SendMachine0::InQ::ready2():130 pass packet to OutQ numBytes=45
+42081995000:12:Nic::SendMachine0::OutQ::enque():171 qCnt=1 priority=42081995000.1
+42082018000:8:Nic::SendMachine0::InQ::enque():103 get timing for packet 1 size=45 numPending=1
+42082018000:8:Nic::SendMachine0::InQ::ready():114 packet 1 is ready, expected=1
+42082018000:8:Nic::SendMachine0::InQ::ready2():130 pass packet to OutQ numBytes=45
+42082018000:8:Nic::SendMachine0::OutQ::enque():171 qCnt=1 priority=42082018000.1
+42082041000:4:Nic::RecvMachine::StreamBase::processPktBody():53 get timing for packet 0 size=32
+42082041000:4:Nic::RecvMachine::StreamBase::processPktBody():64 network event is done
+42082041000:4:Nic::RecvMachine::StreamBase::ready():76 packet 0 is ready
+42082041000:4:Nic::RecvMachine::StreamBase::ready():81 this stream is done
+42082041000:4:Nic::RecvMachine::Ctx0::deleteStream():97 0x5588355815d0
+42082041000:4:Nic::RecvMachine::StreamBase::~StreamBase():41 this=0x5588355815d0 bytes=12064 latency=100
+42082187000:6:Nic::RecvMachine::Ctx0::newStream():25 
+42082187000:6:Nic::RecvMachine::StreamBase::StreamBase():28 this=0x5588355815d0
+42082187000:6:Nic::RecvMachine::Ctx0::findRecv():47 need a recv entry, srcNic=14 srcPid=0 tag=0xf00d len=32
+42082217000:6:Nic::RecvMachine::Ctx0::newStream():25 
+42082217000:6:Nic::RecvMachine::StreamBase::StreamBase():28 this=0x5588355eff80
+42082217000:6:Nic::RecvMachine::Ctx0::findRecv():47 need a recv entry, srcNic=13 srcPid=0 tag=0xf00d len=32
+42082287000:6:Nic::RecvMachine::StreamBase::processPktBody():53 get timing for packet 0 size=32
+42082287000:6:Nic::RecvMachine::StreamBase::processPktBody():64 network event is done
+42082287000:6:Nic::RecvMachine::StreamBase::ready():76 packet 0 is ready
+42082287000:6:Nic::RecvMachine::StreamBase::ready():81 this stream is done
+42082287000:6:Nic::RecvMachine::Ctx0::deleteStream():97 0x5588355815d0
+42082287000:6:Nic::RecvMachine::StreamBase::~StreamBase():41 this=0x5588355815d0 bytes=12064 latency=100
+42082317000:6:Nic::RecvMachine::StreamBase::processPktBody():53 get timing for packet 0 size=32
+42082317000:6:Nic::RecvMachine::StreamBase::processPktBody():64 network event is done
+42082317000:6:Nic::RecvMachine::StreamBase::ready():76 packet 0 is ready
+42082317000:6:Nic::RecvMachine::StreamBase::ready():81 this stream is done
+42082317000:6:Nic::RecvMachine::Ctx0::deleteStream():97 0x5588355eff80
+42082317000:6:Nic::RecvMachine::StreamBase::~StreamBase():41 this=0x5588355eff80 bytes=12064 latency=100
+42082355000:5:Nic::RecvMachine::Ctx0::newStream():25 
+42082355000:5:Nic::RecvMachine::StreamBase::StreamBase():28 this=0x5588355eff80
+42082355000:5:Nic::RecvMachine::Ctx0::findRecv():47 need a recv entry, srcNic=11 srcPid=0 tag=0xf00d len=32
+42082405000:4:Nic::RecvMachine::Ctx0::newStream():25 
+42082405000:4:Nic::RecvMachine::StreamBase::StreamBase():28 this=0x5588355815d0
+42082405000:4:Nic::RecvMachine::Ctx0::findRecv():47 need a recv entry, srcNic=10 srcPid=0 tag=0xf00d len=32
+42082413000:5:Nic::RecvMachine::Ctx0::newStream():25 
+42082413000:5:Nic::RecvMachine::StreamBase::StreamBase():28 this=0x5588355805a0
+42082413000:5:Nic::RecvMachine::Ctx0::findRecv():47 need a recv entry, srcNic=12 srcPid=0 tag=0xf00d len=32
+42082435000:3:Nic::RecvMachine::Ctx0::newStream():25 
+42082435000:3:Nic::RecvMachine::StreamBase::StreamBase():28 this=0x5588355f00b0
+42082435000:3:Nic::RecvMachine::Ctx0::findRecv():47 need a recv entry, srcNic=8 srcPid=0 tag=0xf00d len=32
+42082455000:5:Nic::RecvMachine::StreamBase::processPktBody():53 get timing for packet 0 size=32
+42082455000:5:Nic::RecvMachine::StreamBase::processPktBody():64 network event is done
+42082455000:5:Nic::RecvMachine::StreamBase::ready():76 packet 0 is ready
+42082455000:5:Nic::RecvMachine::StreamBase::ready():81 this stream is done
+42082455000:5:Nic::RecvMachine::Ctx0::deleteStream():97 0x5588355eff80
+42082455000:5:Nic::RecvMachine::StreamBase::~StreamBase():41 this=0x5588355eff80 bytes=12064 latency=100
+42082472000:15:Nic::SendMachine0::InQ::enque():103 get timing for packet 1 size=45 numPending=1
+42082472000:15:Nic::SendMachine0::InQ::ready():114 packet 1 is ready, expected=1
+42082472000:15:Nic::SendMachine0::InQ::ready2():130 pass packet to OutQ numBytes=45
+42082472000:15:Nic::SendMachine0::OutQ::enque():171 qCnt=1 priority=42082472000.1
+42082505000:4:Nic::RecvMachine::StreamBase::processPktBody():53 get timing for packet 0 size=32
+42082505000:4:Nic::RecvMachine::StreamBase::processPktBody():64 network event is done
+42082505000:4:Nic::RecvMachine::StreamBase::ready():76 packet 0 is ready
+42082505000:4:Nic::RecvMachine::StreamBase::ready():81 this stream is done
+42082505000:4:Nic::RecvMachine::Ctx0::deleteStream():97 0x5588355815d0
+42082505000:4:Nic::RecvMachine::StreamBase::~StreamBase():41 this=0x5588355815d0 bytes=12064 latency=100
+42082513000:5:Nic::RecvMachine::StreamBase::processPktBody():53 get timing for packet 0 size=32
+42082513000:5:Nic::RecvMachine::StreamBase::processPktBody():64 network event is done
+42082513000:5:Nic::RecvMachine::StreamBase::ready():76 packet 0 is ready
+42082513000:5:Nic::RecvMachine::StreamBase::ready():81 this stream is done
+42082513000:5:Nic::RecvMachine::Ctx0::deleteStream():97 0x5588355805a0
+42082513000:5:Nic::RecvMachine::StreamBase::~StreamBase():41 this=0x5588355805a0 bytes=12064 latency=100
+42082535000:3:Nic::RecvMachine::StreamBase::processPktBody():53 get timing for packet 0 size=32
+42082535000:3:Nic::RecvMachine::StreamBase::processPktBody():64 network event is done
+42082535000:3:Nic::RecvMachine::StreamBase::ready():76 packet 0 is ready
+42082535000:3:Nic::RecvMachine::StreamBase::ready():81 this stream is done
+42082535000:3:Nic::RecvMachine::Ctx0::deleteStream():97 0x5588355f00b0
+42082535000:3:Nic::RecvMachine::StreamBase::~StreamBase():41 this=0x5588355f00b0 bytes=12064 latency=100
+42082795000:7:Nic::RecvMachine::Ctx0::newStream():25 
+42082795000:7:Nic::RecvMachine::StreamBase::StreamBase():28 this=0x5588355f00b0
+42082795000:7:Nic::RecvMachine::Ctx0::findRecv():47 need a recv entry, srcNic=15 srcPid=0 tag=0xf00d len=32
+42082895000:7:Nic::RecvMachine::StreamBase::processPktBody():53 get timing for packet 0 size=32
+42082895000:7:Nic::RecvMachine::StreamBase::processPktBody():64 network event is done
+42082895000:7:Nic::RecvMachine::StreamBase::ready():76 packet 0 is ready
+42082895000:7:Nic::RecvMachine::StreamBase::ready():81 this stream is done
+42082895000:7:Nic::RecvMachine::Ctx0::deleteStream():97 0x5588355f00b0
+42082895000:7:Nic::RecvMachine::StreamBase::~StreamBase():41 this=0x5588355f00b0 bytes=12064 latency=100
+42083445000:4:Nic::SendMachine0::InQ::enque():103 get timing for packet 3 size=45 numPending=1
+42083445000:4:Nic::SendMachine0::InQ::ready():114 packet 3 is ready, expected=3
+42083445000:4:Nic::SendMachine0::InQ::ready2():130 pass packet to OutQ numBytes=45
+42083445000:4:Nic::SendMachine0::OutQ::enque():171 qCnt=1 priority=42083445000.1
+42083627000:6:Nic::SendMachine0::InQ::enque():103 get timing for packet 3 size=45 numPending=1
+42083627000:6:Nic::SendMachine0::InQ::ready():114 packet 3 is ready, expected=3
+42083627000:6:Nic::SendMachine0::InQ::ready2():130 pass packet to OutQ numBytes=45
+42083627000:6:Nic::SendMachine0::OutQ::enque():171 qCnt=1 priority=42083627000.1
+42083645000:5:Nic::SendMachine0::InQ::enque():103 get timing for packet 3 size=45 numPending=1
+42083645000:5:Nic::SendMachine0::InQ::ready():114 packet 3 is ready, expected=3
+42083645000:5:Nic::SendMachine0::InQ::ready2():130 pass packet to OutQ numBytes=45
+42083645000:5:Nic::SendMachine0::OutQ::enque():171 qCnt=1 priority=42083645000.1
+42083769000:1:Nic::RecvMachine::Ctx0::newStream():25 
+42083769000:1:Nic::RecvMachine::StreamBase::StreamBase():28 this=0x5588355f00b0
+42083769000:1:Nic::RecvMachine::Ctx0::findRecv():47 need a recv entry, srcNic=4 srcPid=0 tag=0xf00d len=32
+42083835000:7:Nic::SendMachine0::InQ::enque():103 get timing for packet 2 size=45 numPending=1
+42083835000:7:Nic::SendMachine0::InQ::ready():114 packet 2 is ready, expected=2
+42083835000:7:Nic::SendMachine0::InQ::ready2():130 pass packet to OutQ numBytes=45
+42083835000:7:Nic::SendMachine0::OutQ::enque():171 qCnt=1 priority=42083835000.1
+42083857000:2:Nic::RecvMachine::Ctx0::newStream():25 
+42083857000:2:Nic::RecvMachine::StreamBase::StreamBase():28 this=0x5588355805a0
+42083857000:2:Nic::RecvMachine::Ctx0::findRecv():47 need a recv entry, srcNic=6 srcPid=0 tag=0xf00d len=32
+42083869000:1:Nic::RecvMachine::StreamBase::processPktBody():53 get timing for packet 0 size=32
+42083869000:1:Nic::RecvMachine::StreamBase::processPktBody():64 network event is done
+42083869000:1:Nic::RecvMachine::StreamBase::ready():76 packet 0 is ready
+42083869000:1:Nic::RecvMachine::StreamBase::ready():81 this stream is done
+42083869000:1:Nic::RecvMachine::Ctx0::deleteStream():97 0x5588355f00b0
+42083869000:1:Nic::RecvMachine::StreamBase::~StreamBase():41 this=0x5588355f00b0 bytes=12064 latency=100
+42083957000:2:Nic::RecvMachine::StreamBase::processPktBody():53 get timing for packet 0 size=32
+42083957000:2:Nic::RecvMachine::StreamBase::processPktBody():64 network event is done
+42083957000:2:Nic::RecvMachine::StreamBase::ready():76 packet 0 is ready
+42083957000:2:Nic::RecvMachine::StreamBase::ready():81 this stream is done
+42083957000:2:Nic::RecvMachine::Ctx0::deleteStream():97 0x5588355805a0
+42083957000:2:Nic::RecvMachine::StreamBase::~StreamBase():41 this=0x5588355805a0 bytes=12064 latency=100
+42083969000:2:Nic::RecvMachine::Ctx0::newStream():25 
+42083969000:2:Nic::RecvMachine::StreamBase::StreamBase():28 this=0x5588355805a0
+42083969000:2:Nic::RecvMachine::Ctx0::findRecv():47 need a recv entry, srcNic=5 srcPid=0 tag=0xf00d len=32
+42084065000:3:Nic::RecvMachine::Ctx0::newStream():25 
+42084065000:3:Nic::RecvMachine::StreamBase::StreamBase():28 this=0x5588355f00b0
+42084065000:3:Nic::RecvMachine::Ctx0::findRecv():47 need a recv entry, srcNic=7 srcPid=0 tag=0xf00d len=32
+42084069000:2:Nic::RecvMachine::StreamBase::processPktBody():53 get timing for packet 0 size=32
+42084069000:2:Nic::RecvMachine::StreamBase::processPktBody():64 network event is done
+42084069000:2:Nic::RecvMachine::StreamBase::ready():76 packet 0 is ready
+42084069000:2:Nic::RecvMachine::StreamBase::ready():81 this stream is done
+42084069000:2:Nic::RecvMachine::Ctx0::deleteStream():97 0x5588355805a0
+42084069000:2:Nic::RecvMachine::StreamBase::~StreamBase():41 this=0x5588355805a0 bytes=12064 latency=100
+42084165000:3:Nic::RecvMachine::StreamBase::processPktBody():53 get timing for packet 0 size=32
+42084165000:3:Nic::RecvMachine::StreamBase::processPktBody():64 network event is done
+42084165000:3:Nic::RecvMachine::StreamBase::ready():76 packet 0 is ready
+42084165000:3:Nic::RecvMachine::StreamBase::ready():81 this stream is done
+42084165000:3:Nic::RecvMachine::Ctx0::deleteStream():97 0x5588355f00b0
+42084165000:3:Nic::RecvMachine::StreamBase::~StreamBase():41 this=0x5588355f00b0 bytes=12064 latency=100
+42085105000:3:Nic::SendMachine0::InQ::enque():103 get timing for packet 3 size=45 numPending=1
+42085105000:3:Nic::SendMachine0::InQ::ready():114 packet 3 is ready, expected=3
+42085105000:3:Nic::SendMachine0::InQ::ready2():130 pass packet to OutQ numBytes=45
+42085105000:3:Nic::SendMachine0::OutQ::enque():171 qCnt=1 priority=42085105000.1
+42085297000:2:Nic::SendMachine0::InQ::enque():103 get timing for packet 3 size=45 numPending=1
+42085297000:2:Nic::SendMachine0::InQ::ready():114 packet 3 is ready, expected=3
+42085297000:2:Nic::SendMachine0::InQ::ready2():130 pass packet to OutQ numBytes=45
+42085297000:2:Nic::SendMachine0::OutQ::enque():171 qCnt=1 priority=42085297000.1
+42085429000:1:Nic::RecvMachine::Ctx0::newStream():25 
+42085429000:1:Nic::RecvMachine::StreamBase::StreamBase():28 this=0x5588355f00b0
+42085429000:1:Nic::RecvMachine::Ctx0::findRecv():47 need a recv entry, srcNic=3 srcPid=0 tag=0xf00d len=32
+42085529000:1:Nic::RecvMachine::StreamBase::processPktBody():53 get timing for packet 0 size=32
+42085529000:1:Nic::RecvMachine::StreamBase::processPktBody():64 network event is done
+42085529000:1:Nic::RecvMachine::StreamBase::ready():76 packet 0 is ready
+42085529000:1:Nic::RecvMachine::StreamBase::ready():81 this stream is done
+42085529000:1:Nic::RecvMachine::Ctx0::deleteStream():97 0x5588355f00b0
+42085529000:1:Nic::RecvMachine::StreamBase::~StreamBase():41 this=0x5588355f00b0 bytes=12064 latency=100
+42085621000:0:Nic::RecvMachine::Ctx0::newStream():25 
+42085621000:0:Nic::RecvMachine::StreamBase::StreamBase():28 this=0x5588355f00b0
+42085621000:0:Nic::RecvMachine::Ctx0::findRecv():47 need a recv entry, srcNic=2 srcPid=0 tag=0xf00d len=32
+42085721000:0:Nic::RecvMachine::StreamBase::processPktBody():53 get timing for packet 0 size=32
+42085721000:0:Nic::RecvMachine::StreamBase::processPktBody():64 network event is done
+42085721000:0:Nic::RecvMachine::StreamBase::ready():76 packet 0 is ready
+42085721000:0:Nic::RecvMachine::StreamBase::ready():81 this stream is done
+42085721000:0:Nic::RecvMachine::Ctx0::deleteStream():97 0x5588355f00b0
+42085721000:0:Nic::RecvMachine::StreamBase::~StreamBase():41 this=0x5588355f00b0 bytes=12064 latency=100
+42086469000:1:Nic::SendMachine0::InQ::enque():103 get timing for packet 3 size=45 numPending=1
+42086469000:1:Nic::SendMachine0::InQ::ready():114 packet 3 is ready, expected=3
+42086469000:1:Nic::SendMachine0::InQ::ready2():130 pass packet to OutQ numBytes=45
+42086469000:1:Nic::SendMachine0::OutQ::enque():171 qCnt=1 priority=42086469000.1
+42086699000:0:Nic::RecvMachine::Ctx0::newStream():25 
+42086699000:0:Nic::RecvMachine::StreamBase::StreamBase():28 this=0x5588355f00b0
+42086699000:0:Nic::RecvMachine::Ctx0::findRecv():47 need a recv entry, srcNic=1 srcPid=0 tag=0xf00d len=32
+42086799000:0:Nic::RecvMachine::StreamBase::processPktBody():53 get timing for packet 0 size=32
+42086799000:0:Nic::RecvMachine::StreamBase::processPktBody():64 network event is done
+42086799000:0:Nic::RecvMachine::StreamBase::ready():76 packet 0 is ready
+42086799000:0:Nic::RecvMachine::StreamBase::ready():81 this stream is done
+42086799000:0:Nic::RecvMachine::Ctx0::deleteStream():97 0x5588355f00b0
+42086799000:0:Nic::RecvMachine::StreamBase::~StreamBase():41 this=0x5588355f00b0 bytes=12064 latency=100
+42093640000:0:Nic::SendMachine0::InQ::enque():103 get timing for packet 2 size=45 numPending=1
+42093640000:0:Nic::SendMachine0::InQ::ready():114 packet 2 is ready, expected=2
+42093640000:0:Nic::SendMachine0::InQ::ready2():130 pass packet to OutQ numBytes=45
+42093640000:0:Nic::SendMachine0::OutQ::enque():171 qCnt=1 priority=42093640000.1
+42093781000:0:Nic::SendMachine0::InQ::enque():103 get timing for packet 3 size=45 numPending=1
+42093781000:0:Nic::SendMachine0::InQ::ready():114 packet 3 is ready, expected=3
+42093781000:0:Nic::SendMachine0::InQ::ready2():130 pass packet to OutQ numBytes=45
+42093781000:0:Nic::SendMachine0::OutQ::enque():171 qCnt=1 priority=42093781000.1
+42093869000:1:Nic::RecvMachine::Ctx0::newStream():25 
+42093869000:1:Nic::RecvMachine::StreamBase::StreamBase():28 this=0x5588355f00b0
+42093869000:1:Nic::RecvMachine::Ctx0::findRecv():47 need a recv entry, srcNic=0 srcPid=0 tag=0xf00d len=32
+42093969000:1:Nic::RecvMachine::StreamBase::processPktBody():53 get timing for packet 0 size=32
+42093969000:1:Nic::RecvMachine::StreamBase::processPktBody():64 network event is done
+42093969000:1:Nic::RecvMachine::StreamBase::ready():76 packet 0 is ready
+42093969000:1:Nic::RecvMachine::StreamBase::ready():81 this stream is done
+42093969000:1:Nic::RecvMachine::Ctx0::deleteStream():97 0x5588355f00b0
+42093969000:1:Nic::RecvMachine::StreamBase::~StreamBase():41 this=0x5588355f00b0 bytes=12064 latency=100
+42094105000:2:Nic::RecvMachine::Ctx0::newStream():25 
+42094105000:2:Nic::RecvMachine::StreamBase::StreamBase():28 this=0x5588355f00b0
+42094105000:2:Nic::RecvMachine::Ctx0::findRecv():47 need a recv entry, srcNic=0 srcPid=0 tag=0xf00d len=32
+42094205000:2:Nic::RecvMachine::StreamBase::processPktBody():53 get timing for packet 0 size=32
+42094205000:2:Nic::RecvMachine::StreamBase::processPktBody():64 network event is done
+42094205000:2:Nic::RecvMachine::StreamBase::ready():76 packet 0 is ready
+42094205000:2:Nic::RecvMachine::StreamBase::ready():81 this stream is done
+42094205000:2:Nic::RecvMachine::Ctx0::deleteStream():97 0x5588355f00b0
+42094205000:2:Nic::RecvMachine::StreamBase::~StreamBase():41 this=0x5588355f00b0 bytes=12064 latency=100
+42094909000:1:Nic::SendMachine0::InQ::enque():103 get timing for packet 4 size=45 numPending=1
+42094909000:1:Nic::SendMachine0::InQ::ready():114 packet 4 is ready, expected=4
+42094909000:1:Nic::SendMachine0::InQ::ready2():130 pass packet to OutQ numBytes=45
+42094909000:1:Nic::SendMachine0::OutQ::enque():171 qCnt=1 priority=42094909000.1
+42095050000:1:Nic::SendMachine0::InQ::enque():103 get timing for packet 5 size=45 numPending=1
+42095050000:1:Nic::SendMachine0::InQ::ready():114 packet 5 is ready, expected=5
+42095050000:1:Nic::SendMachine0::InQ::ready2():130 pass packet to OutQ numBytes=45
+42095050000:1:Nic::SendMachine0::OutQ::enque():171 qCnt=1 priority=42095050000.1
+42095145000:2:Nic::SendMachine0::InQ::enque():103 get timing for packet 4 size=45 numPending=1
+42095145000:2:Nic::SendMachine0::InQ::ready():114 packet 4 is ready, expected=4
+42095145000:2:Nic::SendMachine0::InQ::ready2():130 pass packet to OutQ numBytes=45
+42095145000:2:Nic::SendMachine0::OutQ::enque():171 qCnt=1 priority=42095145000.1
+42095233000:3:Nic::RecvMachine::Ctx0::newStream():25 
+42095233000:3:Nic::RecvMachine::StreamBase::StreamBase():28 this=0x5588355f00b0
+42095233000:3:Nic::RecvMachine::Ctx0::findRecv():47 need a recv entry, srcNic=1 srcPid=0 tag=0xf00d len=32
+42095286000:2:Nic::SendMachine0::InQ::enque():103 get timing for packet 5 size=45 numPending=1
+42095286000:2:Nic::SendMachine0::InQ::ready():114 packet 5 is ready, expected=5
+42095286000:2:Nic::SendMachine0::InQ::ready2():130 pass packet to OutQ numBytes=45
+42095286000:2:Nic::SendMachine0::OutQ::enque():171 qCnt=1 priority=42095286000.1
+42095333000:3:Nic::RecvMachine::StreamBase::processPktBody():53 get timing for packet 0 size=32
+42095333000:3:Nic::RecvMachine::StreamBase::processPktBody():64 network event is done
+42095333000:3:Nic::RecvMachine::StreamBase::ready():76 packet 0 is ready
+42095333000:3:Nic::RecvMachine::StreamBase::ready():81 this stream is done
+42095333000:3:Nic::RecvMachine::Ctx0::deleteStream():97 0x5588355f00b0
+42095333000:3:Nic::RecvMachine::StreamBase::~StreamBase():41 this=0x5588355f00b0 bytes=12064 latency=100
+42095373000:4:Nic::RecvMachine::Ctx0::newStream():25 
+42095373000:4:Nic::RecvMachine::StreamBase::StreamBase():28 this=0x5588355f00b0
+42095373000:4:Nic::RecvMachine::Ctx0::findRecv():47 need a recv entry, srcNic=1 srcPid=0 tag=0xf00d len=32
+42095469000:5:Nic::RecvMachine::Ctx0::newStream():25 
+42095469000:5:Nic::RecvMachine::StreamBase::StreamBase():28 this=0x5588355805a0
+42095469000:5:Nic::RecvMachine::Ctx0::findRecv():47 need a recv entry, srcNic=2 srcPid=0 tag=0xf00d len=32
+42095473000:4:Nic::RecvMachine::StreamBase::processPktBody():53 get timing for packet 0 size=32
+42095473000:4:Nic::RecvMachine::StreamBase::processPktBody():64 network event is done
+42095473000:4:Nic::RecvMachine::StreamBase::ready():76 packet 0 is ready
+42095473000:4:Nic::RecvMachine::StreamBase::ready():81 this stream is done
+42095473000:4:Nic::RecvMachine::Ctx0::deleteStream():97 0x5588355f00b0
+42095473000:4:Nic::RecvMachine::StreamBase::~StreamBase():41 this=0x5588355f00b0 bytes=12064 latency=100
+42095515000:6:Nic::RecvMachine::Ctx0::newStream():25 
+42095515000:6:Nic::RecvMachine::StreamBase::StreamBase():28 this=0x5588355f00b0
+42095515000:6:Nic::RecvMachine::Ctx0::findRecv():47 need a recv entry, srcNic=2 srcPid=0 tag=0xf00d len=32
+42095569000:5:Nic::RecvMachine::StreamBase::processPktBody():53 get timing for packet 0 size=32
+42095569000:5:Nic::RecvMachine::StreamBase::processPktBody():64 network event is done
+42095569000:5:Nic::RecvMachine::StreamBase::ready():76 packet 0 is ready
+42095569000:5:Nic::RecvMachine::StreamBase::ready():81 this stream is done
+42095569000:5:Nic::RecvMachine::Ctx0::deleteStream():97 0x5588355805a0
+42095569000:5:Nic::RecvMachine::StreamBase::~StreamBase():41 this=0x5588355805a0 bytes=12064 latency=100
+42095615000:6:Nic::RecvMachine::StreamBase::processPktBody():53 get timing for packet 0 size=32
+42095615000:6:Nic::RecvMachine::StreamBase::processPktBody():64 network event is done
+42095615000:6:Nic::RecvMachine::StreamBase::ready():76 packet 0 is ready
+42095615000:6:Nic::RecvMachine::StreamBase::ready():81 this stream is done
+42095615000:6:Nic::RecvMachine::Ctx0::deleteStream():97 0x5588355f00b0
+42095615000:6:Nic::RecvMachine::StreamBase::~StreamBase():41 this=0x5588355f00b0 bytes=12064 latency=100
+42096273000:3:Nic::SendMachine0::InQ::enque():103 get timing for packet 4 size=45 numPending=1
+42096273000:3:Nic::SendMachine0::InQ::ready():114 packet 4 is ready, expected=4
+42096273000:3:Nic::SendMachine0::InQ::ready2():130 pass packet to OutQ numBytes=45
+42096273000:3:Nic::SendMachine0::OutQ::enque():171 qCnt=1 priority=42096273000.1
+42096413000:4:Nic::SendMachine0::InQ::enque():103 get timing for packet 4 size=45 numPending=1
+42096413000:4:Nic::SendMachine0::InQ::ready():114 packet 4 is ready, expected=4
+42096413000:4:Nic::SendMachine0::InQ::ready2():130 pass packet to OutQ numBytes=45
+42096413000:4:Nic::SendMachine0::OutQ::enque():171 qCnt=1 priority=42096413000.1
+42096414000:3:Nic::SendMachine0::InQ::enque():103 get timing for packet 5 size=45 numPending=1
+42096414000:3:Nic::SendMachine0::InQ::ready():114 packet 5 is ready, expected=5
+42096414000:3:Nic::SendMachine0::InQ::ready2():130 pass packet to OutQ numBytes=45
+42096414000:3:Nic::SendMachine0::OutQ::enque():171 qCnt=1 priority=42096414000.1
+42096503000:7:Nic::RecvMachine::Ctx0::newStream():25 
+42096503000:7:Nic::RecvMachine::StreamBase::StreamBase():28 this=0x5588355f00b0
+42096503000:7:Nic::RecvMachine::Ctx0::findRecv():47 need a recv entry, srcNic=3 srcPid=0 tag=0xf00d len=32
+42096509000:5:Nic::SendMachine0::InQ::enque():103 get timing for packet 4 size=45 numPending=1
+42096509000:5:Nic::SendMachine0::InQ::ready():114 packet 4 is ready, expected=4
+42096509000:5:Nic::SendMachine0::InQ::ready2():130 pass packet to OutQ numBytes=45
+42096509000:5:Nic::SendMachine0::OutQ::enque():171 qCnt=1 priority=42096509000.1
+42096554000:4:Nic::SendMachine0::InQ::enque():103 get timing for packet 5 size=45 numPending=1
+42096554000:4:Nic::SendMachine0::InQ::ready():114 packet 5 is ready, expected=5
+42096554000:4:Nic::SendMachine0::InQ::ready2():130 pass packet to OutQ numBytes=45
+42096554000:4:Nic::SendMachine0::OutQ::enque():171 qCnt=1 priority=42096554000.1
+42096555000:6:Nic::SendMachine0::InQ::enque():103 get timing for packet 4 size=45 numPending=1
+42096555000:6:Nic::SendMachine0::InQ::ready():114 packet 4 is ready, expected=4
+42096555000:6:Nic::SendMachine0::InQ::ready2():130 pass packet to OutQ numBytes=45
+42096555000:6:Nic::SendMachine0::OutQ::enque():171 qCnt=1 priority=42096555000.1
+42096603000:7:Nic::RecvMachine::StreamBase::processPktBody():53 get timing for packet 0 size=32
+42096603000:7:Nic::RecvMachine::StreamBase::processPktBody():64 network event is done
+42096603000:7:Nic::RecvMachine::StreamBase::ready():76 packet 0 is ready
+42096603000:7:Nic::RecvMachine::StreamBase::ready():81 this stream is done
+42096603000:7:Nic::RecvMachine::Ctx0::deleteStream():97 0x5588355f00b0
+42096603000:7:Nic::RecvMachine::StreamBase::~StreamBase():41 this=0x5588355f00b0 bytes=12064 latency=100
+42096650000:5:Nic::SendMachine0::InQ::enque():103 get timing for packet 5 size=45 numPending=1
+42096650000:5:Nic::SendMachine0::InQ::ready():114 packet 5 is ready, expected=5
+42096650000:5:Nic::SendMachine0::InQ::ready2():130 pass packet to OutQ numBytes=45
+42096650000:5:Nic::SendMachine0::OutQ::enque():171 qCnt=1 priority=42096650000.1
+42096696000:6:Nic::SendMachine0::InQ::enque():103 get timing for packet 5 size=45 numPending=1
+42096696000:6:Nic::SendMachine0::InQ::ready():114 packet 5 is ready, expected=5
+42096696000:6:Nic::SendMachine0::InQ::ready2():130 pass packet to OutQ numBytes=45
+42096696000:6:Nic::SendMachine0::OutQ::enque():171 qCnt=1 priority=42096696000.1
+42096737000:9:Nic::RecvMachine::Ctx0::newStream():25 
+42096737000:9:Nic::RecvMachine::StreamBase::StreamBase():28 this=0x5588355f00b0
+42096737000:9:Nic::RecvMachine::Ctx0::findRecv():47 need a recv entry, srcNic=4 srcPid=0 tag=0xf00d len=32
+42096831000:8:Nic::RecvMachine::Ctx0::newStream():25 
+42096831000:8:Nic::RecvMachine::StreamBase::StreamBase():28 this=0x5588355805a0
+42096831000:8:Nic::RecvMachine::Ctx0::findRecv():47 need a recv entry, srcNic=3 srcPid=0 tag=0xf00d len=32
+42096837000:9:Nic::RecvMachine::StreamBase::processPktBody():53 get timing for packet 0 size=32
+42096837000:9:Nic::RecvMachine::StreamBase::processPktBody():64 network event is done
+42096837000:9:Nic::RecvMachine::StreamBase::ready():76 packet 0 is ready
+42096837000:9:Nic::RecvMachine::StreamBase::ready():81 this stream is done
+42096837000:9:Nic::RecvMachine::Ctx0::deleteStream():97 0x5588355f00b0
+42096837000:9:Nic::RecvMachine::StreamBase::~StreamBase():41 this=0x5588355f00b0 bytes=12064 latency=100
+42096927000:11:Nic::RecvMachine::Ctx0::newStream():25 
+42096927000:11:Nic::RecvMachine::StreamBase::StreamBase():28 this=0x5588355f00b0
+42096927000:11:Nic::RecvMachine::Ctx0::findRecv():47 need a recv entry, srcNic=5 srcPid=0 tag=0xf00d len=32
+42096931000:8:Nic::RecvMachine::StreamBase::processPktBody():53 get timing for packet 0 size=32
+42096931000:8:Nic::RecvMachine::StreamBase::processPktBody():64 network event is done
+42096931000:8:Nic::RecvMachine::StreamBase::ready():76 packet 0 is ready
+42096931000:8:Nic::RecvMachine::StreamBase::ready():81 this stream is done
+42096931000:8:Nic::RecvMachine::Ctx0::deleteStream():97 0x5588355805a0
+42096931000:8:Nic::RecvMachine::StreamBase::~StreamBase():41 this=0x5588355805a0 bytes=12064 latency=100
+42096971000:10:Nic::RecvMachine::Ctx0::newStream():25 
+42096971000:10:Nic::RecvMachine::StreamBase::StreamBase():28 this=0x5588355805a0
+42096971000:10:Nic::RecvMachine::Ctx0::findRecv():47 need a recv entry, srcNic=4 srcPid=0 tag=0xf00d len=32
+42096973000:13:Nic::RecvMachine::Ctx0::newStream():25 
+42096973000:13:Nic::RecvMachine::StreamBase::StreamBase():28 this=0x5588355815d0
+42096973000:13:Nic::RecvMachine::Ctx0::findRecv():47 need a recv entry, srcNic=6 srcPid=0 tag=0xf00d len=32
+42097019000:14:Nic::RecvMachine::Ctx0::newStream():25 
+42097019000:14:Nic::RecvMachine::StreamBase::StreamBase():28 this=0x5588355eff80
+42097019000:14:Nic::RecvMachine::Ctx0::findRecv():47 need a recv entry, srcNic=6 srcPid=0 tag=0xf00d len=32
+42097027000:11:Nic::RecvMachine::StreamBase::processPktBody():53 get timing for packet 0 size=32
+42097027000:11:Nic::RecvMachine::StreamBase::processPktBody():64 network event is done
+42097027000:11:Nic::RecvMachine::StreamBase::ready():76 packet 0 is ready
+42097027000:11:Nic::RecvMachine::StreamBase::ready():81 this stream is done
+42097027000:11:Nic::RecvMachine::Ctx0::deleteStream():97 0x5588355f00b0
+42097027000:11:Nic::RecvMachine::StreamBase::~StreamBase():41 this=0x5588355f00b0 bytes=12064 latency=100
+42097067000:12:Nic::RecvMachine::Ctx0::newStream():25 
+42097067000:12:Nic::RecvMachine::StreamBase::StreamBase():28 this=0x5588355f00b0
+42097067000:12:Nic::RecvMachine::Ctx0::findRecv():47 need a recv entry, srcNic=5 srcPid=0 tag=0xf00d len=32
+42097071000:10:Nic::RecvMachine::StreamBase::processPktBody():53 get timing for packet 0 size=32
+42097071000:10:Nic::RecvMachine::StreamBase::processPktBody():64 network event is done
+42097071000:10:Nic::RecvMachine::StreamBase::ready():76 packet 0 is ready
+42097071000:10:Nic::RecvMachine::StreamBase::ready():81 this stream is done
+42097071000:10:Nic::RecvMachine::Ctx0::deleteStream():97 0x5588355805a0
+42097071000:10:Nic::RecvMachine::StreamBase::~StreamBase():41 this=0x5588355805a0 bytes=12064 latency=100
+42097073000:13:Nic::RecvMachine::StreamBase::processPktBody():53 get timing for packet 0 size=32
+42097073000:13:Nic::RecvMachine::StreamBase::processPktBody():64 network event is done
+42097073000:13:Nic::RecvMachine::StreamBase::ready():76 packet 0 is ready
+42097073000:13:Nic::RecvMachine::StreamBase::ready():81 this stream is done
+42097073000:13:Nic::RecvMachine::Ctx0::deleteStream():97 0x5588355815d0
+42097073000:13:Nic::RecvMachine::StreamBase::~StreamBase():41 this=0x5588355815d0 bytes=12064 latency=100
+42097119000:14:Nic::RecvMachine::StreamBase::processPktBody():53 get timing for packet 0 size=32
+42097119000:14:Nic::RecvMachine::StreamBase::processPktBody():64 network event is done
+42097119000:14:Nic::RecvMachine::StreamBase::ready():76 packet 0 is ready
+42097119000:14:Nic::RecvMachine::StreamBase::ready():81 this stream is done
+42097119000:14:Nic::RecvMachine::Ctx0::deleteStream():97 0x5588355eff80
+42097119000:14:Nic::RecvMachine::StreamBase::~StreamBase():41 this=0x5588355eff80 bytes=12064 latency=100
+42097167000:12:Nic::RecvMachine::StreamBase::processPktBody():53 get timing for packet 0 size=32
+42097167000:12:Nic::RecvMachine::StreamBase::processPktBody():64 network event is done
+42097167000:12:Nic::RecvMachine::StreamBase::ready():76 packet 0 is ready
+42097167000:12:Nic::RecvMachine::StreamBase::ready():81 this stream is done
+42097167000:12:Nic::RecvMachine::Ctx0::deleteStream():97 0x5588355f00b0
+42097167000:12:Nic::RecvMachine::StreamBase::~StreamBase():41 this=0x5588355f00b0 bytes=12064 latency=100
+42097543000:7:Nic::SendMachine0::InQ::enque():103 get timing for packet 3 size=45 numPending=1
+42097543000:7:Nic::SendMachine0::InQ::ready():114 packet 3 is ready, expected=3
+42097543000:7:Nic::SendMachine0::InQ::ready2():130 pass packet to OutQ numBytes=45
+42097543000:7:Nic::SendMachine0::OutQ::enque():171 qCnt=1 priority=42097543000.1
+42097867000:15:Nic::RecvMachine::Ctx0::newStream():25 
+42097867000:15:Nic::RecvMachine::StreamBase::StreamBase():28 this=0x5588355f00b0
+42097867000:15:Nic::RecvMachine::Ctx0::findRecv():47 need a recv entry, srcNic=7 srcPid=0 tag=0xf00d len=32
+42097967000:15:Nic::RecvMachine::StreamBase::processPktBody():53 get timing for packet 0 size=32
+42097967000:15:Nic::RecvMachine::StreamBase::processPktBody():64 network event is done
+42097967000:15:Nic::RecvMachine::StreamBase::ready():76 packet 0 is ready
+42097967000:15:Nic::RecvMachine::StreamBase::ready():81 this stream is done
+42097967000:15:Nic::RecvMachine::Ctx0::deleteStream():97 0x5588355f00b0
+42097967000:15:Nic::RecvMachine::StreamBase::~StreamBase():41 this=0x5588355f00b0 bytes=12064 latency=100
+42098546000:15:ZSirius::finish:151: Completed simulation at: 42098546ns
+42098546000:15:ZSirius::finish:153: Statistics for run are:
+42098546000:15:ZSirius::finish:154: - Total Send Count:           0
+42098546000:15:ZSirius::finish:155: - Total Recv Count:           0
+42098546000:15:ZSirius::finish:156: - Total IRecv Count:          0
+42098546000:15:ZSirius::finish:157: - Total Wait Count:           0
+42098546000:15:ZSirius::finish:158: - Total Allreduce Count:      1
+42098546000:15:ZSirius::finish:159: - Total Send Bytes:           0
+42098546000:15:ZSirius::finish:160: - Total Recv Bytes:           0
+42098546000:15:ZSirius::finish:161: - Total Posted-IRecv Bytes:   0
+42098546000:15:ZSirius::finish:162: - Total Allreduce Bytes       1
+42098546000:15:ZSirius::finish:163: - Time spend in compute:      30996439 ns
+42098546000:15:ZSirius::finish:164: - Time spend in send:         0 ns (mean: 0.000000)
+42098546000:15:ZSirius::finish:166: - Time spend in recv:         0 ns (mean: 0.000000)
+42098546000:15:ZSirius::finish:168: - Time spend in irecv issue:  0 ns
+42098546000:15:ZSirius::finish:169: - Time spend in wait:         0 ns
+42098546000:15:ZSirius::finish:170: - Time spend in all-reduce:   11085492 ns
+42098546000:15:ZSirius::finish:171: - Time spend in barrier:      0 ns
+42098546000:15:ZSirius::finish:172: - Time spend in init:         120 ns
+42098546000:15:ZSirius::finish:173: - Time spend in finalize:     0 ns
+Completed at 42098546 ns
+42098546000:14:ZSirius::finish:151: Completed simulation at: 42098546ns
+42098546000:14:ZSirius::finish:153: Statistics for run are:
+42098546000:14:ZSirius::finish:154: - Total Send Count:           0
+42098546000:14:ZSirius::finish:155: - Total Recv Count:           0
+42098546000:14:ZSirius::finish:156: - Total IRecv Count:          0
+42098546000:14:ZSirius::finish:157: - Total Wait Count:           0
+42098546000:14:ZSirius::finish:158: - Total Allreduce Count:      1
+42098546000:14:ZSirius::finish:159: - Total Send Bytes:           0
+42098546000:14:ZSirius::finish:160: - Total Recv Bytes:           0
+42098546000:14:ZSirius::finish:161: - Total Posted-IRecv Bytes:   0
+42098546000:14:ZSirius::finish:162: - Total Allreduce Bytes       1
+42098546000:14:ZSirius::finish:163: - Time spend in compute:      30670862 ns
+42098546000:14:ZSirius::finish:164: - Time spend in send:         0 ns (mean: 0.000000)
+42098546000:14:ZSirius::finish:166: - Time spend in recv:         0 ns (mean: 0.000000)
+42098546000:14:ZSirius::finish:168: - Time spend in irecv issue:  0 ns
+42098546000:14:ZSirius::finish:169: - Time spend in wait:         0 ns
+42098546000:14:ZSirius::finish:170: - Time spend in all-reduce:   11410461 ns
+42098546000:14:ZSirius::finish:171: - Time spend in barrier:      0 ns
+42098546000:14:ZSirius::finish:172: - Time spend in init:         120 ns
+42098546000:14:ZSirius::finish:173: - Time spend in finalize:     0 ns
+Completed at 42098546 ns
+42098546000:13:ZSirius::finish:151: Completed simulation at: 42098546ns
+42098546000:13:ZSirius::finish:153: Statistics for run are:
+42098546000:13:ZSirius::finish:154: - Total Send Count:           0
+42098546000:13:ZSirius::finish:155: - Total Recv Count:           0
+42098546000:13:ZSirius::finish:156: - Total IRecv Count:          0
+42098546000:13:ZSirius::finish:157: - Total Wait Count:           0
+42098546000:13:ZSirius::finish:158: - Total Allreduce Count:      1
+42098546000:13:ZSirius::finish:159: - Total Send Bytes:           0
+42098546000:13:ZSirius::finish:160: - Total Recv Bytes:           0
+42098546000:13:ZSirius::finish:161: - Total Posted-IRecv Bytes:   0
+42098546000:13:ZSirius::finish:162: - Total Allreduce Bytes       1
+42098546000:13:ZSirius::finish:163: - Time spend in compute:      32231545 ns
+42098546000:13:ZSirius::finish:164: - Time spend in send:         0 ns (mean: 0.000000)
+42098546000:13:ZSirius::finish:166: - Time spend in recv:         0 ns (mean: 0.000000)
+42098546000:13:ZSirius::finish:168: - Time spend in irecv issue:  0 ns
+42098546000:13:ZSirius::finish:169: - Time spend in wait:         0 ns
+42098546000:13:ZSirius::finish:170: - Time spend in all-reduce:   9849713 ns
+42098546000:13:ZSirius::finish:171: - Time spend in barrier:      0 ns
+42098546000:13:ZSirius::finish:172: - Time spend in init:         120 ns
+42098546000:13:ZSirius::finish:173: - Time spend in finalize:     0 ns
+Completed at 42098546 ns
+42098546000:12:ZSirius::finish:151: Completed simulation at: 42098546ns
+42098546000:12:ZSirius::finish:153: Statistics for run are:
+42098546000:12:ZSirius::finish:154: - Total Send Count:           0
+42098546000:12:ZSirius::finish:155: - Total Recv Count:           0
+42098546000:12:ZSirius::finish:156: - Total IRecv Count:          0
+42098546000:12:ZSirius::finish:157: - Total Wait Count:           0
+42098546000:12:ZSirius::finish:158: - Total Allreduce Count:      1
+42098546000:12:ZSirius::finish:159: - Total Send Bytes:           0
+42098546000:12:ZSirius::finish:160: - Total Recv Bytes:           0
+42098546000:12:ZSirius::finish:161: - Total Posted-IRecv Bytes:   0
+42098546000:12:ZSirius::finish:162: - Total Allreduce Bytes       1
+42098546000:12:ZSirius::finish:163: - Time spend in compute:      33185691 ns
+42098546000:12:ZSirius::finish:164: - Time spend in send:         0 ns (mean: 0.000000)
+42098546000:12:ZSirius::finish:166: - Time spend in recv:         0 ns (mean: 0.000000)
+42098546000:12:ZSirius::finish:168: - Time spend in irecv issue:  0 ns
+42098546000:12:ZSirius::finish:169: - Time spend in wait:         0 ns
+42098546000:12:ZSirius::finish:170: - Time spend in all-reduce:   8895763 ns
+42098546000:12:ZSirius::finish:171: - Time spend in barrier:      0 ns
+42098546000:12:ZSirius::finish:172: - Time spend in init:         120 ns
+42098546000:12:ZSirius::finish:173: - Time spend in finalize:     0 ns
+Completed at 42098546 ns
+42098546000:11:ZSirius::finish:151: Completed simulation at: 42098546ns
+42098546000:11:ZSirius::finish:153: Statistics for run are:
+42098546000:11:ZSirius::finish:154: - Total Send Count:           0
+42098546000:11:ZSirius::finish:155: - Total Recv Count:           0
+42098546000:11:ZSirius::finish:156: - Total IRecv Count:          0
+42098546000:11:ZSirius::finish:157: - Total Wait Count:           0
+42098546000:11:ZSirius::finish:158: - Total Allreduce Count:      1
+42098546000:11:ZSirius::finish:159: - Total Send Bytes:           0
+42098546000:11:ZSirius::finish:160: - Total Recv Bytes:           0
+42098546000:11:ZSirius::finish:161: - Total Posted-IRecv Bytes:   0
+42098546000:11:ZSirius::finish:162: - Total Allreduce Bytes       1
+42098546000:11:ZSirius::finish:163: - Time spend in compute:      33631181 ns
+42098546000:11:ZSirius::finish:164: - Time spend in send:         0 ns (mean: 0.000000)
+42098546000:11:ZSirius::finish:166: - Time spend in recv:         0 ns (mean: 0.000000)
+42098546000:11:ZSirius::finish:168: - Time spend in irecv issue:  0 ns
+42098546000:11:ZSirius::finish:169: - Time spend in wait:         0 ns
+42098546000:11:ZSirius::finish:170: - Time spend in all-reduce:   8450216 ns
+42098546000:11:ZSirius::finish:171: - Time spend in barrier:      0 ns
+42098546000:11:ZSirius::finish:172: - Time spend in init:         120 ns
+42098546000:11:ZSirius::finish:173: - Time spend in finalize:     0 ns
+Completed at 42098546 ns
+42098546000:10:ZSirius::finish:151: Completed simulation at: 42098546ns
+42098546000:10:ZSirius::finish:153: Statistics for run are:
+42098546000:10:ZSirius::finish:154: - Total Send Count:           0
+42098546000:10:ZSirius::finish:155: - Total Recv Count:           0
+42098546000:10:ZSirius::finish:156: - Total IRecv Count:          0
+42098546000:10:ZSirius::finish:157: - Total Wait Count:           0
+42098546000:10:ZSirius::finish:158: - Total Allreduce Count:      1
+42098546000:10:ZSirius::finish:159: - Total Send Bytes:           0
+42098546000:10:ZSirius::finish:160: - Total Recv Bytes:           0
+42098546000:10:ZSirius::finish:161: - Total Posted-IRecv Bytes:   0
+42098546000:10:ZSirius::finish:162: - Total Allreduce Bytes       1
+42098546000:10:ZSirius::finish:163: - Time spend in compute:      35210894 ns
+42098546000:10:ZSirius::finish:164: - Time spend in send:         0 ns (mean: 0.000000)
+42098546000:10:ZSirius::finish:166: - Time spend in recv:         0 ns (mean: 0.000000)
+42098546000:10:ZSirius::finish:168: - Time spend in irecv issue:  0 ns
+42098546000:10:ZSirius::finish:169: - Time spend in wait:         0 ns
+42098546000:10:ZSirius::finish:170: - Time spend in all-reduce:   6870553 ns
+42098546000:10:ZSirius::finish:171: - Time spend in barrier:      0 ns
+42098546000:10:ZSirius::finish:172: - Time spend in init:         120 ns
+42098546000:10:ZSirius::finish:173: - Time spend in finalize:     0 ns
+Completed at 42098546 ns
+42098546000:9:ZSirius::finish:151: Completed simulation at: 42098546ns
+42098546000:9:ZSirius::finish:153: Statistics for run are:
+42098546000:9:ZSirius::finish:154: - Total Send Count:           0
+42098546000:9:ZSirius::finish:155: - Total Recv Count:           0
+42098546000:9:ZSirius::finish:156: - Total IRecv Count:          0
+42098546000:9:ZSirius::finish:157: - Total Wait Count:           0
+42098546000:9:ZSirius::finish:158: - Total Allreduce Count:      1
+42098546000:9:ZSirius::finish:159: - Total Send Bytes:           0
+42098546000:9:ZSirius::finish:160: - Total Recv Bytes:           0
+42098546000:9:ZSirius::finish:161: - Total Posted-IRecv Bytes:   0
+42098546000:9:ZSirius::finish:162: - Total Allreduce Bytes       1
+42098546000:9:ZSirius::finish:163: - Time spend in compute:      36162608 ns
+42098546000:9:ZSirius::finish:164: - Time spend in send:         0 ns (mean: 0.000000)
+42098546000:9:ZSirius::finish:166: - Time spend in recv:         0 ns (mean: 0.000000)
+42098546000:9:ZSirius::finish:168: - Time spend in irecv issue:  0 ns
+42098546000:9:ZSirius::finish:169: - Time spend in wait:         0 ns
+42098546000:9:ZSirius::finish:170: - Time spend in all-reduce:   5918468 ns
+42098546000:9:ZSirius::finish:171: - Time spend in barrier:      0 ns
+42098546000:9:ZSirius::finish:172: - Time spend in init:         120 ns
+42098546000:9:ZSirius::finish:173: - Time spend in finalize:     0 ns
+Completed at 42098546 ns
+42098546000:3:ZSirius::finish:151: Completed simulation at: 42098546ns
+42098546000:3:ZSirius::finish:153: Statistics for run are:
+42098546000:3:ZSirius::finish:154: - Total Send Count:           0
+42098546000:3:ZSirius::finish:155: - Total Recv Count:           0
+42098546000:3:ZSirius::finish:156: - Total IRecv Count:          0
+42098546000:3:ZSirius::finish:157: - Total Wait Count:           0
+42098546000:3:ZSirius::finish:158: - Total Allreduce Count:      1
+42098546000:3:ZSirius::finish:159: - Total Send Bytes:           0
+42098546000:3:ZSirius::finish:160: - Total Recv Bytes:           0
+42098546000:3:ZSirius::finish:161: - Total Posted-IRecv Bytes:   0
+42098546000:3:ZSirius::finish:162: - Total Allreduce Bytes       1
+42098546000:3:ZSirius::finish:163: - Time spend in compute:      41476105 ns
+42098546000:3:ZSirius::finish:164: - Time spend in send:         0 ns (mean: 0.000000)
+42098546000:3:ZSirius::finish:166: - Time spend in recv:         0 ns (mean: 0.000000)
+42098546000:3:ZSirius::finish:168: - Time spend in irecv issue:  0 ns
+42098546000:3:ZSirius::finish:169: - Time spend in wait:         0 ns
+42098546000:3:ZSirius::finish:170: - Time spend in all-reduce:   603805 ns
+42098546000:3:ZSirius::finish:171: - Time spend in barrier:      0 ns
+42098546000:3:ZSirius::finish:172: - Time spend in init:         120 ns
+42098546000:3:ZSirius::finish:173: - Time spend in finalize:     0 ns
+Completed at 42098546 ns
+42098546000:2:ZSirius::finish:151: Completed simulation at: 42098546ns
+42098546000:2:ZSirius::finish:153: Statistics for run are:
+42098546000:2:ZSirius::finish:154: - Total Send Count:           0
+42098546000:2:ZSirius::finish:155: - Total Recv Count:           0
+42098546000:2:ZSirius::finish:156: - Total IRecv Count:          0
+42098546000:2:ZSirius::finish:157: - Total Wait Count:           0
+42098546000:2:ZSirius::finish:158: - Total Allreduce Count:      1
+42098546000:2:ZSirius::finish:159: - Total Send Bytes:           0
+42098546000:2:ZSirius::finish:160: - Total Recv Bytes:           0
+42098546000:2:ZSirius::finish:161: - Total Posted-IRecv Bytes:   0
+42098546000:2:ZSirius::finish:162: - Total Allreduce Bytes       1
+42098546000:2:ZSirius::finish:163: - Time spend in compute:      41976450 ns
+42098546000:2:ZSirius::finish:164: - Time spend in send:         0 ns (mean: 0.000000)
+42098546000:2:ZSirius::finish:166: - Time spend in recv:         0 ns (mean: 0.000000)
+42098546000:2:ZSirius::finish:168: - Time spend in irecv issue:  0 ns
+42098546000:2:ZSirius::finish:169: - Time spend in wait:         0 ns
+42098546000:2:ZSirius::finish:170: - Time spend in all-reduce:   102556 ns
+42098546000:2:ZSirius::finish:171: - Time spend in barrier:      0 ns
+42098546000:2:ZSirius::finish:172: - Time spend in init:         120 ns
+42098546000:2:ZSirius::finish:173: - Time spend in finalize:     0 ns
+Completed at 42098546 ns
+42098546000:1:ZSirius::finish:151: Completed simulation at: 42098546ns
+42098546000:1:ZSirius::finish:153: Statistics for run are:
+42098546000:1:ZSirius::finish:154: - Total Send Count:           0
+42098546000:1:ZSirius::finish:155: - Total Recv Count:           0
+42098546000:1:ZSirius::finish:156: - Total IRecv Count:          0
+42098546000:1:ZSirius::finish:157: - Total Wait Count:           0
+42098546000:1:ZSirius::finish:158: - Total Allreduce Count:      1
+42098546000:1:ZSirius::finish:159: - Total Send Bytes:           0
+42098546000:1:ZSirius::finish:160: - Total Recv Bytes:           0
+42098546000:1:ZSirius::finish:161: - Total Posted-IRecv Bytes:   0
+42098546000:1:ZSirius::finish:162: - Total Allreduce Bytes       1
+42098546000:1:ZSirius::finish:163: - Time spend in compute:      41886555 ns
+42098546000:1:ZSirius::finish:164: - Time spend in send:         0 ns (mean: 0.000000)
+42098546000:1:ZSirius::finish:166: - Time spend in recv:         0 ns (mean: 0.000000)
+42098546000:1:ZSirius::finish:168: - Time spend in irecv issue:  0 ns
+42098546000:1:ZSirius::finish:169: - Time spend in wait:         0 ns
+42098546000:1:ZSirius::finish:170: - Time spend in all-reduce:   191650 ns
+42098546000:1:ZSirius::finish:171: - Time spend in barrier:      0 ns
+42098546000:1:ZSirius::finish:172: - Time spend in init:         120 ns
+42098546000:1:ZSirius::finish:173: - Time spend in finalize:     0 ns
+Completed at 42098546 ns
+42098546000:0:ZSirius::finish:151: Completed simulation at: 42098546ns
+42098546000:0:ZSirius::finish:153: Statistics for run are:
+42098546000:0:ZSirius::finish:154: - Total Send Count:           0
+42098546000:0:ZSirius::finish:155: - Total Recv Count:           0
+42098546000:0:ZSirius::finish:156: - Total IRecv Count:          0
+42098546000:0:ZSirius::finish:157: - Total Wait Count:           0
+42098546000:0:ZSirius::finish:158: - Total Allreduce Count:      1
+42098546000:0:ZSirius::finish:159: - Total Send Bytes:           0
+42098546000:0:ZSirius::finish:160: - Total Recv Bytes:           0
+42098546000:0:ZSirius::finish:161: - Total Posted-IRecv Bytes:   0
+42098546000:0:ZSirius::finish:162: - Total Allreduce Bytes       1
+42098546000:0:ZSirius::finish:163: - Time spend in compute:      42091601 ns
+42098546000:0:ZSirius::finish:164: - Time spend in send:         0 ns (mean: 0.000000)
+42098546000:0:ZSirius::finish:166: - Time spend in recv:         0 ns (mean: 0.000000)
+42098546000:0:ZSirius::finish:168: - Time spend in irecv issue:  0 ns
+42098546000:0:ZSirius::finish:169: - Time spend in wait:         0 ns
+42098546000:0:ZSirius::finish:170: - Time spend in all-reduce:   848 ns
+42098546000:0:ZSirius::finish:171: - Time spend in barrier:      0 ns
+42098546000:0:ZSirius::finish:172: - Time spend in init:         120 ns
+42098546000:0:ZSirius::finish:173: - Time spend in finalize:     0 ns
+Completed at 42098546 ns
+42098546000:4:ZSirius::finish:151: Completed simulation at: 42098546ns
+42098546000:4:ZSirius::finish:153: Statistics for run are:
+42098546000:4:ZSirius::finish:154: - Total Send Count:           0
+42098546000:4:ZSirius::finish:155: - Total Recv Count:           0
+42098546000:4:ZSirius::finish:156: - Total IRecv Count:          0
+42098546000:4:ZSirius::finish:157: - Total Wait Count:           0
+42098546000:4:ZSirius::finish:158: - Total Allreduce Count:      1
+42098546000:4:ZSirius::finish:159: - Total Send Bytes:           0
+42098546000:4:ZSirius::finish:160: - Total Recv Bytes:           0
+42098546000:4:ZSirius::finish:161: - Total Posted-IRecv Bytes:   0
+42098546000:4:ZSirius::finish:162: - Total Allreduce Bytes       1
+42098546000:4:ZSirius::finish:163: - Time spend in compute:      39936199 ns
+42098546000:4:ZSirius::finish:164: - Time spend in send:         0 ns (mean: 0.000000)
+42098546000:4:ZSirius::finish:166: - Time spend in recv:         0 ns (mean: 0.000000)
+42098546000:4:ZSirius::finish:168: - Time spend in irecv issue:  0 ns
+42098546000:4:ZSirius::finish:169: - Time spend in wait:         0 ns
+42098546000:4:ZSirius::finish:170: - Time spend in all-reduce:   2143842 ns
+42098546000:4:ZSirius::finish:171: - Time spend in barrier:      0 ns
+42098546000:4:ZSirius::finish:172: - Time spend in init:         120 ns
+42098546000:4:ZSirius::finish:173: - Time spend in finalize:     0 ns
+Completed at 42098546 ns
+42098546000:5:ZSirius::finish:151: Completed simulation at: 42098546ns
+42098546000:5:ZSirius::finish:153: Statistics for run are:
+42098546000:5:ZSirius::finish:154: - Total Send Count:           0
+42098546000:5:ZSirius::finish:155: - Total Recv Count:           0
+42098546000:5:ZSirius::finish:156: - Total IRecv Count:          0
+42098546000:5:ZSirius::finish:157: - Total Wait Count:           0
+42098546000:5:ZSirius::finish:158: - Total Allreduce Count:      1
+42098546000:5:ZSirius::finish:159: - Total Send Bytes:           0
+42098546000:5:ZSirius::finish:160: - Total Recv Bytes:           0
+42098546000:5:ZSirius::finish:161: - Total Posted-IRecv Bytes:   0
+42098546000:5:ZSirius::finish:162: - Total Allreduce Bytes       1
+42098546000:5:ZSirius::finish:163: - Time spend in compute:      39307239 ns
+42098546000:5:ZSirius::finish:164: - Time spend in send:         0 ns (mean: 0.000000)
+42098546000:5:ZSirius::finish:166: - Time spend in recv:         0 ns (mean: 0.000000)
+42098546000:5:ZSirius::finish:168: - Time spend in irecv issue:  0 ns
+42098546000:5:ZSirius::finish:169: - Time spend in wait:         0 ns
+42098546000:5:ZSirius::finish:170: - Time spend in all-reduce:   2773086 ns
+42098546000:5:ZSirius::finish:171: - Time spend in barrier:      0 ns
+42098546000:5:ZSirius::finish:172: - Time spend in init:         120 ns
+42098546000:5:ZSirius::finish:173: - Time spend in finalize:     0 ns
+Completed at 42098546 ns
+42098546000:6:ZSirius::finish:151: Completed simulation at: 42098546ns
+42098546000:6:ZSirius::finish:153: Statistics for run are:
+42098546000:6:ZSirius::finish:154: - Total Send Count:           0
+42098546000:6:ZSirius::finish:155: - Total Recv Count:           0
+42098546000:6:ZSirius::finish:156: - Total IRecv Count:          0
+42098546000:6:ZSirius::finish:157: - Total Wait Count:           0
+42098546000:6:ZSirius::finish:158: - Total Allreduce Count:      1
+42098546000:6:ZSirius::finish:159: - Total Send Bytes:           0
+42098546000:6:ZSirius::finish:160: - Total Recv Bytes:           0
+42098546000:6:ZSirius::finish:161: - Total Posted-IRecv Bytes:   0
+42098546000:6:ZSirius::finish:162: - Total Allreduce Bytes       1
+42098546000:6:ZSirius::finish:163: - Time spend in compute:      39201392 ns
+42098546000:6:ZSirius::finish:164: - Time spend in send:         0 ns (mean: 0.000000)
+42098546000:6:ZSirius::finish:166: - Time spend in recv:         0 ns (mean: 0.000000)
+42098546000:6:ZSirius::finish:168: - Time spend in irecv issue:  0 ns
+42098546000:6:ZSirius::finish:169: - Time spend in wait:         0 ns
+42098546000:6:ZSirius::finish:170: - Time spend in all-reduce:   2878948 ns
+42098546000:6:ZSirius::finish:171: - Time spend in barrier:      0 ns
+42098546000:6:ZSirius::finish:172: - Time spend in init:         120 ns
+42098546000:6:ZSirius::finish:173: - Time spend in finalize:     0 ns
+Completed at 42098546 ns
+42098546000:7:ZSirius::finish:151: Completed simulation at: 42098546ns
+42098546000:7:ZSirius::finish:153: Statistics for run are:
+42098546000:7:ZSirius::finish:154: - Total Send Count:           0
+42098546000:7:ZSirius::finish:155: - Total Recv Count:           0
+42098546000:7:ZSirius::finish:156: - Total IRecv Count:          0
+42098546000:7:ZSirius::finish:157: - Total Wait Count:           0
+42098546000:7:ZSirius::finish:158: - Total Allreduce Count:      1
+42098546000:7:ZSirius::finish:159: - Total Send Bytes:           0
+42098546000:7:ZSirius::finish:160: - Total Recv Bytes:           0
+42098546000:7:ZSirius::finish:161: - Total Posted-IRecv Bytes:   0
+42098546000:7:ZSirius::finish:162: - Total Allreduce Bytes       1
+42098546000:7:ZSirius::finish:163: - Time spend in compute:      38389198 ns
+42098546000:7:ZSirius::finish:164: - Time spend in send:         0 ns (mean: 0.000000)
+42098546000:7:ZSirius::finish:166: - Time spend in recv:         0 ns (mean: 0.000000)
+42098546000:7:ZSirius::finish:168: - Time spend in irecv issue:  0 ns
+42098546000:7:ZSirius::finish:169: - Time spend in wait:         0 ns
+42098546000:7:ZSirius::finish:170: - Time spend in all-reduce:   3691759 ns
+42098546000:7:ZSirius::finish:171: - Time spend in barrier:      0 ns
+42098546000:7:ZSirius::finish:172: - Time spend in init:         120 ns
+42098546000:7:ZSirius::finish:173: - Time spend in finalize:     0 ns
+Completed at 42098546 ns
+42098546000:8:ZSirius::finish:151: Completed simulation at: 42098546ns
+42098546000:8:ZSirius::finish:153: Statistics for run are:
+42098546000:8:ZSirius::finish:154: - Total Send Count:           0
+42098546000:8:ZSirius::finish:155: - Total Recv Count:           0
+42098546000:8:ZSirius::finish:156: - Total IRecv Count:          0
+42098546000:8:ZSirius::finish:157: - Total Wait Count:           0
+42098546000:8:ZSirius::finish:158: - Total Allreduce Count:      1
+42098546000:8:ZSirius::finish:159: - Total Send Bytes:           0
+42098546000:8:ZSirius::finish:160: - Total Recv Bytes:           0
+42098546000:8:ZSirius::finish:161: - Total Posted-IRecv Bytes:   0
+42098546000:8:ZSirius::finish:162: - Total Allreduce Bytes       1
+42098546000:8:ZSirius::finish:163: - Time spend in compute:      37752412 ns
+42098546000:8:ZSirius::finish:164: - Time spend in send:         0 ns (mean: 0.000000)
+42098546000:8:ZSirius::finish:166: - Time spend in recv:         0 ns (mean: 0.000000)
+42098546000:8:ZSirius::finish:168: - Time spend in irecv issue:  0 ns
+42098546000:8:ZSirius::finish:169: - Time spend in wait:         0 ns
+42098546000:8:ZSirius::finish:170: - Time spend in all-reduce:   4329065 ns
+42098546000:8:ZSirius::finish:171: - Time spend in barrier:      0 ns
+42098546000:8:ZSirius::finish:172: - Time spend in init:         120 ns
+42098546000:8:ZSirius::finish:173: - Time spend in finalize:     0 ns
+Completed at 42098546 ns
+Simulation is complete, simulated time: 42.0985 ms

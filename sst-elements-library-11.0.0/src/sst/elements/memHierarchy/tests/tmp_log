@@ -1,0 +1,656 @@
+Test 0 in memLinkBase.h
+Test 1 in memLinkBase.h
+Test 0 in build of memNICBase.h
+Test 1 in build of memNICBase.h
+Test 0 in memNIC.cc
+Test 1 in memNIC.cc
+Test 0 in LinkControl of linkControl.cc
+Test 1 in LinkControl of linkControl.cc
+Test 2 in memNIC.cc
+Test 3 in memNIC.cc
+Test 4 in memNIC.cc
+l3cache: No MSHR lookup latency provided (mshr_latency_cycles)...intrapolated to 32 cycles.
+Test 0 of hr_router in hr_router.cc
+Test 06 in portControl.cc
+Test 06 0 in portControl.cc
+Test 06 0 1 in portControl.cc
+Test 06 3 in portControl.cc
+Test 06 4 in portControl.cc
+Test 06 in portControl.cc
+Test 06 0 in portControl.cc
+Test 06 0 1 in portControl.cc
+Test 06 3 in portControl.cc
+Test 06 4 in portControl.cc
+Test 07 in portControl.cc
+Test 071 in portControl.cc
+Test 07 in portControl.cc
+Test 071 in portControl.cc
+Test 1 of hr_router in hr_router.cc
+Test 0 in directoryController.cc
+Test 0 in memLinkBase.h
+Test 1 in memLinkBase.h
+Test 0 in build of memNICBase.h
+Test 1 in build of memNICBase.h
+Test 0 in memNIC.cc
+Test 1 in memNIC.cc
+Test 0 in LinkControl of linkControl.cc
+Test 1 in LinkControl of linkControl.cc
+Test 2 in memNIC.cc
+Test 3 in memNIC.cc
+Test 4 in memNIC.cc
+Test 1 in directoryController.cc
+Test 0 in init of memNIC.cc
+Test 0 in init of linkControl.cc for phase: 0
+Test 1 in init of linkControl.cc for phase: 0
+Test 0 of sendUntimedData in link.cc
+Test 1 of sendUntimedData in link.cc
+Test 2 in init of linkControl.cc for phase: 0
+Test 3 in init of linkControl.cc for phase: 0
+Test 0 of sendUntimedData in link.cc
+Test 1 of sendUntimedData in link.cc
+Test 4 in init of linkControl.cc for phase: 0
+Test 1 in init of memNIC.cc
+Test 0 in recvUntimedData of linkControl.cc
+Test 1 in recvUntimedData of linkControl.cc
+Test 2 in init of memNIC.cc
+Test 0 in init of memNIC.cc
+Test 0 in init of linkControl.cc for phase: 0
+Test 1 in init of linkControl.cc for phase: 0
+Test 0 of sendUntimedData in link.cc
+Test 1 of sendUntimedData in link.cc
+Test 2 in init of linkControl.cc for phase: 0
+Test 3 in init of linkControl.cc for phase: 0
+Test 0 of sendUntimedData in link.cc
+Test 1 of sendUntimedData in link.cc
+Test 4 in init of linkControl.cc for phase: 0
+Test 1 in init of memNIC.cc
+Test 0 in recvUntimedData of linkControl.cc
+Test 1 in recvUntimedData of linkControl.cc
+Test 2 in init of memNIC.cc
+Test 0 in hr_router.cc 2
+Test 10 in portControl.cc
+Test 10 in portControl.cc start 0
+Test 100 in portControl.cc start 0
+Test 0 of sendUntimedData in link.cc
+Test 1 of sendUntimedData in link.cc
+Test 0 of sendUntimedData in link.cc
+Test 1 of sendUntimedData in link.cc
+Test 0 of sendUntimedData in link.cc
+Test 1 of sendUntimedData in link.cc
+Test 100 in portControl.cc done 0
+Test 10 in portControl.cc done
+Test 13 in portControl.cc
+Test 15 in portControl.cc
+Test 10 in portControl.cc
+Test 10 in portControl.cc start 0
+Test 100 in portControl.cc start 0
+Test 0 of sendUntimedData in link.cc
+Test 1 of sendUntimedData in link.cc
+Test 0 of sendUntimedData in link.cc
+Test 1 of sendUntimedData in link.cc
+Test 0 of sendUntimedData in link.cc
+Test 1 of sendUntimedData in link.cc
+Test 100 in portControl.cc done 0
+Test 10 in portControl.cc done
+Test 13 in portControl.cc
+Test 15 in portControl.cc
+Test 1 in hr_router.cc
+Test 0 in init of memNIC.cc
+Test 0 in init of linkControl.cc for phase: 1
+Test 1 in init recv of linkControl.cc for phase: 1
+Test 0 of recvUntimedData in link.cc
+Test 0-1 of recvUntimedData in link.cc
+Test 1 of recvUntimedData in link.cc
+Test 2 of recvUntimedData in link.cc
+Test 3 of recvUntimedData in link.cc
+Test 4 of recvUntimedData in link.cc
+Test 5 of recvUntimedData in link.cc
+Test 6 of recvUntimedData in link.cc
+Test 2 in init recv of linkControl.cc for phase: 1
+Test 0 of recvUntimedData in link.cc
+Test 0-1 of recvUntimedData in link.cc
+Test 1 of recvUntimedData in link.cc
+Test 2 of recvUntimedData in link.cc
+Test 3 of recvUntimedData in link.cc
+Test 4 of recvUntimedData in link.cc
+Test 5 of recvUntimedData in link.cc
+Test 6 of recvUntimedData in link.cc
+Test 3 in init recv of linkControl.cc for phase: 1
+Test 0 of recvUntimedData in link.cc
+Test 0-1 of recvUntimedData in link.cc
+Test 1 of recvUntimedData in link.cc
+Test 2 of recvUntimedData in link.cc
+Test 3 of recvUntimedData in link.cc
+Test 4 of recvUntimedData in link.cc
+Test 5 of recvUntimedData in link.cc
+Test 6 of recvUntimedData in link.cc
+Test 1 in init of memNIC.cc
+Test 0 in recvUntimedData of linkControl.cc
+Test 1 in recvUntimedData of linkControl.cc
+Test 2 in init of memNIC.cc
+Test 0 in init of memNIC.cc
+Test 0 in init of linkControl.cc for phase: 1
+Test 1 in init recv of linkControl.cc for phase: 1
+Test 0 of recvUntimedData in link.cc
+Test 0-1 of recvUntimedData in link.cc
+Test 1 of recvUntimedData in link.cc
+Test 2 of recvUntimedData in link.cc
+Test 3 of recvUntimedData in link.cc
+Test 4 of recvUntimedData in link.cc
+Test 5 of recvUntimedData in link.cc
+Test 6 of recvUntimedData in link.cc
+Test 2 in init recv of linkControl.cc for phase: 1
+Test 0 of recvUntimedData in link.cc
+Test 0-1 of recvUntimedData in link.cc
+Test 1 of recvUntimedData in link.cc
+Test 2 of recvUntimedData in link.cc
+Test 3 of recvUntimedData in link.cc
+Test 4 of recvUntimedData in link.cc
+Test 5 of recvUntimedData in link.cc
+Test 6 of recvUntimedData in link.cc
+Test 3 in init recv of linkControl.cc for phase: 1
+Test 0 of recvUntimedData in link.cc
+Test 0-1 of recvUntimedData in link.cc
+Test 1 of recvUntimedData in link.cc
+Test 2 of recvUntimedData in link.cc
+Test 3 of recvUntimedData in link.cc
+Test 4 of recvUntimedData in link.cc
+Test 5 of recvUntimedData in link.cc
+Test 6 of recvUntimedData in link.cc
+Test 1 in init of memNIC.cc
+Test 0 in recvUntimedData of linkControl.cc
+Test 1 in recvUntimedData of linkControl.cc
+Test 2 in init of memNIC.cc
+Test 0 in hr_router.cc 2
+Test 10 in portControl.cc
+Test 10 in portControl.cc start 1
+Test 10 0 in portControl.cc
+Test 0 of recvUntimedData in link.cc
+Test 0-1 of recvUntimedData in link.cc
+Test 1 of recvUntimedData in link.cc
+Test 2 of recvUntimedData in link.cc
+Test 3 of recvUntimedData in link.cc
+Test 4 of recvUntimedData in link.cc
+Test 5 of recvUntimedData in link.cc
+Test 6 of recvUntimedData in link.cc
+Test 10 1 in portControl.cc
+Test 10 22 1334660272 in portControl.cc
+Test 10 3 in portControl.cc
+Test 10 4 in portControl.cc
+Test 10 5 in portControl.cc
+Test 10 6 in portControl.cc
+Test 10 7 in portControl.cc
+Test 0 of recvUntimedData in link.cc
+Test 0-1 of recvUntimedData in link.cc
+Test 1 of recvUntimedData in link.cc
+Test 2 of recvUntimedData in link.cc
+Test 3 of recvUntimedData in link.cc
+Test 4 of recvUntimedData in link.cc
+Test 5 of recvUntimedData in link.cc
+Test 6 of recvUntimedData in link.cc
+Test 0 of sendUntimedData in link.cc
+Test 1 of sendUntimedData in link.cc
+Test 0 of sendUntimedData in link.cc
+Test 1 of sendUntimedData in link.cc
+Test 10 in portControl.cc done
+Test 13 in portControl.cc
+Test 15 in portControl.cc
+Test 10 in portControl.cc
+Test 10 in portControl.cc start 1
+Test 10 0 in portControl.cc
+Test 0 of recvUntimedData in link.cc
+Test 0-1 of recvUntimedData in link.cc
+Test 1 of recvUntimedData in link.cc
+Test 2 of recvUntimedData in link.cc
+Test 3 of recvUntimedData in link.cc
+Test 4 of recvUntimedData in link.cc
+Test 5 of recvUntimedData in link.cc
+Test 6 of recvUntimedData in link.cc
+Test 10 1 in portControl.cc
+Test 10 22 1334660272 in portControl.cc
+Test 10 3 in portControl.cc
+Test 10 4 in portControl.cc
+Test 10 5 in portControl.cc
+Test 10 6 in portControl.cc
+Test 10 7 in portControl.cc
+Test 0 of recvUntimedData in link.cc
+Test 0-1 of recvUntimedData in link.cc
+Test 1 of recvUntimedData in link.cc
+Test 2 of recvUntimedData in link.cc
+Test 3 of recvUntimedData in link.cc
+Test 4 of recvUntimedData in link.cc
+Test 5 of recvUntimedData in link.cc
+Test 6 of recvUntimedData in link.cc
+Test 0 of sendUntimedData in link.cc
+Test 1 of sendUntimedData in link.cc
+Test 0 of sendUntimedData in link.cc
+Test 1 of sendUntimedData in link.cc
+Test 10 in portControl.cc done
+Test 13 in portControl.cc
+Test 15 in portControl.cc
+Test 1 in hr_router.cc
+Test 0 in init of memNIC.cc
+Test 0 in init of linkControl.cc for phase: 2
+Test 1 in init of linkControl.cc for phase: 2
+Test 0 of recvUntimedData in link.cc
+Test 0-1 of recvUntimedData in link.cc
+Test 1 of recvUntimedData in link.cc
+Test 2 of recvUntimedData in link.cc
+Test 3 of recvUntimedData in link.cc
+Test 4 of recvUntimedData in link.cc
+Test 5 of recvUntimedData in link.cc
+Test 6 of recvUntimedData in link.cc
+Test 1-2 in init of linkControl.cc for phase: 2
+Test 2 in init of linkControl.cc for phase: 2
+Test 3 in init of linkControl.cc for phase: 2
+Test 0 of recvUntimedData in link.cc
+Test 0-1 of recvUntimedData in link.cc
+Test 1 of recvUntimedData in link.cc
+Test 2 of recvUntimedData in link.cc
+Test 3 of recvUntimedData in link.cc
+Test 4 of recvUntimedData in link.cc
+Test 5 of recvUntimedData in link.cc
+Test 6 of recvUntimedData in link.cc
+Test 4 in init of linkControl.cc for phase: 2
+Test 5 in init of linkControl.cc for phase: 2
+Test 6 in init of linkControl.cc for phase: 2
+Test 7 in init of linkControl.cc for phase: 2
+Test 7 0 in init for loop of LinkControl.cc
+Test 0 of sendUntimedData in link.cc
+Test 1 of sendUntimedData in link.cc
+Test 8 in init of linkControl.cc for phase: 2
+Test 1 in init of memNIC.cc
+Test 0 in sendInitData of LinkControl.cc
+Test 0 in sendUntimedData of LinkControl.cc
+Test 0 of sendUntimedData in link.cc
+Test 1 of sendUntimedData in link.cc
+Test 0 in recvUntimedData of linkControl.cc
+Test 1 in recvUntimedData of linkControl.cc
+Test 2 in init of memNIC.cc
+Test 0 in init of memNIC.cc
+Test 0 in init of linkControl.cc for phase: 2
+Test 1 in init of linkControl.cc for phase: 2
+Test 0 of recvUntimedData in link.cc
+Test 0-1 of recvUntimedData in link.cc
+Test 1 of recvUntimedData in link.cc
+Test 2 of recvUntimedData in link.cc
+Test 3 of recvUntimedData in link.cc
+Test 4 of recvUntimedData in link.cc
+Test 5 of recvUntimedData in link.cc
+Test 6 of recvUntimedData in link.cc
+Test 1-2 in init of linkControl.cc for phase: 2
+Test 2 in init of linkControl.cc for phase: 2
+Test 3 in init of linkControl.cc for phase: 2
+Test 0 of recvUntimedData in link.cc
+Test 0-1 of recvUntimedData in link.cc
+Test 1 of recvUntimedData in link.cc
+Test 2 of recvUntimedData in link.cc
+Test 3 of recvUntimedData in link.cc
+Test 4 of recvUntimedData in link.cc
+Test 5 of recvUntimedData in link.cc
+Test 6 of recvUntimedData in link.cc
+Test 4 in init of linkControl.cc for phase: 2
+Test 5 in init of linkControl.cc for phase: 2
+Test 6 in init of linkControl.cc for phase: 2
+Test 7 in init of linkControl.cc for phase: 2
+Test 7 0 in init for loop of LinkControl.cc
+Test 0 of sendUntimedData in link.cc
+Test 1 of sendUntimedData in link.cc
+Test 8 in init of linkControl.cc for phase: 2
+Test 1 in init of memNIC.cc
+Test 0 in sendInitData of LinkControl.cc
+Test 0 in sendUntimedData of LinkControl.cc
+Test 0 of sendUntimedData in link.cc
+Test 1 of sendUntimedData in link.cc
+Test 0 in recvUntimedData of linkControl.cc
+Test 1 in recvUntimedData of linkControl.cc
+Test 2 in init of memNIC.cc
+Test 0 in hr_router.cc 2
+Test 10 in portControl.cc
+Test 10 in portControl.cc start 2
+Test 0 of sendUntimedData in link.cc
+Test 1 of sendUntimedData in link.cc
+Test 0 of sendUntimedData in link.cc
+Test 1 of sendUntimedData in link.cc
+Test 0 of recvUntimedData in link.cc
+Test 0-1 of recvUntimedData in link.cc
+Test 1 of recvUntimedData in link.cc
+Test 2 of recvUntimedData in link.cc
+Test 3 of recvUntimedData in link.cc
+Test 10 in portControl.cc done
+Test 13 in portControl.cc
+Test 15 in portControl.cc
+Test 10 in portControl.cc
+Test 10 in portControl.cc start 2
+Test 0 of sendUntimedData in link.cc
+Test 1 of sendUntimedData in link.cc
+Test 0 of sendUntimedData in link.cc
+Test 1 of sendUntimedData in link.cc
+Test 0 of recvUntimedData in link.cc
+Test 0-1 of recvUntimedData in link.cc
+Test 1 of recvUntimedData in link.cc
+Test 2 of recvUntimedData in link.cc
+Test 3 of recvUntimedData in link.cc
+Test 10 in portControl.cc done
+Test 13 in portControl.cc
+Test 15 in portControl.cc
+Test 1 in hr_router.cc
+Test 0 in init of memNIC.cc
+Test 0 in init of linkControl.cc for phase: 3
+Test 8 in init default of linkControl.cc for phase: 3
+Test 0 of recvUntimedData in link.cc
+Test 0-1 of recvUntimedData in link.cc
+Test 1 of recvUntimedData in link.cc
+Test 2 of recvUntimedData in link.cc
+Test 3 of recvUntimedData in link.cc
+Test 4 of recvUntimedData in link.cc
+Test 5 of recvUntimedData in link.cc
+Test 6 of recvUntimedData in link.cc
+Test 0 of recvUntimedData in link.cc
+Test 0-1 of recvUntimedData in link.cc
+Test 1 of recvUntimedData in link.cc
+Test 2 of recvUntimedData in link.cc
+Test 3 of recvUntimedData in link.cc
+Test 4 of recvUntimedData in link.cc
+Test 5 of recvUntimedData in link.cc
+Test 6 of recvUntimedData in link.cc
+Test 0 of recvUntimedData in link.cc
+Test 0-1 of recvUntimedData in link.cc
+Test 1 of recvUntimedData in link.cc
+Test 1 in init of memNIC.cc
+Test 0 in sendInitData of LinkControl.cc
+Test 0 in sendUntimedData of LinkControl.cc
+Test 0 of sendUntimedData in link.cc
+Test 1 of sendUntimedData in link.cc
+Test 0 in recvUntimedData of linkControl.cc
+Test 1 in recvUntimedData of linkControl.cc
+Test 2 in init of memNIC.cc
+Test 0 in init of memNIC.cc
+Test 0 in init of linkControl.cc for phase: 3
+Test 8 in init default of linkControl.cc for phase: 3
+Test 0 of recvUntimedData in link.cc
+Test 0-1 of recvUntimedData in link.cc
+Test 1 of recvUntimedData in link.cc
+Test 2 of recvUntimedData in link.cc
+Test 3 of recvUntimedData in link.cc
+Test 4 of recvUntimedData in link.cc
+Test 5 of recvUntimedData in link.cc
+Test 6 of recvUntimedData in link.cc
+Test 0 of recvUntimedData in link.cc
+Test 0-1 of recvUntimedData in link.cc
+Test 1 of recvUntimedData in link.cc
+Test 2 of recvUntimedData in link.cc
+Test 3 of recvUntimedData in link.cc
+Test 4 of recvUntimedData in link.cc
+Test 5 of recvUntimedData in link.cc
+Test 6 of recvUntimedData in link.cc
+Test 0 of recvUntimedData in link.cc
+Test 0-1 of recvUntimedData in link.cc
+Test 1 of recvUntimedData in link.cc
+Test 1 in init of memNIC.cc
+Test 0 in sendInitData of LinkControl.cc
+Test 0 in sendUntimedData of LinkControl.cc
+Test 0 of sendUntimedData in link.cc
+Test 1 of sendUntimedData in link.cc
+Test 0 in recvUntimedData of linkControl.cc
+Test 1 in recvUntimedData of linkControl.cc
+Test 2 in init of memNIC.cc
+Test 0 in hr_router.cc 2
+Test 10 in portControl.cc
+Test 10 in portControl.cc start 3
+Test 0 of recvUntimedData in link.cc
+Test 0-1 of recvUntimedData in link.cc
+Test 1 of recvUntimedData in link.cc
+Test 2 of recvUntimedData in link.cc
+Test 3 of recvUntimedData in link.cc
+Test 4 of recvUntimedData in link.cc
+Test 5 of recvUntimedData in link.cc
+Test 6 of recvUntimedData in link.cc
+Test 0 of recvUntimedData in link.cc
+Test 0-1 of recvUntimedData in link.cc
+Test 1 of recvUntimedData in link.cc
+Test 2 of recvUntimedData in link.cc
+Test 3 of recvUntimedData in link.cc
+Test 4 of recvUntimedData in link.cc
+Test 5 of recvUntimedData in link.cc
+Test 6 of recvUntimedData in link.cc
+Test 0 of recvUntimedData in link.cc
+Test 0-1 of recvUntimedData in link.cc
+Test 1 of recvUntimedData in link.cc
+Test 2 of recvUntimedData in link.cc
+Test 3 of recvUntimedData in link.cc
+Test 10 in portControl.cc done
+Test 13 in portControl.cc
+Test 15 in portControl.cc
+Test 15 0 in portControl.cc
+Test 0 1 in init of hr_router.ccTest 14 in portControl.cc
+Test 0 of sendUntimedData in link.cc
+Test 1 of sendUntimedData in link.cc
+Test 13 in portControl.cc
+Test 15 in portControl.cc
+Test 10 in portControl.cc
+Test 10 in portControl.cc start 3
+Test 0 of recvUntimedData in link.cc
+Test 0-1 of recvUntimedData in link.cc
+Test 1 of recvUntimedData in link.cc
+Test 2 of recvUntimedData in link.cc
+Test 3 of recvUntimedData in link.cc
+Test 4 of recvUntimedData in link.cc
+Test 5 of recvUntimedData in link.cc
+Test 6 of recvUntimedData in link.cc
+Test 0 of recvUntimedData in link.cc
+Test 0-1 of recvUntimedData in link.cc
+Test 1 of recvUntimedData in link.cc
+Test 2 of recvUntimedData in link.cc
+Test 3 of recvUntimedData in link.cc
+Test 4 of recvUntimedData in link.cc
+Test 5 of recvUntimedData in link.cc
+Test 6 of recvUntimedData in link.cc
+Test 0 of recvUntimedData in link.cc
+Test 0-1 of recvUntimedData in link.cc
+Test 1 of recvUntimedData in link.cc
+Test 2 of recvUntimedData in link.cc
+Test 3 of recvUntimedData in link.cc
+Test 10 in portControl.cc done
+Test 13 in portControl.cc
+Test 15 in portControl.cc
+Test 15 0 in portControl.cc
+Test 0 1 in init of hr_router.ccTest 14 in portControl.cc
+Test 0 of sendUntimedData in link.cc
+Test 1 of sendUntimedData in link.cc
+Test 13 in portControl.cc
+Test 15 in portControl.cc
+Test 1 in hr_router.cc
+Test 0 in init of memNIC.cc
+Test 0 in init of linkControl.cc for phase: 4
+Test 8 in init default of linkControl.cc for phase: 4
+Test 0 of recvUntimedData in link.cc
+Test 0-1 of recvUntimedData in link.cc
+Test 1 of recvUntimedData in link.cc
+Test 2 of recvUntimedData in link.cc
+Test 3 of recvUntimedData in link.cc
+Test 4 of recvUntimedData in link.cc
+Test 5 of recvUntimedData in link.cc
+Test 6 of recvUntimedData in link.cc
+Test 0 of recvUntimedData in link.cc
+Test 0-1 of recvUntimedData in link.cc
+Test 1 of recvUntimedData in link.cc
+Test 1 in init of memNIC.cc
+Test 0 in recvUntimedData of linkControl.cc
+Test 1 in recvUntimedData of linkControl.cc
+Test 2 in recvUntimedData of linkControl.cc
+Test 3 in recvUntimedData of linkControl.cc
+Test 0 in recvUntimedData of linkControl.cc
+Test 1 in recvUntimedData of linkControl.cc
+Test 2 in init of memNIC.cc
+Test 0 in init of memNIC.cc
+Test 0 in init of linkControl.cc for phase: 4
+Test 8 in init default of linkControl.cc for phase: 4
+Test 0 of recvUntimedData in link.cc
+Test 0-1 of recvUntimedData in link.cc
+Test 1 of recvUntimedData in link.cc
+Test 2 of recvUntimedData in link.cc
+Test 3 of recvUntimedData in link.cc
+Test 4 of recvUntimedData in link.cc
+Test 5 of recvUntimedData in link.cc
+Test 6 of recvUntimedData in link.cc
+Test 0 of recvUntimedData in link.cc
+Test 0-1 of recvUntimedData in link.cc
+Test 1 of recvUntimedData in link.cc
+Test 1 in init of memNIC.cc
+Test 0 in recvUntimedData of linkControl.cc
+Test 1 in recvUntimedData of linkControl.cc
+Test 2 in recvUntimedData of linkControl.cc
+Test 3 in recvUntimedData of linkControl.cc
+Test 0 in recvUntimedData of linkControl.cc
+Test 1 in recvUntimedData of linkControl.cc
+Test 2 in init of memNIC.cc
+Test 0 in hr_router.cc 2
+Test 10 in portControl.cc
+Test 10 in portControl.cc start 4
+Test 0 of recvUntimedData in link.cc
+Test 0-1 of recvUntimedData in link.cc
+Test 1 of recvUntimedData in link.cc
+Test 2 of recvUntimedData in link.cc
+Test 3 of recvUntimedData in link.cc
+Test 4 of recvUntimedData in link.cc
+Test 5 of recvUntimedData in link.cc
+Test 6 of recvUntimedData in link.cc
+Test 0 of recvUntimedData in link.cc
+Test 0-1 of recvUntimedData in link.cc
+Test 1 of recvUntimedData in link.cc
+Test 10 in portControl.cc done
+Test 13 in portControl.cc
+Test 15 in portControl.cc
+Test 15 0 in portControl.cc
+Test 0 1 in init of hr_router.ccTest 14 in portControl.cc
+Test 0 of sendUntimedData in link.cc
+Test 1 of sendUntimedData in link.cc
+Test 13 in portControl.cc
+Test 15 in portControl.cc
+Test 10 in portControl.cc
+Test 10 in portControl.cc start 4
+Test 0 of recvUntimedData in link.cc
+Test 0-1 of recvUntimedData in link.cc
+Test 1 of recvUntimedData in link.cc
+Test 2 of recvUntimedData in link.cc
+Test 3 of recvUntimedData in link.cc
+Test 4 of recvUntimedData in link.cc
+Test 5 of recvUntimedData in link.cc
+Test 6 of recvUntimedData in link.cc
+Test 0 of recvUntimedData in link.cc
+Test 0-1 of recvUntimedData in link.cc
+Test 1 of recvUntimedData in link.cc
+Test 10 in portControl.cc done
+Test 13 in portControl.cc
+Test 15 in portControl.cc
+Test 15 0 in portControl.cc
+Test 0 1 in init of hr_router.ccTest 14 in portControl.cc
+Test 0 of sendUntimedData in link.cc
+Test 1 of sendUntimedData in link.cc
+Test 13 in portControl.cc
+Test 15 in portControl.cc
+Test 1 in hr_router.cc
+Test 0 in init of memNIC.cc
+Test 0 in init of linkControl.cc for phase: 5
+Test 8 in init default of linkControl.cc for phase: 5
+Test 0 of recvUntimedData in link.cc
+Test 0-1 of recvUntimedData in link.cc
+Test 1 of recvUntimedData in link.cc
+Test 2 of recvUntimedData in link.cc
+Test 3 of recvUntimedData in link.cc
+Test 4 of recvUntimedData in link.cc
+Test 5 of recvUntimedData in link.cc
+Test 6 of recvUntimedData in link.cc
+Test 0 of recvUntimedData in link.cc
+Test 0-1 of recvUntimedData in link.cc
+Test 1 of recvUntimedData in link.cc
+Test 1 in init of memNIC.cc
+Test 0 in recvUntimedData of linkControl.cc
+Test 1 in recvUntimedData of linkControl.cc
+Test 2 in recvUntimedData of linkControl.cc
+Test 3 in recvUntimedData of linkControl.cc
+Test 0 in recvUntimedData of linkControl.cc
+Test 1 in recvUntimedData of linkControl.cc
+Test 2 in init of memNIC.cc
+Test 0 in init of memNIC.cc
+Test 0 in init of linkControl.cc for phase: 5
+Test 8 in init default of linkControl.cc for phase: 5
+Test 0 of recvUntimedData in link.cc
+Test 0-1 of recvUntimedData in link.cc
+Test 1 of recvUntimedData in link.cc
+Test 2 of recvUntimedData in link.cc
+Test 3 of recvUntimedData in link.cc
+Test 4 of recvUntimedData in link.cc
+Test 5 of recvUntimedData in link.cc
+Test 6 of recvUntimedData in link.cc
+Test 0 of recvUntimedData in link.cc
+Test 0-1 of recvUntimedData in link.cc
+Test 1 of recvUntimedData in link.cc
+Test 1 in init of memNIC.cc
+Test 0 in recvUntimedData of linkControl.cc
+Test 1 in recvUntimedData of linkControl.cc
+Test 2 in recvUntimedData of linkControl.cc
+Test 3 in recvUntimedData of linkControl.cc
+Test 0 in recvUntimedData of linkControl.cc
+Test 1 in recvUntimedData of linkControl.cc
+Test 2 in init of memNIC.cc
+Test 0 in hr_router.cc 2
+Test 10 in portControl.cc
+Test 10 in portControl.cc start 5
+Test 0 of recvUntimedData in link.cc
+Test 0-1 of recvUntimedData in link.cc
+Test 1 of recvUntimedData in link.cc
+Test 10 in portControl.cc done
+Test 13 in portControl.cc
+Test 15 in portControl.cc
+Test 10 in portControl.cc
+Test 10 in portControl.cc start 5
+Test 0 of recvUntimedData in link.cc
+Test 0-1 of recvUntimedData in link.cc
+Test 1 of recvUntimedData in link.cc
+Test 10 in portControl.cc done
+Test 13 in portControl.cc
+Test 15 in portControl.cc
+Test 1 in hr_router.cc
+Test 0 in finalizeConfiguration in link.cc
+Test 0 in finalizeConfiguration in link.cc
+Test 0 in finalizeConfiguration in link.cc
+Test 0 in finalizeConfiguration in link.cc
+Test 0 in finalizeConfiguration in link.cc
+Test 0 in finalizeConfiguration in link.cc
+Test 0 in finalizeConfiguration in link.cc
+Test 0 in finalizeConfiguration in link.cc
+Test 0 in finalizeConfiguration in link.cc
+Test 0 in finalizeConfiguration in link.cc
+Test 0 in finalizeConfiguration in link.cc
+Test 0 in finalizeConfiguration in link.cc
+Test 0 in finalizeConfiguration in link.cc
+Test 0 in finalizeConfiguration in link.cc
+Test 08 in portControl.cc
+Test 08 in portControl.cc
+*** Event queue empty, exiting simulation... ***
+Test 0 in prepareForComplete in link.cc
+Test 0 in prepareForComplete in link.cc
+Test 0 in prepareForComplete in link.cc
+Test 0 in prepareForComplete in link.cc
+Test 0 in prepareForComplete in link.cc
+Test 0 in prepareForComplete in link.cc
+Test 0 in prepareForComplete in link.cc
+Test 0 in prepareForComplete in link.cc
+Test 0 in prepareForComplete in link.cc
+Test 0 in prepareForComplete in link.cc
+Test 0 in prepareForComplete in link.cc
+Test 0 in prepareForComplete in link.cc
+Test 0 in prepareForComplete in link.cc
+Test 0 in prepareForComplete in link.cc
+Test 11 in portControl.cc
+Test 0 of recvUntimedData in link.cc
+Test 0-1 of nullptr recvUntimedData in link.cc
+Test 13 in portControl.cc
+Test 15 in portControl.cc
+Test 11 in portControl.cc
+Test 0 of recvUntimedData in link.cc
+Test 0-1 of nullptr recvUntimedData in link.cc
+Test 13 in portControl.cc
+Test 15 in portControl.cc

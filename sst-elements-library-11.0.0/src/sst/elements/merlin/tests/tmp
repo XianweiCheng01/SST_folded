@@ -1,0 +1,1736 @@
+Test ------------------1 in for loop router_id  0
+{'topology': 'merlin.torus', 'debug': 0, 'num_ports': 7, 'flit_size': '8B', 'link_bw': '4GB/s', 'xbar_bw': '4GB/s', 'torus:shape': '4x4x4', 'torus:width': '1x1x1', 'torus:local_ports': 1, 'input_latency': '20ns', 'output_latency': '20ns', 'input_buf_size': '4kB', 'output_buf_size': '4kB', 'xbar_arb': 'merlin.xbar_arb_lru'}
+{'shape': '4x4x4', 'width': '1x1x1', 'local_ports': 1}
+Test ------------------0 in for loop router_id  0
+Test 1 in for loop dim_id  0
+Test 10 in for loop wid, port  0 0
+0x0x0
+1x0x0
+Test 11 in for loop wid, port  0 1
+3x0x0
+0x0x0
+Test 1 in for loop dim_id  1
+Test 10 in for loop wid, port  0 2
+0x0x0
+0x1x0
+Test 11 in for loop wid, port  0 3
+0x3x0
+0x0x0
+Test 1 in for loop dim_id  2
+Test 10 in for loop wid, port  0 4
+0x0x0
+0x0x1
+Test 11 in for loop wid, port  0 5
+0x0x3
+0x0x0
+Test 2 in for loop lport_id  0
+Test 20 in for loop port  6
+Test ------------------1 in for loop router_id  1
+{'topology': 'merlin.torus', 'debug': 0, 'num_ports': 7, 'flit_size': '8B', 'link_bw': '4GB/s', 'xbar_bw': '4GB/s', 'torus:shape': '4x4x4', 'torus:width': '1x1x1', 'torus:local_ports': 1, 'input_latency': '20ns', 'output_latency': '20ns', 'input_buf_size': '4kB', 'output_buf_size': '4kB', 'xbar_arb': 'merlin.xbar_arb_lru'}
+{'shape': '4x4x4', 'width': '1x1x1', 'local_ports': 1}
+Test ------------------0 in for loop router_id  1
+Test 1 in for loop dim_id  0
+Test 10 in for loop wid, port  0 0
+1x0x0
+2x0x0
+Test 11 in for loop wid, port  0 1
+0x0x0
+1x0x0
+Test 1 in for loop dim_id  1
+Test 10 in for loop wid, port  0 2
+1x0x0
+1x1x0
+Test 11 in for loop wid, port  0 3
+1x3x0
+1x0x0
+Test 1 in for loop dim_id  2
+Test 10 in for loop wid, port  0 4
+1x0x0
+1x0x1
+Test 11 in for loop wid, port  0 5
+1x0x3
+1x0x0
+Test 2 in for loop lport_id  0
+Test 20 in for loop port  6
+Test ------------------1 in for loop router_id  2
+{'topology': 'merlin.torus', 'debug': 0, 'num_ports': 7, 'flit_size': '8B', 'link_bw': '4GB/s', 'xbar_bw': '4GB/s', 'torus:shape': '4x4x4', 'torus:width': '1x1x1', 'torus:local_ports': 1, 'input_latency': '20ns', 'output_latency': '20ns', 'input_buf_size': '4kB', 'output_buf_size': '4kB', 'xbar_arb': 'merlin.xbar_arb_lru'}
+{'shape': '4x4x4', 'width': '1x1x1', 'local_ports': 1}
+Test ------------------0 in for loop router_id  2
+Test 1 in for loop dim_id  0
+Test 10 in for loop wid, port  0 0
+2x0x0
+3x0x0
+Test 11 in for loop wid, port  0 1
+1x0x0
+2x0x0
+Test 1 in for loop dim_id  1
+Test 10 in for loop wid, port  0 2
+2x0x0
+2x1x0
+Test 11 in for loop wid, port  0 3
+2x3x0
+2x0x0
+Test 1 in for loop dim_id  2
+Test 10 in for loop wid, port  0 4
+2x0x0
+2x0x1
+Test 11 in for loop wid, port  0 5
+2x0x3
+2x0x0
+Test 2 in for loop lport_id  0
+Test 20 in for loop port  6
+Test ------------------1 in for loop router_id  3
+{'topology': 'merlin.torus', 'debug': 0, 'num_ports': 7, 'flit_size': '8B', 'link_bw': '4GB/s', 'xbar_bw': '4GB/s', 'torus:shape': '4x4x4', 'torus:width': '1x1x1', 'torus:local_ports': 1, 'input_latency': '20ns', 'output_latency': '20ns', 'input_buf_size': '4kB', 'output_buf_size': '4kB', 'xbar_arb': 'merlin.xbar_arb_lru'}
+{'shape': '4x4x4', 'width': '1x1x1', 'local_ports': 1}
+Test ------------------0 in for loop router_id  3
+Test 1 in for loop dim_id  0
+Test 10 in for loop wid, port  0 0
+3x0x0
+0x0x0
+Test 11 in for loop wid, port  0 1
+2x0x0
+3x0x0
+Test 1 in for loop dim_id  1
+Test 10 in for loop wid, port  0 2
+3x0x0
+3x1x0
+Test 11 in for loop wid, port  0 3
+3x3x0
+3x0x0
+Test 1 in for loop dim_id  2
+Test 10 in for loop wid, port  0 4
+3x0x0
+3x0x1
+Test 11 in for loop wid, port  0 5
+3x0x3
+3x0x0
+Test 2 in for loop lport_id  0
+Test 20 in for loop port  6
+Test ------------------1 in for loop router_id  4
+{'topology': 'merlin.torus', 'debug': 0, 'num_ports': 7, 'flit_size': '8B', 'link_bw': '4GB/s', 'xbar_bw': '4GB/s', 'torus:shape': '4x4x4', 'torus:width': '1x1x1', 'torus:local_ports': 1, 'input_latency': '20ns', 'output_latency': '20ns', 'input_buf_size': '4kB', 'output_buf_size': '4kB', 'xbar_arb': 'merlin.xbar_arb_lru'}
+{'shape': '4x4x4', 'width': '1x1x1', 'local_ports': 1}
+Test ------------------0 in for loop router_id  4
+Test 1 in for loop dim_id  0
+Test 10 in for loop wid, port  0 0
+0x1x0
+1x1x0
+Test 11 in for loop wid, port  0 1
+3x1x0
+0x1x0
+Test 1 in for loop dim_id  1
+Test 10 in for loop wid, port  0 2
+0x1x0
+0x2x0
+Test 11 in for loop wid, port  0 3
+0x0x0
+0x1x0
+Test 1 in for loop dim_id  2
+Test 10 in for loop wid, port  0 4
+0x1x0
+0x1x1
+Test 11 in for loop wid, port  0 5
+0x1x3
+0x1x0
+Test 2 in for loop lport_id  0
+Test 20 in for loop port  6
+Test ------------------1 in for loop router_id  5
+{'topology': 'merlin.torus', 'debug': 0, 'num_ports': 7, 'flit_size': '8B', 'link_bw': '4GB/s', 'xbar_bw': '4GB/s', 'torus:shape': '4x4x4', 'torus:width': '1x1x1', 'torus:local_ports': 1, 'input_latency': '20ns', 'output_latency': '20ns', 'input_buf_size': '4kB', 'output_buf_size': '4kB', 'xbar_arb': 'merlin.xbar_arb_lru'}
+{'shape': '4x4x4', 'width': '1x1x1', 'local_ports': 1}
+Test ------------------0 in for loop router_id  5
+Test 1 in for loop dim_id  0
+Test 10 in for loop wid, port  0 0
+1x1x0
+2x1x0
+Test 11 in for loop wid, port  0 1
+0x1x0
+1x1x0
+Test 1 in for loop dim_id  1
+Test 10 in for loop wid, port  0 2
+1x1x0
+1x2x0
+Test 11 in for loop wid, port  0 3
+1x0x0
+1x1x0
+Test 1 in for loop dim_id  2
+Test 10 in for loop wid, port  0 4
+1x1x0
+1x1x1
+Test 11 in for loop wid, port  0 5
+1x1x3
+1x1x0
+Test 2 in for loop lport_id  0
+Test 20 in for loop port  6
+Test ------------------1 in for loop router_id  6
+{'topology': 'merlin.torus', 'debug': 0, 'num_ports': 7, 'flit_size': '8B', 'link_bw': '4GB/s', 'xbar_bw': '4GB/s', 'torus:shape': '4x4x4', 'torus:width': '1x1x1', 'torus:local_ports': 1, 'input_latency': '20ns', 'output_latency': '20ns', 'input_buf_size': '4kB', 'output_buf_size': '4kB', 'xbar_arb': 'merlin.xbar_arb_lru'}
+{'shape': '4x4x4', 'width': '1x1x1', 'local_ports': 1}
+Test ------------------0 in for loop router_id  6
+Test 1 in for loop dim_id  0
+Test 10 in for loop wid, port  0 0
+2x1x0
+3x1x0
+Test 11 in for loop wid, port  0 1
+1x1x0
+2x1x0
+Test 1 in for loop dim_id  1
+Test 10 in for loop wid, port  0 2
+2x1x0
+2x2x0
+Test 11 in for loop wid, port  0 3
+2x0x0
+2x1x0
+Test 1 in for loop dim_id  2
+Test 10 in for loop wid, port  0 4
+2x1x0
+2x1x1
+Test 11 in for loop wid, port  0 5
+2x1x3
+2x1x0
+Test 2 in for loop lport_id  0
+Test 20 in for loop port  6
+Test ------------------1 in for loop router_id  7
+{'topology': 'merlin.torus', 'debug': 0, 'num_ports': 7, 'flit_size': '8B', 'link_bw': '4GB/s', 'xbar_bw': '4GB/s', 'torus:shape': '4x4x4', 'torus:width': '1x1x1', 'torus:local_ports': 1, 'input_latency': '20ns', 'output_latency': '20ns', 'input_buf_size': '4kB', 'output_buf_size': '4kB', 'xbar_arb': 'merlin.xbar_arb_lru'}
+{'shape': '4x4x4', 'width': '1x1x1', 'local_ports': 1}
+Test ------------------0 in for loop router_id  7
+Test 1 in for loop dim_id  0
+Test 10 in for loop wid, port  0 0
+3x1x0
+0x1x0
+Test 11 in for loop wid, port  0 1
+2x1x0
+3x1x0
+Test 1 in for loop dim_id  1
+Test 10 in for loop wid, port  0 2
+3x1x0
+3x2x0
+Test 11 in for loop wid, port  0 3
+3x0x0
+3x1x0
+Test 1 in for loop dim_id  2
+Test 10 in for loop wid, port  0 4
+3x1x0
+3x1x1
+Test 11 in for loop wid, port  0 5
+3x1x3
+3x1x0
+Test 2 in for loop lport_id  0
+Test 20 in for loop port  6
+Test ------------------1 in for loop router_id  8
+{'topology': 'merlin.torus', 'debug': 0, 'num_ports': 7, 'flit_size': '8B', 'link_bw': '4GB/s', 'xbar_bw': '4GB/s', 'torus:shape': '4x4x4', 'torus:width': '1x1x1', 'torus:local_ports': 1, 'input_latency': '20ns', 'output_latency': '20ns', 'input_buf_size': '4kB', 'output_buf_size': '4kB', 'xbar_arb': 'merlin.xbar_arb_lru'}
+{'shape': '4x4x4', 'width': '1x1x1', 'local_ports': 1}
+Test ------------------0 in for loop router_id  8
+Test 1 in for loop dim_id  0
+Test 10 in for loop wid, port  0 0
+0x2x0
+1x2x0
+Test 11 in for loop wid, port  0 1
+3x2x0
+0x2x0
+Test 1 in for loop dim_id  1
+Test 10 in for loop wid, port  0 2
+0x2x0
+0x3x0
+Test 11 in for loop wid, port  0 3
+0x1x0
+0x2x0
+Test 1 in for loop dim_id  2
+Test 10 in for loop wid, port  0 4
+0x2x0
+0x2x1
+Test 11 in for loop wid, port  0 5
+0x2x3
+0x2x0
+Test 2 in for loop lport_id  0
+Test 20 in for loop port  6
+Test ------------------1 in for loop router_id  9
+{'topology': 'merlin.torus', 'debug': 0, 'num_ports': 7, 'flit_size': '8B', 'link_bw': '4GB/s', 'xbar_bw': '4GB/s', 'torus:shape': '4x4x4', 'torus:width': '1x1x1', 'torus:local_ports': 1, 'input_latency': '20ns', 'output_latency': '20ns', 'input_buf_size': '4kB', 'output_buf_size': '4kB', 'xbar_arb': 'merlin.xbar_arb_lru'}
+{'shape': '4x4x4', 'width': '1x1x1', 'local_ports': 1}
+Test ------------------0 in for loop router_id  9
+Test 1 in for loop dim_id  0
+Test 10 in for loop wid, port  0 0
+1x2x0
+2x2x0
+Test 11 in for loop wid, port  0 1
+0x2x0
+1x2x0
+Test 1 in for loop dim_id  1
+Test 10 in for loop wid, port  0 2
+1x2x0
+1x3x0
+Test 11 in for loop wid, port  0 3
+1x1x0
+1x2x0
+Test 1 in for loop dim_id  2
+Test 10 in for loop wid, port  0 4
+1x2x0
+1x2x1
+Test 11 in for loop wid, port  0 5
+1x2x3
+1x2x0
+Test 2 in for loop lport_id  0
+Test 20 in for loop port  6
+Test ------------------1 in for loop router_id  10
+{'topology': 'merlin.torus', 'debug': 0, 'num_ports': 7, 'flit_size': '8B', 'link_bw': '4GB/s', 'xbar_bw': '4GB/s', 'torus:shape': '4x4x4', 'torus:width': '1x1x1', 'torus:local_ports': 1, 'input_latency': '20ns', 'output_latency': '20ns', 'input_buf_size': '4kB', 'output_buf_size': '4kB', 'xbar_arb': 'merlin.xbar_arb_lru'}
+{'shape': '4x4x4', 'width': '1x1x1', 'local_ports': 1}
+Test ------------------0 in for loop router_id  10
+Test 1 in for loop dim_id  0
+Test 10 in for loop wid, port  0 0
+2x2x0
+3x2x0
+Test 11 in for loop wid, port  0 1
+1x2x0
+2x2x0
+Test 1 in for loop dim_id  1
+Test 10 in for loop wid, port  0 2
+2x2x0
+2x3x0
+Test 11 in for loop wid, port  0 3
+2x1x0
+2x2x0
+Test 1 in for loop dim_id  2
+Test 10 in for loop wid, port  0 4
+2x2x0
+2x2x1
+Test 11 in for loop wid, port  0 5
+2x2x3
+2x2x0
+Test 2 in for loop lport_id  0
+Test 20 in for loop port  6
+Test ------------------1 in for loop router_id  11
+{'topology': 'merlin.torus', 'debug': 0, 'num_ports': 7, 'flit_size': '8B', 'link_bw': '4GB/s', 'xbar_bw': '4GB/s', 'torus:shape': '4x4x4', 'torus:width': '1x1x1', 'torus:local_ports': 1, 'input_latency': '20ns', 'output_latency': '20ns', 'input_buf_size': '4kB', 'output_buf_size': '4kB', 'xbar_arb': 'merlin.xbar_arb_lru'}
+{'shape': '4x4x4', 'width': '1x1x1', 'local_ports': 1}
+Test ------------------0 in for loop router_id  11
+Test 1 in for loop dim_id  0
+Test 10 in for loop wid, port  0 0
+3x2x0
+0x2x0
+Test 11 in for loop wid, port  0 1
+2x2x0
+3x2x0
+Test 1 in for loop dim_id  1
+Test 10 in for loop wid, port  0 2
+3x2x0
+3x3x0
+Test 11 in for loop wid, port  0 3
+3x1x0
+3x2x0
+Test 1 in for loop dim_id  2
+Test 10 in for loop wid, port  0 4
+3x2x0
+3x2x1
+Test 11 in for loop wid, port  0 5
+3x2x3
+3x2x0
+Test 2 in for loop lport_id  0
+Test 20 in for loop port  6
+Test ------------------1 in for loop router_id  12
+{'topology': 'merlin.torus', 'debug': 0, 'num_ports': 7, 'flit_size': '8B', 'link_bw': '4GB/s', 'xbar_bw': '4GB/s', 'torus:shape': '4x4x4', 'torus:width': '1x1x1', 'torus:local_ports': 1, 'input_latency': '20ns', 'output_latency': '20ns', 'input_buf_size': '4kB', 'output_buf_size': '4kB', 'xbar_arb': 'merlin.xbar_arb_lru'}
+{'shape': '4x4x4', 'width': '1x1x1', 'local_ports': 1}
+Test ------------------0 in for loop router_id  12
+Test 1 in for loop dim_id  0
+Test 10 in for loop wid, port  0 0
+0x3x0
+1x3x0
+Test 11 in for loop wid, port  0 1
+3x3x0
+0x3x0
+Test 1 in for loop dim_id  1
+Test 10 in for loop wid, port  0 2
+0x3x0
+0x0x0
+Test 11 in for loop wid, port  0 3
+0x2x0
+0x3x0
+Test 1 in for loop dim_id  2
+Test 10 in for loop wid, port  0 4
+0x3x0
+0x3x1
+Test 11 in for loop wid, port  0 5
+0x3x3
+0x3x0
+Test 2 in for loop lport_id  0
+Test 20 in for loop port  6
+Test ------------------1 in for loop router_id  13
+{'topology': 'merlin.torus', 'debug': 0, 'num_ports': 7, 'flit_size': '8B', 'link_bw': '4GB/s', 'xbar_bw': '4GB/s', 'torus:shape': '4x4x4', 'torus:width': '1x1x1', 'torus:local_ports': 1, 'input_latency': '20ns', 'output_latency': '20ns', 'input_buf_size': '4kB', 'output_buf_size': '4kB', 'xbar_arb': 'merlin.xbar_arb_lru'}
+{'shape': '4x4x4', 'width': '1x1x1', 'local_ports': 1}
+Test ------------------0 in for loop router_id  13
+Test 1 in for loop dim_id  0
+Test 10 in for loop wid, port  0 0
+1x3x0
+2x3x0
+Test 11 in for loop wid, port  0 1
+0x3x0
+1x3x0
+Test 1 in for loop dim_id  1
+Test 10 in for loop wid, port  0 2
+1x3x0
+1x0x0
+Test 11 in for loop wid, port  0 3
+1x2x0
+1x3x0
+Test 1 in for loop dim_id  2
+Test 10 in for loop wid, port  0 4
+1x3x0
+1x3x1
+Test 11 in for loop wid, port  0 5
+1x3x3
+1x3x0
+Test 2 in for loop lport_id  0
+Test 20 in for loop port  6
+Test ------------------1 in for loop router_id  14
+{'topology': 'merlin.torus', 'debug': 0, 'num_ports': 7, 'flit_size': '8B', 'link_bw': '4GB/s', 'xbar_bw': '4GB/s', 'torus:shape': '4x4x4', 'torus:width': '1x1x1', 'torus:local_ports': 1, 'input_latency': '20ns', 'output_latency': '20ns', 'input_buf_size': '4kB', 'output_buf_size': '4kB', 'xbar_arb': 'merlin.xbar_arb_lru'}
+{'shape': '4x4x4', 'width': '1x1x1', 'local_ports': 1}
+Test ------------------0 in for loop router_id  14
+Test 1 in for loop dim_id  0
+Test 10 in for loop wid, port  0 0
+2x3x0
+3x3x0
+Test 11 in for loop wid, port  0 1
+1x3x0
+2x3x0
+Test 1 in for loop dim_id  1
+Test 10 in for loop wid, port  0 2
+2x3x0
+2x0x0
+Test 11 in for loop wid, port  0 3
+2x2x0
+2x3x0
+Test 1 in for loop dim_id  2
+Test 10 in for loop wid, port  0 4
+2x3x0
+2x3x1
+Test 11 in for loop wid, port  0 5
+2x3x3
+2x3x0
+Test 2 in for loop lport_id  0
+Test 20 in for loop port  6
+Test ------------------1 in for loop router_id  15
+{'topology': 'merlin.torus', 'debug': 0, 'num_ports': 7, 'flit_size': '8B', 'link_bw': '4GB/s', 'xbar_bw': '4GB/s', 'torus:shape': '4x4x4', 'torus:width': '1x1x1', 'torus:local_ports': 1, 'input_latency': '20ns', 'output_latency': '20ns', 'input_buf_size': '4kB', 'output_buf_size': '4kB', 'xbar_arb': 'merlin.xbar_arb_lru'}
+{'shape': '4x4x4', 'width': '1x1x1', 'local_ports': 1}
+Test ------------------0 in for loop router_id  15
+Test 1 in for loop dim_id  0
+Test 10 in for loop wid, port  0 0
+3x3x0
+0x3x0
+Test 11 in for loop wid, port  0 1
+2x3x0
+3x3x0
+Test 1 in for loop dim_id  1
+Test 10 in for loop wid, port  0 2
+3x3x0
+3x0x0
+Test 11 in for loop wid, port  0 3
+3x2x0
+3x3x0
+Test 1 in for loop dim_id  2
+Test 10 in for loop wid, port  0 4
+3x3x0
+3x3x1
+Test 11 in for loop wid, port  0 5
+3x3x3
+3x3x0
+Test 2 in for loop lport_id  0
+Test 20 in for loop port  6
+Test ------------------1 in for loop router_id  16
+{'topology': 'merlin.torus', 'debug': 0, 'num_ports': 7, 'flit_size': '8B', 'link_bw': '4GB/s', 'xbar_bw': '4GB/s', 'torus:shape': '4x4x4', 'torus:width': '1x1x1', 'torus:local_ports': 1, 'input_latency': '20ns', 'output_latency': '20ns', 'input_buf_size': '4kB', 'output_buf_size': '4kB', 'xbar_arb': 'merlin.xbar_arb_lru'}
+{'shape': '4x4x4', 'width': '1x1x1', 'local_ports': 1}
+Test ------------------0 in for loop router_id  16
+Test 1 in for loop dim_id  0
+Test 10 in for loop wid, port  0 0
+0x0x1
+1x0x1
+Test 11 in for loop wid, port  0 1
+3x0x1
+0x0x1
+Test 1 in for loop dim_id  1
+Test 10 in for loop wid, port  0 2
+0x0x1
+0x1x1
+Test 11 in for loop wid, port  0 3
+0x3x1
+0x0x1
+Test 1 in for loop dim_id  2
+Test 10 in for loop wid, port  0 4
+0x0x1
+0x0x2
+Test 11 in for loop wid, port  0 5
+0x0x0
+0x0x1
+Test 2 in for loop lport_id  0
+Test 20 in for loop port  6
+Test ------------------1 in for loop router_id  17
+{'topology': 'merlin.torus', 'debug': 0, 'num_ports': 7, 'flit_size': '8B', 'link_bw': '4GB/s', 'xbar_bw': '4GB/s', 'torus:shape': '4x4x4', 'torus:width': '1x1x1', 'torus:local_ports': 1, 'input_latency': '20ns', 'output_latency': '20ns', 'input_buf_size': '4kB', 'output_buf_size': '4kB', 'xbar_arb': 'merlin.xbar_arb_lru'}
+{'shape': '4x4x4', 'width': '1x1x1', 'local_ports': 1}
+Test ------------------0 in for loop router_id  17
+Test 1 in for loop dim_id  0
+Test 10 in for loop wid, port  0 0
+1x0x1
+2x0x1
+Test 11 in for loop wid, port  0 1
+0x0x1
+1x0x1
+Test 1 in for loop dim_id  1
+Test 10 in for loop wid, port  0 2
+1x0x1
+1x1x1
+Test 11 in for loop wid, port  0 3
+1x3x1
+1x0x1
+Test 1 in for loop dim_id  2
+Test 10 in for loop wid, port  0 4
+1x0x1
+1x0x2
+Test 11 in for loop wid, port  0 5
+1x0x0
+1x0x1
+Test 2 in for loop lport_id  0
+Test 20 in for loop port  6
+Test ------------------1 in for loop router_id  18
+{'topology': 'merlin.torus', 'debug': 0, 'num_ports': 7, 'flit_size': '8B', 'link_bw': '4GB/s', 'xbar_bw': '4GB/s', 'torus:shape': '4x4x4', 'torus:width': '1x1x1', 'torus:local_ports': 1, 'input_latency': '20ns', 'output_latency': '20ns', 'input_buf_size': '4kB', 'output_buf_size': '4kB', 'xbar_arb': 'merlin.xbar_arb_lru'}
+{'shape': '4x4x4', 'width': '1x1x1', 'local_ports': 1}
+Test ------------------0 in for loop router_id  18
+Test 1 in for loop dim_id  0
+Test 10 in for loop wid, port  0 0
+2x0x1
+3x0x1
+Test 11 in for loop wid, port  0 1
+1x0x1
+2x0x1
+Test 1 in for loop dim_id  1
+Test 10 in for loop wid, port  0 2
+2x0x1
+2x1x1
+Test 11 in for loop wid, port  0 3
+2x3x1
+2x0x1
+Test 1 in for loop dim_id  2
+Test 10 in for loop wid, port  0 4
+2x0x1
+2x0x2
+Test 11 in for loop wid, port  0 5
+2x0x0
+2x0x1
+Test 2 in for loop lport_id  0
+Test 20 in for loop port  6
+Test ------------------1 in for loop router_id  19
+{'topology': 'merlin.torus', 'debug': 0, 'num_ports': 7, 'flit_size': '8B', 'link_bw': '4GB/s', 'xbar_bw': '4GB/s', 'torus:shape': '4x4x4', 'torus:width': '1x1x1', 'torus:local_ports': 1, 'input_latency': '20ns', 'output_latency': '20ns', 'input_buf_size': '4kB', 'output_buf_size': '4kB', 'xbar_arb': 'merlin.xbar_arb_lru'}
+{'shape': '4x4x4', 'width': '1x1x1', 'local_ports': 1}
+Test ------------------0 in for loop router_id  19
+Test 1 in for loop dim_id  0
+Test 10 in for loop wid, port  0 0
+3x0x1
+0x0x1
+Test 11 in for loop wid, port  0 1
+2x0x1
+3x0x1
+Test 1 in for loop dim_id  1
+Test 10 in for loop wid, port  0 2
+3x0x1
+3x1x1
+Test 11 in for loop wid, port  0 3
+3x3x1
+3x0x1
+Test 1 in for loop dim_id  2
+Test 10 in for loop wid, port  0 4
+3x0x1
+3x0x2
+Test 11 in for loop wid, port  0 5
+3x0x0
+3x0x1
+Test 2 in for loop lport_id  0
+Test 20 in for loop port  6
+Test ------------------1 in for loop router_id  20
+{'topology': 'merlin.torus', 'debug': 0, 'num_ports': 7, 'flit_size': '8B', 'link_bw': '4GB/s', 'xbar_bw': '4GB/s', 'torus:shape': '4x4x4', 'torus:width': '1x1x1', 'torus:local_ports': 1, 'input_latency': '20ns', 'output_latency': '20ns', 'input_buf_size': '4kB', 'output_buf_size': '4kB', 'xbar_arb': 'merlin.xbar_arb_lru'}
+{'shape': '4x4x4', 'width': '1x1x1', 'local_ports': 1}
+Test ------------------0 in for loop router_id  20
+Test 1 in for loop dim_id  0
+Test 10 in for loop wid, port  0 0
+0x1x1
+1x1x1
+Test 11 in for loop wid, port  0 1
+3x1x1
+0x1x1
+Test 1 in for loop dim_id  1
+Test 10 in for loop wid, port  0 2
+0x1x1
+0x2x1
+Test 11 in for loop wid, port  0 3
+0x0x1
+0x1x1
+Test 1 in for loop dim_id  2
+Test 10 in for loop wid, port  0 4
+0x1x1
+0x1x2
+Test 11 in for loop wid, port  0 5
+0x1x0
+0x1x1
+Test 2 in for loop lport_id  0
+Test 20 in for loop port  6
+Test ------------------1 in for loop router_id  21
+{'topology': 'merlin.torus', 'debug': 0, 'num_ports': 7, 'flit_size': '8B', 'link_bw': '4GB/s', 'xbar_bw': '4GB/s', 'torus:shape': '4x4x4', 'torus:width': '1x1x1', 'torus:local_ports': 1, 'input_latency': '20ns', 'output_latency': '20ns', 'input_buf_size': '4kB', 'output_buf_size': '4kB', 'xbar_arb': 'merlin.xbar_arb_lru'}
+{'shape': '4x4x4', 'width': '1x1x1', 'local_ports': 1}
+Test ------------------0 in for loop router_id  21
+Test 1 in for loop dim_id  0
+Test 10 in for loop wid, port  0 0
+1x1x1
+2x1x1
+Test 11 in for loop wid, port  0 1
+0x1x1
+1x1x1
+Test 1 in for loop dim_id  1
+Test 10 in for loop wid, port  0 2
+1x1x1
+1x2x1
+Test 11 in for loop wid, port  0 3
+1x0x1
+1x1x1
+Test 1 in for loop dim_id  2
+Test 10 in for loop wid, port  0 4
+1x1x1
+1x1x2
+Test 11 in for loop wid, port  0 5
+1x1x0
+1x1x1
+Test 2 in for loop lport_id  0
+Test 20 in for loop port  6
+Test ------------------1 in for loop router_id  22
+{'topology': 'merlin.torus', 'debug': 0, 'num_ports': 7, 'flit_size': '8B', 'link_bw': '4GB/s', 'xbar_bw': '4GB/s', 'torus:shape': '4x4x4', 'torus:width': '1x1x1', 'torus:local_ports': 1, 'input_latency': '20ns', 'output_latency': '20ns', 'input_buf_size': '4kB', 'output_buf_size': '4kB', 'xbar_arb': 'merlin.xbar_arb_lru'}
+{'shape': '4x4x4', 'width': '1x1x1', 'local_ports': 1}
+Test ------------------0 in for loop router_id  22
+Test 1 in for loop dim_id  0
+Test 10 in for loop wid, port  0 0
+2x1x1
+3x1x1
+Test 11 in for loop wid, port  0 1
+1x1x1
+2x1x1
+Test 1 in for loop dim_id  1
+Test 10 in for loop wid, port  0 2
+2x1x1
+2x2x1
+Test 11 in for loop wid, port  0 3
+2x0x1
+2x1x1
+Test 1 in for loop dim_id  2
+Test 10 in for loop wid, port  0 4
+2x1x1
+2x1x2
+Test 11 in for loop wid, port  0 5
+2x1x0
+2x1x1
+Test 2 in for loop lport_id  0
+Test 20 in for loop port  6
+Test ------------------1 in for loop router_id  23
+{'topology': 'merlin.torus', 'debug': 0, 'num_ports': 7, 'flit_size': '8B', 'link_bw': '4GB/s', 'xbar_bw': '4GB/s', 'torus:shape': '4x4x4', 'torus:width': '1x1x1', 'torus:local_ports': 1, 'input_latency': '20ns', 'output_latency': '20ns', 'input_buf_size': '4kB', 'output_buf_size': '4kB', 'xbar_arb': 'merlin.xbar_arb_lru'}
+{'shape': '4x4x4', 'width': '1x1x1', 'local_ports': 1}
+Test ------------------0 in for loop router_id  23
+Test 1 in for loop dim_id  0
+Test 10 in for loop wid, port  0 0
+3x1x1
+0x1x1
+Test 11 in for loop wid, port  0 1
+2x1x1
+3x1x1
+Test 1 in for loop dim_id  1
+Test 10 in for loop wid, port  0 2
+3x1x1
+3x2x1
+Test 11 in for loop wid, port  0 3
+3x0x1
+3x1x1
+Test 1 in for loop dim_id  2
+Test 10 in for loop wid, port  0 4
+3x1x1
+3x1x2
+Test 11 in for loop wid, port  0 5
+3x1x0
+3x1x1
+Test 2 in for loop lport_id  0
+Test 20 in for loop port  6
+Test ------------------1 in for loop router_id  24
+{'topology': 'merlin.torus', 'debug': 0, 'num_ports': 7, 'flit_size': '8B', 'link_bw': '4GB/s', 'xbar_bw': '4GB/s', 'torus:shape': '4x4x4', 'torus:width': '1x1x1', 'torus:local_ports': 1, 'input_latency': '20ns', 'output_latency': '20ns', 'input_buf_size': '4kB', 'output_buf_size': '4kB', 'xbar_arb': 'merlin.xbar_arb_lru'}
+{'shape': '4x4x4', 'width': '1x1x1', 'local_ports': 1}
+Test ------------------0 in for loop router_id  24
+Test 1 in for loop dim_id  0
+Test 10 in for loop wid, port  0 0
+0x2x1
+1x2x1
+Test 11 in for loop wid, port  0 1
+3x2x1
+0x2x1
+Test 1 in for loop dim_id  1
+Test 10 in for loop wid, port  0 2
+0x2x1
+0x3x1
+Test 11 in for loop wid, port  0 3
+0x1x1
+0x2x1
+Test 1 in for loop dim_id  2
+Test 10 in for loop wid, port  0 4
+0x2x1
+0x2x2
+Test 11 in for loop wid, port  0 5
+0x2x0
+0x2x1
+Test 2 in for loop lport_id  0
+Test 20 in for loop port  6
+Test ------------------1 in for loop router_id  25
+{'topology': 'merlin.torus', 'debug': 0, 'num_ports': 7, 'flit_size': '8B', 'link_bw': '4GB/s', 'xbar_bw': '4GB/s', 'torus:shape': '4x4x4', 'torus:width': '1x1x1', 'torus:local_ports': 1, 'input_latency': '20ns', 'output_latency': '20ns', 'input_buf_size': '4kB', 'output_buf_size': '4kB', 'xbar_arb': 'merlin.xbar_arb_lru'}
+{'shape': '4x4x4', 'width': '1x1x1', 'local_ports': 1}
+Test ------------------0 in for loop router_id  25
+Test 1 in for loop dim_id  0
+Test 10 in for loop wid, port  0 0
+1x2x1
+2x2x1
+Test 11 in for loop wid, port  0 1
+0x2x1
+1x2x1
+Test 1 in for loop dim_id  1
+Test 10 in for loop wid, port  0 2
+1x2x1
+1x3x1
+Test 11 in for loop wid, port  0 3
+1x1x1
+1x2x1
+Test 1 in for loop dim_id  2
+Test 10 in for loop wid, port  0 4
+1x2x1
+1x2x2
+Test 11 in for loop wid, port  0 5
+1x2x0
+1x2x1
+Test 2 in for loop lport_id  0
+Test 20 in for loop port  6
+Test ------------------1 in for loop router_id  26
+{'topology': 'merlin.torus', 'debug': 0, 'num_ports': 7, 'flit_size': '8B', 'link_bw': '4GB/s', 'xbar_bw': '4GB/s', 'torus:shape': '4x4x4', 'torus:width': '1x1x1', 'torus:local_ports': 1, 'input_latency': '20ns', 'output_latency': '20ns', 'input_buf_size': '4kB', 'output_buf_size': '4kB', 'xbar_arb': 'merlin.xbar_arb_lru'}
+{'shape': '4x4x4', 'width': '1x1x1', 'local_ports': 1}
+Test ------------------0 in for loop router_id  26
+Test 1 in for loop dim_id  0
+Test 10 in for loop wid, port  0 0
+2x2x1
+3x2x1
+Test 11 in for loop wid, port  0 1
+1x2x1
+2x2x1
+Test 1 in for loop dim_id  1
+Test 10 in for loop wid, port  0 2
+2x2x1
+2x3x1
+Test 11 in for loop wid, port  0 3
+2x1x1
+2x2x1
+Test 1 in for loop dim_id  2
+Test 10 in for loop wid, port  0 4
+2x2x1
+2x2x2
+Test 11 in for loop wid, port  0 5
+2x2x0
+2x2x1
+Test 2 in for loop lport_id  0
+Test 20 in for loop port  6
+Test ------------------1 in for loop router_id  27
+{'topology': 'merlin.torus', 'debug': 0, 'num_ports': 7, 'flit_size': '8B', 'link_bw': '4GB/s', 'xbar_bw': '4GB/s', 'torus:shape': '4x4x4', 'torus:width': '1x1x1', 'torus:local_ports': 1, 'input_latency': '20ns', 'output_latency': '20ns', 'input_buf_size': '4kB', 'output_buf_size': '4kB', 'xbar_arb': 'merlin.xbar_arb_lru'}
+{'shape': '4x4x4', 'width': '1x1x1', 'local_ports': 1}
+Test ------------------0 in for loop router_id  27
+Test 1 in for loop dim_id  0
+Test 10 in for loop wid, port  0 0
+3x2x1
+0x2x1
+Test 11 in for loop wid, port  0 1
+2x2x1
+3x2x1
+Test 1 in for loop dim_id  1
+Test 10 in for loop wid, port  0 2
+3x2x1
+3x3x1
+Test 11 in for loop wid, port  0 3
+3x1x1
+3x2x1
+Test 1 in for loop dim_id  2
+Test 10 in for loop wid, port  0 4
+3x2x1
+3x2x2
+Test 11 in for loop wid, port  0 5
+3x2x0
+3x2x1
+Test 2 in for loop lport_id  0
+Test 20 in for loop port  6
+Test ------------------1 in for loop router_id  28
+{'topology': 'merlin.torus', 'debug': 0, 'num_ports': 7, 'flit_size': '8B', 'link_bw': '4GB/s', 'xbar_bw': '4GB/s', 'torus:shape': '4x4x4', 'torus:width': '1x1x1', 'torus:local_ports': 1, 'input_latency': '20ns', 'output_latency': '20ns', 'input_buf_size': '4kB', 'output_buf_size': '4kB', 'xbar_arb': 'merlin.xbar_arb_lru'}
+{'shape': '4x4x4', 'width': '1x1x1', 'local_ports': 1}
+Test ------------------0 in for loop router_id  28
+Test 1 in for loop dim_id  0
+Test 10 in for loop wid, port  0 0
+0x3x1
+1x3x1
+Test 11 in for loop wid, port  0 1
+3x3x1
+0x3x1
+Test 1 in for loop dim_id  1
+Test 10 in for loop wid, port  0 2
+0x3x1
+0x0x1
+Test 11 in for loop wid, port  0 3
+0x2x1
+0x3x1
+Test 1 in for loop dim_id  2
+Test 10 in for loop wid, port  0 4
+0x3x1
+0x3x2
+Test 11 in for loop wid, port  0 5
+0x3x0
+0x3x1
+Test 2 in for loop lport_id  0
+Test 20 in for loop port  6
+Test ------------------1 in for loop router_id  29
+{'topology': 'merlin.torus', 'debug': 0, 'num_ports': 7, 'flit_size': '8B', 'link_bw': '4GB/s', 'xbar_bw': '4GB/s', 'torus:shape': '4x4x4', 'torus:width': '1x1x1', 'torus:local_ports': 1, 'input_latency': '20ns', 'output_latency': '20ns', 'input_buf_size': '4kB', 'output_buf_size': '4kB', 'xbar_arb': 'merlin.xbar_arb_lru'}
+{'shape': '4x4x4', 'width': '1x1x1', 'local_ports': 1}
+Test ------------------0 in for loop router_id  29
+Test 1 in for loop dim_id  0
+Test 10 in for loop wid, port  0 0
+1x3x1
+2x3x1
+Test 11 in for loop wid, port  0 1
+0x3x1
+1x3x1
+Test 1 in for loop dim_id  1
+Test 10 in for loop wid, port  0 2
+1x3x1
+1x0x1
+Test 11 in for loop wid, port  0 3
+1x2x1
+1x3x1
+Test 1 in for loop dim_id  2
+Test 10 in for loop wid, port  0 4
+1x3x1
+1x3x2
+Test 11 in for loop wid, port  0 5
+1x3x0
+1x3x1
+Test 2 in for loop lport_id  0
+Test 20 in for loop port  6
+Test ------------------1 in for loop router_id  30
+{'topology': 'merlin.torus', 'debug': 0, 'num_ports': 7, 'flit_size': '8B', 'link_bw': '4GB/s', 'xbar_bw': '4GB/s', 'torus:shape': '4x4x4', 'torus:width': '1x1x1', 'torus:local_ports': 1, 'input_latency': '20ns', 'output_latency': '20ns', 'input_buf_size': '4kB', 'output_buf_size': '4kB', 'xbar_arb': 'merlin.xbar_arb_lru'}
+{'shape': '4x4x4', 'width': '1x1x1', 'local_ports': 1}
+Test ------------------0 in for loop router_id  30
+Test 1 in for loop dim_id  0
+Test 10 in for loop wid, port  0 0
+2x3x1
+3x3x1
+Test 11 in for loop wid, port  0 1
+1x3x1
+2x3x1
+Test 1 in for loop dim_id  1
+Test 10 in for loop wid, port  0 2
+2x3x1
+2x0x1
+Test 11 in for loop wid, port  0 3
+2x2x1
+2x3x1
+Test 1 in for loop dim_id  2
+Test 10 in for loop wid, port  0 4
+2x3x1
+2x3x2
+Test 11 in for loop wid, port  0 5
+2x3x0
+2x3x1
+Test 2 in for loop lport_id  0
+Test 20 in for loop port  6
+Test ------------------1 in for loop router_id  31
+{'topology': 'merlin.torus', 'debug': 0, 'num_ports': 7, 'flit_size': '8B', 'link_bw': '4GB/s', 'xbar_bw': '4GB/s', 'torus:shape': '4x4x4', 'torus:width': '1x1x1', 'torus:local_ports': 1, 'input_latency': '20ns', 'output_latency': '20ns', 'input_buf_size': '4kB', 'output_buf_size': '4kB', 'xbar_arb': 'merlin.xbar_arb_lru'}
+{'shape': '4x4x4', 'width': '1x1x1', 'local_ports': 1}
+Test ------------------0 in for loop router_id  31
+Test 1 in for loop dim_id  0
+Test 10 in for loop wid, port  0 0
+3x3x1
+0x3x1
+Test 11 in for loop wid, port  0 1
+2x3x1
+3x3x1
+Test 1 in for loop dim_id  1
+Test 10 in for loop wid, port  0 2
+3x3x1
+3x0x1
+Test 11 in for loop wid, port  0 3
+3x2x1
+3x3x1
+Test 1 in for loop dim_id  2
+Test 10 in for loop wid, port  0 4
+3x3x1
+3x3x2
+Test 11 in for loop wid, port  0 5
+3x3x0
+3x3x1
+Test 2 in for loop lport_id  0
+Test 20 in for loop port  6
+Test ------------------1 in for loop router_id  32
+{'topology': 'merlin.torus', 'debug': 0, 'num_ports': 7, 'flit_size': '8B', 'link_bw': '4GB/s', 'xbar_bw': '4GB/s', 'torus:shape': '4x4x4', 'torus:width': '1x1x1', 'torus:local_ports': 1, 'input_latency': '20ns', 'output_latency': '20ns', 'input_buf_size': '4kB', 'output_buf_size': '4kB', 'xbar_arb': 'merlin.xbar_arb_lru'}
+{'shape': '4x4x4', 'width': '1x1x1', 'local_ports': 1}
+Test ------------------0 in for loop router_id  32
+Test 1 in for loop dim_id  0
+Test 10 in for loop wid, port  0 0
+0x0x2
+1x0x2
+Test 11 in for loop wid, port  0 1
+3x0x2
+0x0x2
+Test 1 in for loop dim_id  1
+Test 10 in for loop wid, port  0 2
+0x0x2
+0x1x2
+Test 11 in for loop wid, port  0 3
+0x3x2
+0x0x2
+Test 1 in for loop dim_id  2
+Test 10 in for loop wid, port  0 4
+0x0x2
+0x0x3
+Test 11 in for loop wid, port  0 5
+0x0x1
+0x0x2
+Test 2 in for loop lport_id  0
+Test 20 in for loop port  6
+Test ------------------1 in for loop router_id  33
+{'topology': 'merlin.torus', 'debug': 0, 'num_ports': 7, 'flit_size': '8B', 'link_bw': '4GB/s', 'xbar_bw': '4GB/s', 'torus:shape': '4x4x4', 'torus:width': '1x1x1', 'torus:local_ports': 1, 'input_latency': '20ns', 'output_latency': '20ns', 'input_buf_size': '4kB', 'output_buf_size': '4kB', 'xbar_arb': 'merlin.xbar_arb_lru'}
+{'shape': '4x4x4', 'width': '1x1x1', 'local_ports': 1}
+Test ------------------0 in for loop router_id  33
+Test 1 in for loop dim_id  0
+Test 10 in for loop wid, port  0 0
+1x0x2
+2x0x2
+Test 11 in for loop wid, port  0 1
+0x0x2
+1x0x2
+Test 1 in for loop dim_id  1
+Test 10 in for loop wid, port  0 2
+1x0x2
+1x1x2
+Test 11 in for loop wid, port  0 3
+1x3x2
+1x0x2
+Test 1 in for loop dim_id  2
+Test 10 in for loop wid, port  0 4
+1x0x2
+1x0x3
+Test 11 in for loop wid, port  0 5
+1x0x1
+1x0x2
+Test 2 in for loop lport_id  0
+Test 20 in for loop port  6
+Test ------------------1 in for loop router_id  34
+{'topology': 'merlin.torus', 'debug': 0, 'num_ports': 7, 'flit_size': '8B', 'link_bw': '4GB/s', 'xbar_bw': '4GB/s', 'torus:shape': '4x4x4', 'torus:width': '1x1x1', 'torus:local_ports': 1, 'input_latency': '20ns', 'output_latency': '20ns', 'input_buf_size': '4kB', 'output_buf_size': '4kB', 'xbar_arb': 'merlin.xbar_arb_lru'}
+{'shape': '4x4x4', 'width': '1x1x1', 'local_ports': 1}
+Test ------------------0 in for loop router_id  34
+Test 1 in for loop dim_id  0
+Test 10 in for loop wid, port  0 0
+2x0x2
+3x0x2
+Test 11 in for loop wid, port  0 1
+1x0x2
+2x0x2
+Test 1 in for loop dim_id  1
+Test 10 in for loop wid, port  0 2
+2x0x2
+2x1x2
+Test 11 in for loop wid, port  0 3
+2x3x2
+2x0x2
+Test 1 in for loop dim_id  2
+Test 10 in for loop wid, port  0 4
+2x0x2
+2x0x3
+Test 11 in for loop wid, port  0 5
+2x0x1
+2x0x2
+Test 2 in for loop lport_id  0
+Test 20 in for loop port  6
+Test ------------------1 in for loop router_id  35
+{'topology': 'merlin.torus', 'debug': 0, 'num_ports': 7, 'flit_size': '8B', 'link_bw': '4GB/s', 'xbar_bw': '4GB/s', 'torus:shape': '4x4x4', 'torus:width': '1x1x1', 'torus:local_ports': 1, 'input_latency': '20ns', 'output_latency': '20ns', 'input_buf_size': '4kB', 'output_buf_size': '4kB', 'xbar_arb': 'merlin.xbar_arb_lru'}
+{'shape': '4x4x4', 'width': '1x1x1', 'local_ports': 1}
+Test ------------------0 in for loop router_id  35
+Test 1 in for loop dim_id  0
+Test 10 in for loop wid, port  0 0
+3x0x2
+0x0x2
+Test 11 in for loop wid, port  0 1
+2x0x2
+3x0x2
+Test 1 in for loop dim_id  1
+Test 10 in for loop wid, port  0 2
+3x0x2
+3x1x2
+Test 11 in for loop wid, port  0 3
+3x3x2
+3x0x2
+Test 1 in for loop dim_id  2
+Test 10 in for loop wid, port  0 4
+3x0x2
+3x0x3
+Test 11 in for loop wid, port  0 5
+3x0x1
+3x0x2
+Test 2 in for loop lport_id  0
+Test 20 in for loop port  6
+Test ------------------1 in for loop router_id  36
+{'topology': 'merlin.torus', 'debug': 0, 'num_ports': 7, 'flit_size': '8B', 'link_bw': '4GB/s', 'xbar_bw': '4GB/s', 'torus:shape': '4x4x4', 'torus:width': '1x1x1', 'torus:local_ports': 1, 'input_latency': '20ns', 'output_latency': '20ns', 'input_buf_size': '4kB', 'output_buf_size': '4kB', 'xbar_arb': 'merlin.xbar_arb_lru'}
+{'shape': '4x4x4', 'width': '1x1x1', 'local_ports': 1}
+Test ------------------0 in for loop router_id  36
+Test 1 in for loop dim_id  0
+Test 10 in for loop wid, port  0 0
+0x1x2
+1x1x2
+Test 11 in for loop wid, port  0 1
+3x1x2
+0x1x2
+Test 1 in for loop dim_id  1
+Test 10 in for loop wid, port  0 2
+0x1x2
+0x2x2
+Test 11 in for loop wid, port  0 3
+0x0x2
+0x1x2
+Test 1 in for loop dim_id  2
+Test 10 in for loop wid, port  0 4
+0x1x2
+0x1x3
+Test 11 in for loop wid, port  0 5
+0x1x1
+0x1x2
+Test 2 in for loop lport_id  0
+Test 20 in for loop port  6
+Test ------------------1 in for loop router_id  37
+{'topology': 'merlin.torus', 'debug': 0, 'num_ports': 7, 'flit_size': '8B', 'link_bw': '4GB/s', 'xbar_bw': '4GB/s', 'torus:shape': '4x4x4', 'torus:width': '1x1x1', 'torus:local_ports': 1, 'input_latency': '20ns', 'output_latency': '20ns', 'input_buf_size': '4kB', 'output_buf_size': '4kB', 'xbar_arb': 'merlin.xbar_arb_lru'}
+{'shape': '4x4x4', 'width': '1x1x1', 'local_ports': 1}
+Test ------------------0 in for loop router_id  37
+Test 1 in for loop dim_id  0
+Test 10 in for loop wid, port  0 0
+1x1x2
+2x1x2
+Test 11 in for loop wid, port  0 1
+0x1x2
+1x1x2
+Test 1 in for loop dim_id  1
+Test 10 in for loop wid, port  0 2
+1x1x2
+1x2x2
+Test 11 in for loop wid, port  0 3
+1x0x2
+1x1x2
+Test 1 in for loop dim_id  2
+Test 10 in for loop wid, port  0 4
+1x1x2
+1x1x3
+Test 11 in for loop wid, port  0 5
+1x1x1
+1x1x2
+Test 2 in for loop lport_id  0
+Test 20 in for loop port  6
+Test ------------------1 in for loop router_id  38
+{'topology': 'merlin.torus', 'debug': 0, 'num_ports': 7, 'flit_size': '8B', 'link_bw': '4GB/s', 'xbar_bw': '4GB/s', 'torus:shape': '4x4x4', 'torus:width': '1x1x1', 'torus:local_ports': 1, 'input_latency': '20ns', 'output_latency': '20ns', 'input_buf_size': '4kB', 'output_buf_size': '4kB', 'xbar_arb': 'merlin.xbar_arb_lru'}
+{'shape': '4x4x4', 'width': '1x1x1', 'local_ports': 1}
+Test ------------------0 in for loop router_id  38
+Test 1 in for loop dim_id  0
+Test 10 in for loop wid, port  0 0
+2x1x2
+3x1x2
+Test 11 in for loop wid, port  0 1
+1x1x2
+2x1x2
+Test 1 in for loop dim_id  1
+Test 10 in for loop wid, port  0 2
+2x1x2
+2x2x2
+Test 11 in for loop wid, port  0 3
+2x0x2
+2x1x2
+Test 1 in for loop dim_id  2
+Test 10 in for loop wid, port  0 4
+2x1x2
+2x1x3
+Test 11 in for loop wid, port  0 5
+2x1x1
+2x1x2
+Test 2 in for loop lport_id  0
+Test 20 in for loop port  6
+Test ------------------1 in for loop router_id  39
+{'topology': 'merlin.torus', 'debug': 0, 'num_ports': 7, 'flit_size': '8B', 'link_bw': '4GB/s', 'xbar_bw': '4GB/s', 'torus:shape': '4x4x4', 'torus:width': '1x1x1', 'torus:local_ports': 1, 'input_latency': '20ns', 'output_latency': '20ns', 'input_buf_size': '4kB', 'output_buf_size': '4kB', 'xbar_arb': 'merlin.xbar_arb_lru'}
+{'shape': '4x4x4', 'width': '1x1x1', 'local_ports': 1}
+Test ------------------0 in for loop router_id  39
+Test 1 in for loop dim_id  0
+Test 10 in for loop wid, port  0 0
+3x1x2
+0x1x2
+Test 11 in for loop wid, port  0 1
+2x1x2
+3x1x2
+Test 1 in for loop dim_id  1
+Test 10 in for loop wid, port  0 2
+3x1x2
+3x2x2
+Test 11 in for loop wid, port  0 3
+3x0x2
+3x1x2
+Test 1 in for loop dim_id  2
+Test 10 in for loop wid, port  0 4
+3x1x2
+3x1x3
+Test 11 in for loop wid, port  0 5
+3x1x1
+3x1x2
+Test 2 in for loop lport_id  0
+Test 20 in for loop port  6
+Test ------------------1 in for loop router_id  40
+{'topology': 'merlin.torus', 'debug': 0, 'num_ports': 7, 'flit_size': '8B', 'link_bw': '4GB/s', 'xbar_bw': '4GB/s', 'torus:shape': '4x4x4', 'torus:width': '1x1x1', 'torus:local_ports': 1, 'input_latency': '20ns', 'output_latency': '20ns', 'input_buf_size': '4kB', 'output_buf_size': '4kB', 'xbar_arb': 'merlin.xbar_arb_lru'}
+{'shape': '4x4x4', 'width': '1x1x1', 'local_ports': 1}
+Test ------------------0 in for loop router_id  40
+Test 1 in for loop dim_id  0
+Test 10 in for loop wid, port  0 0
+0x2x2
+1x2x2
+Test 11 in for loop wid, port  0 1
+3x2x2
+0x2x2
+Test 1 in for loop dim_id  1
+Test 10 in for loop wid, port  0 2
+0x2x2
+0x3x2
+Test 11 in for loop wid, port  0 3
+0x1x2
+0x2x2
+Test 1 in for loop dim_id  2
+Test 10 in for loop wid, port  0 4
+0x2x2
+0x2x3
+Test 11 in for loop wid, port  0 5
+0x2x1
+0x2x2
+Test 2 in for loop lport_id  0
+Test 20 in for loop port  6
+Test ------------------1 in for loop router_id  41
+{'topology': 'merlin.torus', 'debug': 0, 'num_ports': 7, 'flit_size': '8B', 'link_bw': '4GB/s', 'xbar_bw': '4GB/s', 'torus:shape': '4x4x4', 'torus:width': '1x1x1', 'torus:local_ports': 1, 'input_latency': '20ns', 'output_latency': '20ns', 'input_buf_size': '4kB', 'output_buf_size': '4kB', 'xbar_arb': 'merlin.xbar_arb_lru'}
+{'shape': '4x4x4', 'width': '1x1x1', 'local_ports': 1}
+Test ------------------0 in for loop router_id  41
+Test 1 in for loop dim_id  0
+Test 10 in for loop wid, port  0 0
+1x2x2
+2x2x2
+Test 11 in for loop wid, port  0 1
+0x2x2
+1x2x2
+Test 1 in for loop dim_id  1
+Test 10 in for loop wid, port  0 2
+1x2x2
+1x3x2
+Test 11 in for loop wid, port  0 3
+1x1x2
+1x2x2
+Test 1 in for loop dim_id  2
+Test 10 in for loop wid, port  0 4
+1x2x2
+1x2x3
+Test 11 in for loop wid, port  0 5
+1x2x1
+1x2x2
+Test 2 in for loop lport_id  0
+Test 20 in for loop port  6
+Test ------------------1 in for loop router_id  42
+{'topology': 'merlin.torus', 'debug': 0, 'num_ports': 7, 'flit_size': '8B', 'link_bw': '4GB/s', 'xbar_bw': '4GB/s', 'torus:shape': '4x4x4', 'torus:width': '1x1x1', 'torus:local_ports': 1, 'input_latency': '20ns', 'output_latency': '20ns', 'input_buf_size': '4kB', 'output_buf_size': '4kB', 'xbar_arb': 'merlin.xbar_arb_lru'}
+{'shape': '4x4x4', 'width': '1x1x1', 'local_ports': 1}
+Test ------------------0 in for loop router_id  42
+Test 1 in for loop dim_id  0
+Test 10 in for loop wid, port  0 0
+2x2x2
+3x2x2
+Test 11 in for loop wid, port  0 1
+1x2x2
+2x2x2
+Test 1 in for loop dim_id  1
+Test 10 in for loop wid, port  0 2
+2x2x2
+2x3x2
+Test 11 in for loop wid, port  0 3
+2x1x2
+2x2x2
+Test 1 in for loop dim_id  2
+Test 10 in for loop wid, port  0 4
+2x2x2
+2x2x3
+Test 11 in for loop wid, port  0 5
+2x2x1
+2x2x2
+Test 2 in for loop lport_id  0
+Test 20 in for loop port  6
+Test ------------------1 in for loop router_id  43
+{'topology': 'merlin.torus', 'debug': 0, 'num_ports': 7, 'flit_size': '8B', 'link_bw': '4GB/s', 'xbar_bw': '4GB/s', 'torus:shape': '4x4x4', 'torus:width': '1x1x1', 'torus:local_ports': 1, 'input_latency': '20ns', 'output_latency': '20ns', 'input_buf_size': '4kB', 'output_buf_size': '4kB', 'xbar_arb': 'merlin.xbar_arb_lru'}
+{'shape': '4x4x4', 'width': '1x1x1', 'local_ports': 1}
+Test ------------------0 in for loop router_id  43
+Test 1 in for loop dim_id  0
+Test 10 in for loop wid, port  0 0
+3x2x2
+0x2x2
+Test 11 in for loop wid, port  0 1
+2x2x2
+3x2x2
+Test 1 in for loop dim_id  1
+Test 10 in for loop wid, port  0 2
+3x2x2
+3x3x2
+Test 11 in for loop wid, port  0 3
+3x1x2
+3x2x2
+Test 1 in for loop dim_id  2
+Test 10 in for loop wid, port  0 4
+3x2x2
+3x2x3
+Test 11 in for loop wid, port  0 5
+3x2x1
+3x2x2
+Test 2 in for loop lport_id  0
+Test 20 in for loop port  6
+Test ------------------1 in for loop router_id  44
+{'topology': 'merlin.torus', 'debug': 0, 'num_ports': 7, 'flit_size': '8B', 'link_bw': '4GB/s', 'xbar_bw': '4GB/s', 'torus:shape': '4x4x4', 'torus:width': '1x1x1', 'torus:local_ports': 1, 'input_latency': '20ns', 'output_latency': '20ns', 'input_buf_size': '4kB', 'output_buf_size': '4kB', 'xbar_arb': 'merlin.xbar_arb_lru'}
+{'shape': '4x4x4', 'width': '1x1x1', 'local_ports': 1}
+Test ------------------0 in for loop router_id  44
+Test 1 in for loop dim_id  0
+Test 10 in for loop wid, port  0 0
+0x3x2
+1x3x2
+Test 11 in for loop wid, port  0 1
+3x3x2
+0x3x2
+Test 1 in for loop dim_id  1
+Test 10 in for loop wid, port  0 2
+0x3x2
+0x0x2
+Test 11 in for loop wid, port  0 3
+0x2x2
+0x3x2
+Test 1 in for loop dim_id  2
+Test 10 in for loop wid, port  0 4
+0x3x2
+0x3x3
+Test 11 in for loop wid, port  0 5
+0x3x1
+0x3x2
+Test 2 in for loop lport_id  0
+Test 20 in for loop port  6
+Test ------------------1 in for loop router_id  45
+{'topology': 'merlin.torus', 'debug': 0, 'num_ports': 7, 'flit_size': '8B', 'link_bw': '4GB/s', 'xbar_bw': '4GB/s', 'torus:shape': '4x4x4', 'torus:width': '1x1x1', 'torus:local_ports': 1, 'input_latency': '20ns', 'output_latency': '20ns', 'input_buf_size': '4kB', 'output_buf_size': '4kB', 'xbar_arb': 'merlin.xbar_arb_lru'}
+{'shape': '4x4x4', 'width': '1x1x1', 'local_ports': 1}
+Test ------------------0 in for loop router_id  45
+Test 1 in for loop dim_id  0
+Test 10 in for loop wid, port  0 0
+1x3x2
+2x3x2
+Test 11 in for loop wid, port  0 1
+0x3x2
+1x3x2
+Test 1 in for loop dim_id  1
+Test 10 in for loop wid, port  0 2
+1x3x2
+1x0x2
+Test 11 in for loop wid, port  0 3
+1x2x2
+1x3x2
+Test 1 in for loop dim_id  2
+Test 10 in for loop wid, port  0 4
+1x3x2
+1x3x3
+Test 11 in for loop wid, port  0 5
+1x3x1
+1x3x2
+Test 2 in for loop lport_id  0
+Test 20 in for loop port  6
+Test ------------------1 in for loop router_id  46
+{'topology': 'merlin.torus', 'debug': 0, 'num_ports': 7, 'flit_size': '8B', 'link_bw': '4GB/s', 'xbar_bw': '4GB/s', 'torus:shape': '4x4x4', 'torus:width': '1x1x1', 'torus:local_ports': 1, 'input_latency': '20ns', 'output_latency': '20ns', 'input_buf_size': '4kB', 'output_buf_size': '4kB', 'xbar_arb': 'merlin.xbar_arb_lru'}
+{'shape': '4x4x4', 'width': '1x1x1', 'local_ports': 1}
+Test ------------------0 in for loop router_id  46
+Test 1 in for loop dim_id  0
+Test 10 in for loop wid, port  0 0
+2x3x2
+3x3x2
+Test 11 in for loop wid, port  0 1
+1x3x2
+2x3x2
+Test 1 in for loop dim_id  1
+Test 10 in for loop wid, port  0 2
+2x3x2
+2x0x2
+Test 11 in for loop wid, port  0 3
+2x2x2
+2x3x2
+Test 1 in for loop dim_id  2
+Test 10 in for loop wid, port  0 4
+2x3x2
+2x3x3
+Test 11 in for loop wid, port  0 5
+2x3x1
+2x3x2
+Test 2 in for loop lport_id  0
+Test 20 in for loop port  6
+Test ------------------1 in for loop router_id  47
+{'topology': 'merlin.torus', 'debug': 0, 'num_ports': 7, 'flit_size': '8B', 'link_bw': '4GB/s', 'xbar_bw': '4GB/s', 'torus:shape': '4x4x4', 'torus:width': '1x1x1', 'torus:local_ports': 1, 'input_latency': '20ns', 'output_latency': '20ns', 'input_buf_size': '4kB', 'output_buf_size': '4kB', 'xbar_arb': 'merlin.xbar_arb_lru'}
+{'shape': '4x4x4', 'width': '1x1x1', 'local_ports': 1}
+Test ------------------0 in for loop router_id  47
+Test 1 in for loop dim_id  0
+Test 10 in for loop wid, port  0 0
+3x3x2
+0x3x2
+Test 11 in for loop wid, port  0 1
+2x3x2
+3x3x2
+Test 1 in for loop dim_id  1
+Test 10 in for loop wid, port  0 2
+3x3x2
+3x0x2
+Test 11 in for loop wid, port  0 3
+3x2x2
+3x3x2
+Test 1 in for loop dim_id  2
+Test 10 in for loop wid, port  0 4
+3x3x2
+3x3x3
+Test 11 in for loop wid, port  0 5
+3x3x1
+3x3x2
+Test 2 in for loop lport_id  0
+Test 20 in for loop port  6
+Test ------------------1 in for loop router_id  48
+{'topology': 'merlin.torus', 'debug': 0, 'num_ports': 7, 'flit_size': '8B', 'link_bw': '4GB/s', 'xbar_bw': '4GB/s', 'torus:shape': '4x4x4', 'torus:width': '1x1x1', 'torus:local_ports': 1, 'input_latency': '20ns', 'output_latency': '20ns', 'input_buf_size': '4kB', 'output_buf_size': '4kB', 'xbar_arb': 'merlin.xbar_arb_lru'}
+{'shape': '4x4x4', 'width': '1x1x1', 'local_ports': 1}
+Test ------------------0 in for loop router_id  48
+Test 1 in for loop dim_id  0
+Test 10 in for loop wid, port  0 0
+0x0x3
+1x0x3
+Test 11 in for loop wid, port  0 1
+3x0x3
+0x0x3
+Test 1 in for loop dim_id  1
+Test 10 in for loop wid, port  0 2
+0x0x3
+0x1x3
+Test 11 in for loop wid, port  0 3
+0x3x3
+0x0x3
+Test 1 in for loop dim_id  2
+Test 10 in for loop wid, port  0 4
+0x0x3
+0x0x0
+Test 11 in for loop wid, port  0 5
+0x0x2
+0x0x3
+Test 2 in for loop lport_id  0
+Test 20 in for loop port  6
+Test ------------------1 in for loop router_id  49
+{'topology': 'merlin.torus', 'debug': 0, 'num_ports': 7, 'flit_size': '8B', 'link_bw': '4GB/s', 'xbar_bw': '4GB/s', 'torus:shape': '4x4x4', 'torus:width': '1x1x1', 'torus:local_ports': 1, 'input_latency': '20ns', 'output_latency': '20ns', 'input_buf_size': '4kB', 'output_buf_size': '4kB', 'xbar_arb': 'merlin.xbar_arb_lru'}
+{'shape': '4x4x4', 'width': '1x1x1', 'local_ports': 1}
+Test ------------------0 in for loop router_id  49
+Test 1 in for loop dim_id  0
+Test 10 in for loop wid, port  0 0
+1x0x3
+2x0x3
+Test 11 in for loop wid, port  0 1
+0x0x3
+1x0x3
+Test 1 in for loop dim_id  1
+Test 10 in for loop wid, port  0 2
+1x0x3
+1x1x3
+Test 11 in for loop wid, port  0 3
+1x3x3
+1x0x3
+Test 1 in for loop dim_id  2
+Test 10 in for loop wid, port  0 4
+1x0x3
+1x0x0
+Test 11 in for loop wid, port  0 5
+1x0x2
+1x0x3
+Test 2 in for loop lport_id  0
+Test 20 in for loop port  6
+Test ------------------1 in for loop router_id  50
+{'topology': 'merlin.torus', 'debug': 0, 'num_ports': 7, 'flit_size': '8B', 'link_bw': '4GB/s', 'xbar_bw': '4GB/s', 'torus:shape': '4x4x4', 'torus:width': '1x1x1', 'torus:local_ports': 1, 'input_latency': '20ns', 'output_latency': '20ns', 'input_buf_size': '4kB', 'output_buf_size': '4kB', 'xbar_arb': 'merlin.xbar_arb_lru'}
+{'shape': '4x4x4', 'width': '1x1x1', 'local_ports': 1}
+Test ------------------0 in for loop router_id  50
+Test 1 in for loop dim_id  0
+Test 10 in for loop wid, port  0 0
+2x0x3
+3x0x3
+Test 11 in for loop wid, port  0 1
+1x0x3
+2x0x3
+Test 1 in for loop dim_id  1
+Test 10 in for loop wid, port  0 2
+2x0x3
+2x1x3
+Test 11 in for loop wid, port  0 3
+2x3x3
+2x0x3
+Test 1 in for loop dim_id  2
+Test 10 in for loop wid, port  0 4
+2x0x3
+2x0x0
+Test 11 in for loop wid, port  0 5
+2x0x2
+2x0x3
+Test 2 in for loop lport_id  0
+Test 20 in for loop port  6
+Test ------------------1 in for loop router_id  51
+{'topology': 'merlin.torus', 'debug': 0, 'num_ports': 7, 'flit_size': '8B', 'link_bw': '4GB/s', 'xbar_bw': '4GB/s', 'torus:shape': '4x4x4', 'torus:width': '1x1x1', 'torus:local_ports': 1, 'input_latency': '20ns', 'output_latency': '20ns', 'input_buf_size': '4kB', 'output_buf_size': '4kB', 'xbar_arb': 'merlin.xbar_arb_lru'}
+{'shape': '4x4x4', 'width': '1x1x1', 'local_ports': 1}
+Test ------------------0 in for loop router_id  51
+Test 1 in for loop dim_id  0
+Test 10 in for loop wid, port  0 0
+3x0x3
+0x0x3
+Test 11 in for loop wid, port  0 1
+2x0x3
+3x0x3
+Test 1 in for loop dim_id  1
+Test 10 in for loop wid, port  0 2
+3x0x3
+3x1x3
+Test 11 in for loop wid, port  0 3
+3x3x3
+3x0x3
+Test 1 in for loop dim_id  2
+Test 10 in for loop wid, port  0 4
+3x0x3
+3x0x0
+Test 11 in for loop wid, port  0 5
+3x0x2
+3x0x3
+Test 2 in for loop lport_id  0
+Test 20 in for loop port  6
+Test ------------------1 in for loop router_id  52
+{'topology': 'merlin.torus', 'debug': 0, 'num_ports': 7, 'flit_size': '8B', 'link_bw': '4GB/s', 'xbar_bw': '4GB/s', 'torus:shape': '4x4x4', 'torus:width': '1x1x1', 'torus:local_ports': 1, 'input_latency': '20ns', 'output_latency': '20ns', 'input_buf_size': '4kB', 'output_buf_size': '4kB', 'xbar_arb': 'merlin.xbar_arb_lru'}
+{'shape': '4x4x4', 'width': '1x1x1', 'local_ports': 1}
+Test ------------------0 in for loop router_id  52
+Test 1 in for loop dim_id  0
+Test 10 in for loop wid, port  0 0
+0x1x3
+1x1x3
+Test 11 in for loop wid, port  0 1
+3x1x3
+0x1x3
+Test 1 in for loop dim_id  1
+Test 10 in for loop wid, port  0 2
+0x1x3
+0x2x3
+Test 11 in for loop wid, port  0 3
+0x0x3
+0x1x3
+Test 1 in for loop dim_id  2
+Test 10 in for loop wid, port  0 4
+0x1x3
+0x1x0
+Test 11 in for loop wid, port  0 5
+0x1x2
+0x1x3
+Test 2 in for loop lport_id  0
+Test 20 in for loop port  6
+Test ------------------1 in for loop router_id  53
+{'topology': 'merlin.torus', 'debug': 0, 'num_ports': 7, 'flit_size': '8B', 'link_bw': '4GB/s', 'xbar_bw': '4GB/s', 'torus:shape': '4x4x4', 'torus:width': '1x1x1', 'torus:local_ports': 1, 'input_latency': '20ns', 'output_latency': '20ns', 'input_buf_size': '4kB', 'output_buf_size': '4kB', 'xbar_arb': 'merlin.xbar_arb_lru'}
+{'shape': '4x4x4', 'width': '1x1x1', 'local_ports': 1}
+Test ------------------0 in for loop router_id  53
+Test 1 in for loop dim_id  0
+Test 10 in for loop wid, port  0 0
+1x1x3
+2x1x3
+Test 11 in for loop wid, port  0 1
+0x1x3
+1x1x3
+Test 1 in for loop dim_id  1
+Test 10 in for loop wid, port  0 2
+1x1x3
+1x2x3
+Test 11 in for loop wid, port  0 3
+1x0x3
+1x1x3
+Test 1 in for loop dim_id  2
+Test 10 in for loop wid, port  0 4
+1x1x3
+1x1x0
+Test 11 in for loop wid, port  0 5
+1x1x2
+1x1x3
+Test 2 in for loop lport_id  0
+Test 20 in for loop port  6
+Test ------------------1 in for loop router_id  54
+{'topology': 'merlin.torus', 'debug': 0, 'num_ports': 7, 'flit_size': '8B', 'link_bw': '4GB/s', 'xbar_bw': '4GB/s', 'torus:shape': '4x4x4', 'torus:width': '1x1x1', 'torus:local_ports': 1, 'input_latency': '20ns', 'output_latency': '20ns', 'input_buf_size': '4kB', 'output_buf_size': '4kB', 'xbar_arb': 'merlin.xbar_arb_lru'}
+{'shape': '4x4x4', 'width': '1x1x1', 'local_ports': 1}
+Test ------------------0 in for loop router_id  54
+Test 1 in for loop dim_id  0
+Test 10 in for loop wid, port  0 0
+2x1x3
+3x1x3
+Test 11 in for loop wid, port  0 1
+1x1x3
+2x1x3
+Test 1 in for loop dim_id  1
+Test 10 in for loop wid, port  0 2
+2x1x3
+2x2x3
+Test 11 in for loop wid, port  0 3
+2x0x3
+2x1x3
+Test 1 in for loop dim_id  2
+Test 10 in for loop wid, port  0 4
+2x1x3
+2x1x0
+Test 11 in for loop wid, port  0 5
+2x1x2
+2x1x3
+Test 2 in for loop lport_id  0
+Test 20 in for loop port  6
+Test ------------------1 in for loop router_id  55
+{'topology': 'merlin.torus', 'debug': 0, 'num_ports': 7, 'flit_size': '8B', 'link_bw': '4GB/s', 'xbar_bw': '4GB/s', 'torus:shape': '4x4x4', 'torus:width': '1x1x1', 'torus:local_ports': 1, 'input_latency': '20ns', 'output_latency': '20ns', 'input_buf_size': '4kB', 'output_buf_size': '4kB', 'xbar_arb': 'merlin.xbar_arb_lru'}
+{'shape': '4x4x4', 'width': '1x1x1', 'local_ports': 1}
+Test ------------------0 in for loop router_id  55
+Test 1 in for loop dim_id  0
+Test 10 in for loop wid, port  0 0
+3x1x3
+0x1x3
+Test 11 in for loop wid, port  0 1
+2x1x3
+3x1x3
+Test 1 in for loop dim_id  1
+Test 10 in for loop wid, port  0 2
+3x1x3
+3x2x3
+Test 11 in for loop wid, port  0 3
+3x0x3
+3x1x3
+Test 1 in for loop dim_id  2
+Test 10 in for loop wid, port  0 4
+3x1x3
+3x1x0
+Test 11 in for loop wid, port  0 5
+3x1x2
+3x1x3
+Test 2 in for loop lport_id  0
+Test 20 in for loop port  6
+Test ------------------1 in for loop router_id  56
+{'topology': 'merlin.torus', 'debug': 0, 'num_ports': 7, 'flit_size': '8B', 'link_bw': '4GB/s', 'xbar_bw': '4GB/s', 'torus:shape': '4x4x4', 'torus:width': '1x1x1', 'torus:local_ports': 1, 'input_latency': '20ns', 'output_latency': '20ns', 'input_buf_size': '4kB', 'output_buf_size': '4kB', 'xbar_arb': 'merlin.xbar_arb_lru'}
+{'shape': '4x4x4', 'width': '1x1x1', 'local_ports': 1}
+Test ------------------0 in for loop router_id  56
+Test 1 in for loop dim_id  0
+Test 10 in for loop wid, port  0 0
+0x2x3
+1x2x3
+Test 11 in for loop wid, port  0 1
+3x2x3
+0x2x3
+Test 1 in for loop dim_id  1
+Test 10 in for loop wid, port  0 2
+0x2x3
+0x3x3
+Test 11 in for loop wid, port  0 3
+0x1x3
+0x2x3
+Test 1 in for loop dim_id  2
+Test 10 in for loop wid, port  0 4
+0x2x3
+0x2x0
+Test 11 in for loop wid, port  0 5
+0x2x2
+0x2x3
+Test 2 in for loop lport_id  0
+Test 20 in for loop port  6
+Test ------------------1 in for loop router_id  57
+{'topology': 'merlin.torus', 'debug': 0, 'num_ports': 7, 'flit_size': '8B', 'link_bw': '4GB/s', 'xbar_bw': '4GB/s', 'torus:shape': '4x4x4', 'torus:width': '1x1x1', 'torus:local_ports': 1, 'input_latency': '20ns', 'output_latency': '20ns', 'input_buf_size': '4kB', 'output_buf_size': '4kB', 'xbar_arb': 'merlin.xbar_arb_lru'}
+{'shape': '4x4x4', 'width': '1x1x1', 'local_ports': 1}
+Test ------------------0 in for loop router_id  57
+Test 1 in for loop dim_id  0
+Test 10 in for loop wid, port  0 0
+1x2x3
+2x2x3
+Test 11 in for loop wid, port  0 1
+0x2x3
+1x2x3
+Test 1 in for loop dim_id  1
+Test 10 in for loop wid, port  0 2
+1x2x3
+1x3x3
+Test 11 in for loop wid, port  0 3
+1x1x3
+1x2x3
+Test 1 in for loop dim_id  2
+Test 10 in for loop wid, port  0 4
+1x2x3
+1x2x0
+Test 11 in for loop wid, port  0 5
+1x2x2
+1x2x3
+Test 2 in for loop lport_id  0
+Test 20 in for loop port  6
+Test ------------------1 in for loop router_id  58
+{'topology': 'merlin.torus', 'debug': 0, 'num_ports': 7, 'flit_size': '8B', 'link_bw': '4GB/s', 'xbar_bw': '4GB/s', 'torus:shape': '4x4x4', 'torus:width': '1x1x1', 'torus:local_ports': 1, 'input_latency': '20ns', 'output_latency': '20ns', 'input_buf_size': '4kB', 'output_buf_size': '4kB', 'xbar_arb': 'merlin.xbar_arb_lru'}
+{'shape': '4x4x4', 'width': '1x1x1', 'local_ports': 1}
+Test ------------------0 in for loop router_id  58
+Test 1 in for loop dim_id  0
+Test 10 in for loop wid, port  0 0
+2x2x3
+3x2x3
+Test 11 in for loop wid, port  0 1
+1x2x3
+2x2x3
+Test 1 in for loop dim_id  1
+Test 10 in for loop wid, port  0 2
+2x2x3
+2x3x3
+Test 11 in for loop wid, port  0 3
+2x1x3
+2x2x3
+Test 1 in for loop dim_id  2
+Test 10 in for loop wid, port  0 4
+2x2x3
+2x2x0
+Test 11 in for loop wid, port  0 5
+2x2x2
+2x2x3
+Test 2 in for loop lport_id  0
+Test 20 in for loop port  6
+Test ------------------1 in for loop router_id  59
+{'topology': 'merlin.torus', 'debug': 0, 'num_ports': 7, 'flit_size': '8B', 'link_bw': '4GB/s', 'xbar_bw': '4GB/s', 'torus:shape': '4x4x4', 'torus:width': '1x1x1', 'torus:local_ports': 1, 'input_latency': '20ns', 'output_latency': '20ns', 'input_buf_size': '4kB', 'output_buf_size': '4kB', 'xbar_arb': 'merlin.xbar_arb_lru'}
+{'shape': '4x4x4', 'width': '1x1x1', 'local_ports': 1}
+Test ------------------0 in for loop router_id  59
+Test 1 in for loop dim_id  0
+Test 10 in for loop wid, port  0 0
+3x2x3
+0x2x3
+Test 11 in for loop wid, port  0 1
+2x2x3
+3x2x3
+Test 1 in for loop dim_id  1
+Test 10 in for loop wid, port  0 2
+3x2x3
+3x3x3
+Test 11 in for loop wid, port  0 3
+3x1x3
+3x2x3
+Test 1 in for loop dim_id  2
+Test 10 in for loop wid, port  0 4
+3x2x3
+3x2x0
+Test 11 in for loop wid, port  0 5
+3x2x2
+3x2x3
+Test 2 in for loop lport_id  0
+Test 20 in for loop port  6
+Test ------------------1 in for loop router_id  60
+{'topology': 'merlin.torus', 'debug': 0, 'num_ports': 7, 'flit_size': '8B', 'link_bw': '4GB/s', 'xbar_bw': '4GB/s', 'torus:shape': '4x4x4', 'torus:width': '1x1x1', 'torus:local_ports': 1, 'input_latency': '20ns', 'output_latency': '20ns', 'input_buf_size': '4kB', 'output_buf_size': '4kB', 'xbar_arb': 'merlin.xbar_arb_lru'}
+{'shape': '4x4x4', 'width': '1x1x1', 'local_ports': 1}
+Test ------------------0 in for loop router_id  60
+Test 1 in for loop dim_id  0
+Test 10 in for loop wid, port  0 0
+0x3x3
+1x3x3
+Test 11 in for loop wid, port  0 1
+3x3x3
+0x3x3
+Test 1 in for loop dim_id  1
+Test 10 in for loop wid, port  0 2
+0x3x3
+0x0x3
+Test 11 in for loop wid, port  0 3
+0x2x3
+0x3x3
+Test 1 in for loop dim_id  2
+Test 10 in for loop wid, port  0 4
+0x3x3
+0x3x0
+Test 11 in for loop wid, port  0 5
+0x3x2
+0x3x3
+Test 2 in for loop lport_id  0
+Test 20 in for loop port  6
+Test ------------------1 in for loop router_id  61
+{'topology': 'merlin.torus', 'debug': 0, 'num_ports': 7, 'flit_size': '8B', 'link_bw': '4GB/s', 'xbar_bw': '4GB/s', 'torus:shape': '4x4x4', 'torus:width': '1x1x1', 'torus:local_ports': 1, 'input_latency': '20ns', 'output_latency': '20ns', 'input_buf_size': '4kB', 'output_buf_size': '4kB', 'xbar_arb': 'merlin.xbar_arb_lru'}
+{'shape': '4x4x4', 'width': '1x1x1', 'local_ports': 1}
+Test ------------------0 in for loop router_id  61
+Test 1 in for loop dim_id  0
+Test 10 in for loop wid, port  0 0
+1x3x3
+2x3x3
+Test 11 in for loop wid, port  0 1
+0x3x3
+1x3x3
+Test 1 in for loop dim_id  1
+Test 10 in for loop wid, port  0 2
+1x3x3
+1x0x3
+Test 11 in for loop wid, port  0 3
+1x2x3
+1x3x3
+Test 1 in for loop dim_id  2
+Test 10 in for loop wid, port  0 4
+1x3x3
+1x3x0
+Test 11 in for loop wid, port  0 5
+1x3x2
+1x3x3
+Test 2 in for loop lport_id  0
+Test 20 in for loop port  6
+Test ------------------1 in for loop router_id  62
+{'topology': 'merlin.torus', 'debug': 0, 'num_ports': 7, 'flit_size': '8B', 'link_bw': '4GB/s', 'xbar_bw': '4GB/s', 'torus:shape': '4x4x4', 'torus:width': '1x1x1', 'torus:local_ports': 1, 'input_latency': '20ns', 'output_latency': '20ns', 'input_buf_size': '4kB', 'output_buf_size': '4kB', 'xbar_arb': 'merlin.xbar_arb_lru'}
+{'shape': '4x4x4', 'width': '1x1x1', 'local_ports': 1}
+Test ------------------0 in for loop router_id  62
+Test 1 in for loop dim_id  0
+Test 10 in for loop wid, port  0 0
+2x3x3
+3x3x3
+Test 11 in for loop wid, port  0 1
+1x3x3
+2x3x3
+Test 1 in for loop dim_id  1
+Test 10 in for loop wid, port  0 2
+2x3x3
+2x0x3
+Test 11 in for loop wid, port  0 3
+2x2x3
+2x3x3
+Test 1 in for loop dim_id  2
+Test 10 in for loop wid, port  0 4
+2x3x3
+2x3x0
+Test 11 in for loop wid, port  0 5
+2x3x2
+2x3x3
+Test 2 in for loop lport_id  0
+Test 20 in for loop port  6
+Test ------------------1 in for loop router_id  63
+{'topology': 'merlin.torus', 'debug': 0, 'num_ports': 7, 'flit_size': '8B', 'link_bw': '4GB/s', 'xbar_bw': '4GB/s', 'torus:shape': '4x4x4', 'torus:width': '1x1x1', 'torus:local_ports': 1, 'input_latency': '20ns', 'output_latency': '20ns', 'input_buf_size': '4kB', 'output_buf_size': '4kB', 'xbar_arb': 'merlin.xbar_arb_lru'}
+{'shape': '4x4x4', 'width': '1x1x1', 'local_ports': 1}
+Test ------------------0 in for loop router_id  63
+Test 1 in for loop dim_id  0
+Test 10 in for loop wid, port  0 0
+3x3x3
+0x3x3
+Test 11 in for loop wid, port  0 1
+2x3x3
+3x3x3
+Test 1 in for loop dim_id  1
+Test 10 in for loop wid, port  0 2
+3x3x3
+3x0x3
+Test 11 in for loop wid, port  0 3
+3x2x3
+3x3x3
+Test 1 in for loop dim_id  2
+Test 10 in for loop wid, port  0 4
+3x3x3
+3x3x0
+Test 11 in for loop wid, port  0 5
+3x3x2
+3x3x3
+Test 2 in for loop lport_id  0
+Test 20 in for loop port  6
+----------Test 0 in start_simulation of main.cc----------
+----------Test 1 in start_simulation of main.cc----------
+----------Test 0 in start_simulation of main.cc----------
+----------Test 1 in start_simulation of main.cc----------
+----------Test 2 in start_simulation of main.cc----------
+----------Test 2 in start_simulation of main.cc----------
+----------Test 3 in start_simulation of main.cc----------
+----------Test 3 in start_simulation of main.cc----------

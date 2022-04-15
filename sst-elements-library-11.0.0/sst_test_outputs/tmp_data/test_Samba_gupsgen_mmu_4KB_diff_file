@@ -1,0 +1,22 @@
+7,16c7,16
+< 0:cpu:RequestGenCPU[RequestGenCPU:101]: Generator loaded successfully.
+< 0:cpu:RequestGenCPU[RequestGenCPU:157]: Miranda CPU Configuration:
+< 0:cpu:RequestGenCPU[RequestGenCPU:158]: - Max requests per cycle:         2
+< 0:cpu:RequestGenCPU[RequestGenCPU:159]: - Max reorder lookups             16
+< 0:cpu:RequestGenCPU[RequestGenCPU:160]: - Clock:                          2GHz
+< 0:cpu:RequestGenCPU[RequestGenCPU:161]: - Cache line size:                64 bytes
+< 0:cpu:RequestGenCPU[RequestGenCPU:162]: - Max Load requests pending:      16
+< 0:cpu:RequestGenCPU[RequestGenCPU:163]: - Max Store requests pending:     16
+< 0:cpu:RequestGenCPU[RequestGenCPU:164]: - Max Custom requests pending:     16
+< 0:cpu:RequestGenCPU[RequestGenCPU:165]: Configuration completed.
+---
+> 0:cpu:RequestGenCPU[RequestGenCPU:107]: Generator loaded successfully.
+> 0:cpu:RequestGenCPU[RequestGenCPU:163]: Miranda CPU Configuration:
+> 0:cpu:RequestGenCPU[RequestGenCPU:164]: - Max requests per cycle:         2
+> 0:cpu:RequestGenCPU[RequestGenCPU:165]: - Max reorder lookups             16
+> 0:cpu:RequestGenCPU[RequestGenCPU:166]: - Clock:                          2GHz
+> 0:cpu:RequestGenCPU[RequestGenCPU:167]: - Cache line size:                64 bytes
+> 0:cpu:RequestGenCPU[RequestGenCPU:168]: - Max Load requests pending:      16
+> 0:cpu:RequestGenCPU[RequestGenCPU:169]: - Max Store requests pending:     16
+> 0:cpu:RequestGenCPU[RequestGenCPU:170]: - Max Custom requests pending:     16
+> 0:cpu:RequestGenCPU[RequestGenCPU:171]: Configuration completed.

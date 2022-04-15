@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" name="SST TESTING FRAMEWORKS" tests="5" time="0.0655679702759">
+	<testsuite disabled="0" errors="0" failures="0" name="testsuite_default_vanadis" skipped="5" tests="5" time="0.0655679702759">
+		<testcase classname="testcase_vanadis" name="test_vanadis_short_tests_001_small_basic_io_hello_world" time="0.020563" timestamp="2021_0802_18:42:58.194555 utc">
+			<skipped message="Vanadis Skipping Test - musl compiler not available" type="skipped"/>
+		</testcase>
+		<testcase classname="testcase_vanadis" name="test_vanadis_short_tests_002_small_basic_math_sqrt_double" time="0.012315" timestamp="2021_0802_18:42:58.219428 utc">
+			<skipped message="Vanadis Skipping Test - musl compiler not available" type="skipped"/>
+		</testcase>
+		<testcase classname="testcase_vanadis" name="test_vanadis_short_tests_003_small_basic_math_sqrt_float" time="0.009883" timestamp="2021_0802_18:42:58.235943 utc">
+			<skipped message="Vanadis Skipping Test - musl compiler not available" type="skipped"/>
+		</testcase>
+		<testcase classname="testcase_vanadis" name="test_vanadis_short_tests_004_small_basic_ops_test_branch" time="0.012675" timestamp="2021_0802_18:42:58.248049 utc">
+			<skipped message="Vanadis Skipping Test - musl compiler not available" type="skipped"/>
+		</testcase>
+		<testcase classname="testcase_vanadis" name="test_vanadis_short_tests_005_small_basic_ops_test_shift" time="0.010132" timestamp="2021_0802_18:42:58.265429 utc">
+			<skipped message="Vanadis Skipping Test - musl compiler not available" type="skipped"/>
+		</testcase>
+	</testsuite>
+</testsuites>

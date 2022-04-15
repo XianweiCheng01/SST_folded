@@ -1,0 +1,4 @@
+8d7
+< TrivialCPU cpu0 Finished after 10000 issued reads, 10000 returned (5685346 clocks)
+9a9
+> TrivialCPU cpu0 Finished after 10000 issued reads, 10000 returned (5685346 clocks)

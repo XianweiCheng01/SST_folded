@@ -1,0 +1,16 @@
+--2021-08-02 11:42:58--  https://github.com/sstsimulator/sst-downloads/releases/download/TestFiles/sst-Sirius-Allreduce-traces.tar.gz
+Resolving github.com (github.com)... 192.30.255.112
+Connecting to github.com (github.com)|192.30.255.112|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://github-releases.githubusercontent.com/45052392/cb32f5ec-d490-11e5-930f-fcff1d4e948f?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20210802%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210802T184258Z&X-Amz-Expires=300&X-Amz-Signature=58a1cdbef7107accd6b8c44c0c7dc24de96dcb1e48e75e50fdebd9af7c5e128f&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=45052392&response-content-disposition=attachment%3B%20filename%3Dsst-Sirius-Allreduce-traces.tar.gz&response-content-type=application%2Foctet-stream [following]
+--2021-08-02 11:42:58--  https://github-releases.githubusercontent.com/45052392/cb32f5ec-d490-11e5-930f-fcff1d4e948f?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20210802%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210802T184258Z&X-Amz-Expires=300&X-Amz-Signature=58a1cdbef7107accd6b8c44c0c7dc24de96dcb1e48e75e50fdebd9af7c5e128f&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=45052392&response-content-disposition=attachment%3B%20filename%3Dsst-Sirius-Allreduce-traces.tar.gz&response-content-type=application%2Foctet-stream
+Resolving github-releases.githubusercontent.com (github-releases.githubusercontent.com)... 185.199.111.154, 185.199.110.154, 185.199.109.154, ...
+Connecting to github-releases.githubusercontent.com (github-releases.githubusercontent.com)|185.199.111.154|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 13536 (13K) [application/octet-stream]
+Saving to: ‘/home/xianwei/scratch/src/sst-elements-library-11.0.0/sst_test_outputs/tmp_data/testSiriusZodiacTrace/sst-Sirius-Allreduce-traces.tar.gz’
+
+     0K .......... ...                                        100% 65.8M=0s
+
+2021-08-02 11:42:58 (65.8 MB/s) - ‘/home/xianwei/scratch/src/sst-elements-library-11.0.0/sst_test_outputs/tmp_data/testSiriusZodiacTrace/sst-Sirius-Allreduce-traces.tar.gz’ saved [13536/13536]
+

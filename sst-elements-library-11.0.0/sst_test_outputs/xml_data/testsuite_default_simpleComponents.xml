@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" name="SST TESTING FRAMEWORKS" tests="8" time="3.50913333893">
+	<testsuite disabled="0" errors="0" failures="0" name="testsuite_default_simpleComponents" skipped="0" tests="8" time="3.50913333893">
+		<testcase classname="testcase_simpleComponents" name="test_basic_clocks" time="0.449789" timestamp="2021_0802_18:42:54.210525 utc"/>
+		<testcase classname="testcase_simpleComponents" name="test_basic_links" time="0.449592" timestamp="2021_0802_18:42:54.662558 utc"/>
+		<testcase classname="testcase_simpleComponents" name="test_basic_params" time="0.450929" timestamp="2021_0802_18:42:55.114408 utc"/>
+		<testcase classname="testcase_simpleComponents" name="test_basic_statistics_0" time="0.455516" timestamp="2021_0802_18:42:55.567601 utc"/>
+		<testcase classname="testcase_simpleComponents" name="test_basic_statistics_1" time="0.399346" timestamp="2021_0802_18:42:56.025675 utc"/>
+		<testcase classname="testcase_simpleComponents" name="test_basic_statistics_2" time="0.452001" timestamp="2021_0802_18:42:56.427268 utc"/>
+		<testcase classname="testcase_simpleComponents" name="test_example_0" time="0.401524" timestamp="2021_0802_18:42:56.881573 utc"/>
+		<testcase classname="testcase_simpleComponents" name="test_example_1" time="0.450436" timestamp="2021_0802_18:42:57.285388 utc"/>
+	</testsuite>
+</testsuites>

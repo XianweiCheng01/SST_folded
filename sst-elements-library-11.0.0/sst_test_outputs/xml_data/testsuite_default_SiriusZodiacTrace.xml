@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="4" name="SST TESTING FRAMEWORKS" tests="4" time="2.8290681839">
+	<testsuite disabled="0" errors="0" failures="4" name="testsuite_default_SiriusZodiacTrace" skipped="0" tests="4" time="2.8290681839">
+		<testcase classname="testcase_SiriusZodiacTrace" name="test_Sirius_Zodiac_128" time="1.237934" timestamp="2021_0802_18:42:58.285309 utc">
+			<failure message="AssertionError: Sorted/Filtered output file /home/xianwei/scratch/src/sst-elements-library-11.0.0/sst_test_outputs/run_data/test_Sirius_allred_8x8x2_filtered.tmp does not match Reference File /home/xianwei/scratch/src/sst-elements-library-11.0.0/src/sst/elements/zodiac/sirius/tests/refFiles/test_Sirius_allred_8x8x2.out " type="failure"/>
+		</testcase>
+		<testcase classname="testcase_SiriusZodiacTrace" name="test_Sirius_Zodiac_16" time="0.495498" timestamp="2021_0802_18:42:59.526330 utc">
+			<failure message="AssertionError: Sorted/Filtered output file /home/xianwei/scratch/src/sst-elements-library-11.0.0/sst_test_outputs/run_data/test_Sirius_allred_4x4_filtered.tmp does not match Reference File /home/xianwei/scratch/src/sst-elements-library-11.0.0/src/sst/elements/zodiac/sirius/tests/refFiles/test_Sirius_allred_4x4.out " type="failure"/>
+		</testcase>
+		<testcase classname="testcase_SiriusZodiacTrace" name="test_Sirius_Zodiac_27" time="0.497089" timestamp="2021_0802_18:43:00.024958 utc">
+			<failure message="AssertionError: Sorted/Filtered output file /home/xianwei/scratch/src/sst-elements-library-11.0.0/sst_test_outputs/run_data/test_Sirius_allred_27_filtered.tmp does not match Reference File /home/xianwei/scratch/src/sst-elements-library-11.0.0/src/sst/elements/zodiac/sirius/tests/refFiles/test_Sirius_allred_27.out " type="failure"/>
+		</testcase>
+		<testcase classname="testcase_SiriusZodiacTrace" name="test_Sirius_Zodiac_64" time="0.598547" timestamp="2021_0802_18:43:00.524674 utc">
+			<failure message="AssertionError: Sorted/Filtered output file /home/xianwei/scratch/src/sst-elements-library-11.0.0/sst_test_outputs/run_data/test_Sirius_allred_8x8_filtered.tmp does not match Reference File /home/xianwei/scratch/src/sst-elements-library-11.0.0/src/sst/elements/zodiac/sirius/tests/refFiles/test_Sirius_allred_8x8.out " type="failure"/>
+		</testcase>
+	</testsuite>
+</testsuites>

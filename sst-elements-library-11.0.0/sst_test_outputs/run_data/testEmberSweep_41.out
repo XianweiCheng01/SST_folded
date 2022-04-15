@@ -1,0 +1,11 @@
+EMBER: using param directory: paramFiles
+EMBER: platform: default
+EMBER: network: topology=torus shape=16x16x16
+EMBER: numNodes=4096 numNics=4096
+EMBER: network: BW=4GB/s pktSize=2048B flitSize=8B
+EMBER: Job=0, nidList='0-4095'
+EMBER: Motif='Init'
+EMBER: Motif='Barrier iterations=10'
+EMBER: Motif='Fini'
+Barrier: ranks 4096, loop 10, latency 50.260 us
+Simulation is complete, simulated time: 582.182 us

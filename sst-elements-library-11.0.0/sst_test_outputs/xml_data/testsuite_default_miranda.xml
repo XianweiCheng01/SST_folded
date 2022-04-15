@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" name="SST TESTING FRAMEWORKS" tests="8" time="125.560745001">
+	<testsuite disabled="0" errors="0" failures="0" name="testsuite_default_miranda" skipped="0" tests="8" time="125.560745001">
+		<testcase classname="testcase_miranda_Component" name="test_miranda_copybench" time="2.806268" timestamp="2021_0802_18:40:14.702685 utc"/>
+		<testcase classname="testcase_miranda_Component" name="test_miranda_gupsgen" time="1.254186" timestamp="2021_0802_18:40:17.511284 utc"/>
+		<testcase classname="testcase_miranda_Component" name="test_miranda_inorderstream" time="1.305355" timestamp="2021_0802_18:40:18.767858 utc"/>
+		<testcase classname="testcase_miranda_Component" name="test_miranda_randomgen" time="93.385740" timestamp="2021_0802_18:40:20.075605 utc"/>
+		<testcase classname="testcase_miranda_Component" name="test_miranda_revsinglestream" time="0.553417" timestamp="2021_0802_18:41:53.464043 utc"/>
+		<testcase classname="testcase_miranda_Component" name="test_miranda_singlestream" time="8.018136" timestamp="2021_0802_18:41:54.019870 utc"/>
+		<testcase classname="testcase_miranda_Component" name="test_miranda_stencil3dbench" time="17.488579" timestamp="2021_0802_18:42:02.040379 utc"/>
+		<testcase classname="testcase_miranda_Component" name="test_miranda_streambench" time="0.749064" timestamp="2021_0802_18:42:19.531304 utc"/>
+	</testsuite>
+</testsuites>

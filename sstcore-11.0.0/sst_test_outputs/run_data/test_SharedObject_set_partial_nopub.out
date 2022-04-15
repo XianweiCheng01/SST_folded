@@ -1,0 +1,15 @@
+['--param=object_type:set', '--param=num_entities:12', '--param=full_initialization:false', '--param=publish:false']
+{'object_type': 'set', 'num_entities': '12', 'full_initialization': 'false', 'publish': 'false'}
+WARNING: Building component "obj0" with no links assigned.
+WARNING: Building component "obj1" with no links assigned.
+WARNING: Building component "obj2" with no links assigned.
+WARNING: Building component "obj3" with no links assigned.
+WARNING: Building component "obj4" with no links assigned.
+WARNING: Building component "obj5" with no links assigned.
+WARNING: Building component "obj6" with no links assigned.
+WARNING: Building component "obj7" with no links assigned.
+WARNING: Building component "obj8" with no links assigned.
+WARNING: Building component "obj9" with no links assigned.
+WARNING: Building component "obj10" with no links assigned.
+WARNING: Building component "obj11" with no links assigned.
+Simulation is complete, simulated time: 12 ns

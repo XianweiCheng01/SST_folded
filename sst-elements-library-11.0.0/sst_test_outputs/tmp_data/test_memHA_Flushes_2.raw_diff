@@ -1,0 +1,16 @@
+7,9c7,9
+< TrivialCPU cpu2 Finished after 1500 issued reads, 1500 returned (19648 clocks)
+< 	76 Noncacheable Reads
+< 	14 Noncacheable Writes
+---
+> TrivialCPU cpu5 Finished after 1500 issued reads, 1500 returned (18440 clocks)
+> 	72 Noncacheable Reads
+> 	13 Noncacheable Writes
+15a16,18
+> TrivialCPU cpu2 Finished after 1500 issued reads, 1500 returned (19648 clocks)
+> 	76 Noncacheable Reads
+> 	14 Noncacheable Writes
+22,24d24
+< TrivialCPU cpu5 Finished after 1500 issued reads, 1500 returned (18440 clocks)
+< 	72 Noncacheable Reads
+< 	13 Noncacheable Writes

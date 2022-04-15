@@ -1,0 +1,6 @@
+9,10d8
+< TrivialCPU cpu3 Finished after 1000 issued reads, 1000 returned (471954 clocks)
+< TrivialCPU cpu2 Finished after 1000 issued reads, 1000 returned (470658 clocks)
+12a11,12
+> TrivialCPU cpu2 Finished after 1000 issued reads, 1000 returned (470658 clocks)
+> TrivialCPU cpu3 Finished after 1000 issued reads, 1000 returned (471954 clocks)

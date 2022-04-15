@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" name="SST TESTING FRAMEWORKS" tests="1" time="1148.41820192">
+	<testsuite disabled="0" errors="0" failures="0" name="testsuite_default_memHierarchy_memHA" skipped="1" tests="1" time="1148.41820192">
+		<testcase classname="testcase_memHierarchy_hybridsim" name="test_hybridsim_hybridsim" time="1148.418202" timestamp="2021_0802_18:39:52.922165 utc">
+			<skipped message="HYBRIDSIM is not included as part of this build" type="skipped"/>
+		</testcase>
+	</testsuite>
+</testsuites>

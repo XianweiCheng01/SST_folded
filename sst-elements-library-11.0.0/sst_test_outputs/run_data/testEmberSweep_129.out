@@ -1,0 +1,11 @@
+EMBER: using param directory: paramFiles
+EMBER: platform: default
+EMBER: network: topology=fattree shape=9,9:9,9:18
+EMBER: numNodes=1458 numNics=1458
+EMBER: network: BW=4GB/s pktSize=2048B flitSize=8B
+EMBER: Job=0, nidList='0-1457'
+EMBER: Motif='Init'
+EMBER: Motif='Allreduce iterations=10 count=1'
+EMBER: Motif='Fini'
+Allreduce: ranks 1458, loop 10, 1 double(s), latency 28.799 us
+Simulation is complete, simulated time: 333.184 us

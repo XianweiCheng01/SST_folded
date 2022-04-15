@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" name="SST TESTING FRAMEWORKS" tests="11" time="21.7414865494">
+	<testsuite disabled="0" errors="0" failures="0" name="testsuite_default_merlin" skipped="0" tests="11" time="21.7414865494">
+		<testcase classname="testcase_merlin_Component" name="test_merlin_dragon_128" time="1.048276" timestamp="2021_0802_18:39:52.926463 utc"/>
+		<testcase classname="testcase_merlin_Component" name="test_merlin_dragon_128_fl" time="1.149861" timestamp="2021_0802_18:39:53.977139 utc"/>
+		<testcase classname="testcase_merlin_Component" name="test_merlin_dragon_128_platform" time="1.956225" timestamp="2021_0802_18:39:55.129410 utc"/>
+		<testcase classname="testcase_merlin_Component" name="test_merlin_dragon_128_platform_cm" time="1.601903" timestamp="2021_0802_18:39:57.088355 utc"/>
+		<testcase classname="testcase_merlin_Component" name="test_merlin_dragon_72" time="0.852699" timestamp="2021_0802_18:39:58.692999 utc"/>
+		<testcase classname="testcase_merlin_Component" name="test_merlin_fattree_128" time="1.954728" timestamp="2021_0802_18:39:59.548123 utc"/>
+		<testcase classname="testcase_merlin_Component" name="test_merlin_fattree_256" time="8.769337" timestamp="2021_0802_18:40:01.505289 utc"/>
+		<testcase classname="testcase_merlin_Component" name="test_merlin_hyperx_128" time="1.003448" timestamp="2021_0802_18:40:10.277060 utc"/>
+		<testcase classname="testcase_merlin_Component" name="test_merlin_torus_128" time="2.055165" timestamp="2021_0802_18:40:11.282927 utc"/>
+		<testcase classname="testcase_merlin_Component" name="test_merlin_torus_5_trafficgen" time="0.500180" timestamp="2021_0802_18:40:13.340505 utc"/>
+		<testcase classname="testcase_merlin_Component" name="test_merlin_torus_64" time="0.849665" timestamp="2021_0802_18:40:13.843381 utc"/>
+	</testsuite>
+</testsuites>

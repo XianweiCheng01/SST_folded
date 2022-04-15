@@ -1,0 +1,10 @@
+EMBER: using param directory: paramFiles
+EMBER: platform: default
+EMBER: network: topology=torus shape=7
+EMBER: numNodes=7 numNics=7
+EMBER: network: BW=4GB/s pktSize=2048B flitSize=8B
+EMBER: Job=0, nidList='0-6'
+EMBER: Motif='ShmemReductionFloat nelems=5 op=MIN'
+0:ShmemReduction: num_pes=7 nelems=5 type="float"
+0:ShmemReduction: exit
+Simulation is complete, simulated time: 18.647 us

@@ -1,0 +1,9 @@
+libariel_la-arielevent.lo: arielevent.cc /usr/include/stdc-predef.h \
+ /home/xianwei/local/sstcore-11.0.0/include/sst/core/sst_config.h \
+ arielevent.h
+
+/usr/include/stdc-predef.h:
+
+/home/xianwei/local/sstcore-11.0.0/include/sst/core/sst_config.h:
+
+arielevent.h:

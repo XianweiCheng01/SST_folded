@@ -1,0 +1,10 @@
+EMBER: using param directory: paramFiles
+EMBER: platform: default
+EMBER: network: topology=torus shape=2
+EMBER: numNodes=2 numNics=2
+EMBER: network: BW=4GB/s pktSize=2048B flitSize=8B
+EMBER: Job=0, nidList='0-1'
+EMBER: Motif='ShmemPutFloat nelems=1000'
+0:ShmemPut: num_pes=2 nelems=1000 type="float"
+0:ShmemPut: message-size 4000, iterations 1, total-time 2.636 us, time-per 2.636 us, 1.517 GB/s
+Simulation is complete, simulated time: 6.032 us

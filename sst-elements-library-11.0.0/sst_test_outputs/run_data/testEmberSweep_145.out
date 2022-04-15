@@ -1,0 +1,11 @@
+EMBER: using param directory: paramFiles
+EMBER: platform: default
+EMBER: network: topology=fattree shape=9,9:9,9:18
+EMBER: numNodes=1458 numNics=1458
+EMBER: network: BW=4GB/s pktSize=2048B flitSize=8B
+EMBER: Job=0, nidList='0-1457'
+EMBER: Motif='Init'
+EMBER: Motif='Ring iterations=10 messagesize=1'
+EMBER: Motif='Fini'
+Ring total time 16352.280 us, loop 10, bufLen 1, latency 1.122 us. bandwidth 0.000892 GB/s
+Simulation is complete, simulated time: 16.3802 ms

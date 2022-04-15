@@ -1,0 +1,78 @@
+Binary file src/sst/elements/merlin/target_generator/.libs/target_generator.o matches
+Binary file src/sst/elements/merlin/offeredload/.libs/offered_load.o matches
+src/sst/elements/merlin/offeredload/offered_load.h:    void serialize_order(SST::Core::Serialization::serializer &ser)  override {
+src/sst/elements/merlin/offeredload/offered_load.h:        Event::serialize_order(ser);
+src/sst/elements/merlin/offeredload/offered_load.h:    void serialize_order(SST::Core::Serialization::serializer &ser)  override {
+src/sst/elements/merlin/offeredload/offered_load.h:        Event::serialize_order(ser);
+Binary file src/sst/elements/merlin/topology/.torus.h.swp matches
+src/sst/elements/merlin/topology/torus.h:    void serialize_order(SST::Core::Serialization::serializer &ser)  override {
+src/sst/elements/merlin/topology/torus.h:	printf("Test 0 in serialize_order of torus.h\n");
+src/sst/elements/merlin/topology/torus.h:        internal_router_event::serialize_order(ser);
+src/sst/elements/merlin/topology/torus.h:	printf("Test 1 in serialize_order of torus.h\n");
+src/sst/elements/merlin/topology/torus.h:	printf("Test 2 in serialize_order of torus.h\n");
+src/sst/elements/merlin/topology/torus.h:	printf("Test 3 in serialize_order of torus.h\n");
+src/sst/elements/merlin/topology/torus.h:	printf("Test 4 in serialize_order of torus.h\n");
+src/sst/elements/merlin/topology/hyperx.h:    void serialize_order(SST::Core::Serialization::serializer &ser)  override {
+src/sst/elements/merlin/topology/hyperx.h:        internal_router_event::serialize_order(ser);
+src/sst/elements/merlin/topology/hyperx.h:    void serialize_order(SST::Core::Serialization::serializer &ser)  override {
+src/sst/elements/merlin/topology/hyperx.h:        topo_hyperx_event::serialize_order(ser);
+Binary file src/sst/elements/merlin/topology/.libs/fattree.o matches
+Binary file src/sst/elements/merlin/topology/.libs/singlerouter.o matches
+Binary file src/sst/elements/merlin/topology/.libs/torus.o matches
+Binary file src/sst/elements/merlin/topology/.libs/hyperx.o matches
+Binary file src/sst/elements/merlin/topology/.libs/mesh.o matches
+Binary file src/sst/elements/merlin/topology/.libs/dragonfly.o matches
+src/sst/elements/merlin/topology/mesh.h:    void serialize_order(SST::Core::Serialization::serializer &ser)  override {
+src/sst/elements/merlin/topology/mesh.h:        internal_router_event::serialize_order(ser);
+src/sst/elements/merlin/topology/mesh.h:    void serialize_order(SST::Core::Serialization::serializer &ser)  override {
+src/sst/elements/merlin/topology/mesh.h:        topo_mesh_event::serialize_order(ser);
+src/sst/elements/merlin/topology/dragonfly.h:    void serialize_order(SST::Core::Serialization::serializer &ser)  override {
+src/sst/elements/merlin/topology/dragonfly.h:    void serialize_order(SST::Core::Serialization::serializer &ser)  override {
+src/sst/elements/merlin/topology/dragonfly.h:        internal_router_event::serialize_order(ser);
+Binary file src/sst/elements/merlin/test/bisection/.libs/bisection_test.o matches
+src/sst/elements/merlin/test/bisection/bisection_test.h:    void serialize_order(SST::Core::Serialization::serializer &ser)  override {
+src/sst/elements/merlin/test/bisection/bisection_test.h:        Event::serialize_order(ser);
+Binary file src/sst/elements/merlin/test/.libs/nic.o matches
+src/sst/elements/merlin/test/nic.cc:    void serialize_order(SST::Core::Serialization::serializer &ser)  override {
+src/sst/elements/merlin/test/nic.cc:        Event::serialize_order(ser);
+Binary file src/sst/elements/merlin/test/route_test/.libs/route_test.o matches
+Binary file src/sst/elements/merlin/test/simple_patterns/.libs/shift.o matches
+Binary file src/sst/elements/merlin/test/simple_patterns/.libs/incast.o matches
+Binary file src/sst/elements/merlin/test/simple_patterns/.libs/empty.o matches
+src/sst/elements/merlin/test/simple_patterns/shift.cc:    void serialize_order(SST::Core::Serialization::serializer &ser)  override {
+src/sst/elements/merlin/test/simple_patterns/shift.cc:        Event::serialize_order(ser);
+src/sst/elements/merlin/test/simple_patterns/incast.cc://     void serialize_order(SST::Core::Serialization::serializer &ser)  override {
+src/sst/elements/merlin/test/simple_patterns/incast.cc://         Event::serialize_order(ser);
+Binary file src/sst/elements/merlin/test/pt2pt/.libs/pt2pt_test.o matches
+Binary file src/sst/elements/merlin/.router.h.swp matches
+Binary file src/sst/elements/merlin/trafficgen/.libs/trafficgen.o matches
+Binary file src/sst/elements/merlin/.libs/libmerlin.so matches
+Binary file src/sst/elements/merlin/.libs/merlin.o matches
+Binary file src/sst/elements/merlin/.libs/bridge.o matches
+src/sst/elements/merlin/router.h:    void serialize_order(SST::Core::Serialization::serializer &ser)  override {
+src/sst/elements/merlin/router.h:        Event::serialize_order(ser);
+src/sst/elements/merlin/router.h:    void serialize_order(SST::Core::Serialization::serializer &ser)  override {
+src/sst/elements/merlin/router.h:        BaseRtrEvent::serialize_order(ser);
+src/sst/elements/merlin/router.h:    void serialize_order(SST::Core::Serialization::serializer &ser)  override {
+src/sst/elements/merlin/router.h:        BaseRtrEvent::serialize_order(ser);
+src/sst/elements/merlin/router.h:    void serialize_order(SST::Core::Serialization::serializer &ser)  override {
+src/sst/elements/merlin/router.h:        CtrlRtrEvent::serialize_order(ser);
+src/sst/elements/merlin/router.h:    void serialize_order(SST::Core::Serialization::serializer &ser)  override {
+src/sst/elements/merlin/router.h:        CtrlRtrEvent::serialize_order(ser);
+src/sst/elements/merlin/router.h:    void serialize_order(SST::Core::Serialization::serializer &ser)  override {
+src/sst/elements/merlin/router.h:        BaseRtrEvent::serialize_order(ser);
+src/sst/elements/merlin/router.h:    void serialize_order(SST::Core::Serialization::serializer &ser)  override {
+src/sst/elements/merlin/router.h:        BaseRtrEvent::serialize_order(ser);
+src/sst/elements/merlin/router.h:    void serialize_order(SST::Core::Serialization::serializer &ser)  override {
+src/sst/elements/merlin/router.h:        BaseRtrEvent::serialize_order(ser);
+Binary file src/sst/elements/merlin/hr_router/.libs/hr_router.o matches
+src/sst/elements/merlin/background_traffic/background_traffic.h:    void serialize_order(SST::Core::Serialization::serializer &ser)  override {
+src/sst/elements/merlin/background_traffic/background_traffic.h:        Event::serialize_order(ser);
+Binary file src/sst/elements/merlin/background_traffic/.libs/background_traffic.o matches
+Binary file src/sst/elements/merlin/inspectors/.libs/testInspector.o matches
+Binary file src/sst/elements/merlin/inspectors/.libs/circuitCounter.o matches
+src/sst/elements/merlin/interfaces/reorderLinkControl.h:    void serialize_order(SST::Core::Serialization::serializer &ser)  override {
+src/sst/elements/merlin/interfaces/reorderLinkControl.h:        SST::Interfaces::SimpleNetwork::Request::serialize_order(ser);
+Binary file src/sst/elements/merlin/interfaces/.libs/reorderLinkControl.o matches
+Binary file src/sst/elements/merlin/interfaces/.libs/portControl.o matches
+Binary file src/sst/elements/merlin/interfaces/.libs/linkControl.o matches

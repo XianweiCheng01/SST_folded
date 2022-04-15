@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="3" failures="3" name="SST TESTING FRAMEWORKS" tests="12" time="7810.97396636">
+	<testsuite disabled="0" errors="3" failures="3" name="testsuite_default_prospero" skipped="6" tests="12" time="7810.97396636">
+		<testcase classname="testcase_prospero" name="test_prospero_binary_using_PIN_traces" time="1295.786882" timestamp="2021_0802_18:42:20.294694 utc">
+			<skipped message="test_prospero_binary_using_PIN_traces: Requires PIN, but Env Var 'INTEL_PIN_DIR' is not found or path does not exist." type="skipped"/>
+		</testcase>
+		<testcase classname="testcase_prospero" name="test_prospero_binary_using_TAR_traces" time="2.947081" timestamp="2021_0802_18:42:20.302830 utc">
+			<error message="IndexError: list index out of range " type="error"/>
+		</testcase>
+		<testcase classname="testcase_prospero" name="test_prospero_binary_withdramsim_using_PIN_traces" time="1298.747598" timestamp="2021_0802_18:42:23.255321 utc">
+			<skipped message="test_prospero_binary_withdramsim_using_PIN_traces: Requires PIN, but Env Var 'INTEL_PIN_DIR' is not found or path does not exist." type="skipped"/>
+		</testcase>
+		<testcase classname="testcase_prospero" name="test_prospero_binary_withdramsim_using_TAR_traces" time="0.379500" timestamp="2021_0802_18:42:23.263587 utc">
+			<failure message="AssertionError: SST returned 255; while running /home/xianwei/local/sstcore-11.0.0/bin/sst  --model-options=&quot;--TraceType=binary --UseDramSim=yes&quot; /home/xianwei/scratch/src/sst-elements-library-11.0.0/src/sst/elements/prospero/tests/array/trace-common.py " type="failure"/>
+		</testcase>
+		<testcase classname="testcase_prospero" name="test_prospero_compressed_using_PIN_traces" time="1299.140132" timestamp="2021_0802_18:42:23.647950 utc">
+			<skipped message="test_prospero_compressed_using_PIN_traces: Requires PIN, but Env Var 'INTEL_PIN_DIR' is not found or path does not exist." type="skipped"/>
+		</testcase>
+		<testcase classname="testcase_prospero" name="test_prospero_compressed_using_TAR_traces" time="2.468116" timestamp="2021_0802_18:42:23.656118 utc">
+			<error message="IndexError: list index out of range " type="error"/>
+		</testcase>
+		<testcase classname="testcase_prospero" name="test_prospero_compressed_withdramsim_using_PIN_traces" time="1301.622665" timestamp="2021_0802_18:42:26.130471 utc">
+			<skipped message="test_prospero_compressed_withdramsim_using_PIN_traces: Requires PIN, but Env Var 'INTEL_PIN_DIR' is not found or path does not exist." type="skipped"/>
+		</testcase>
+		<testcase classname="testcase_prospero" name="test_prospero_compressed_withdramsim_using_TAR_traces" time="0.429827" timestamp="2021_0802_18:42:26.138655 utc">
+			<failure message="AssertionError: SST returned 255; while running /home/xianwei/local/sstcore-11.0.0/bin/sst  --model-options=&quot;--TraceType=compressed --UseDramSim=yes&quot; /home/xianwei/scratch/src/sst-elements-library-11.0.0/src/sst/elements/prospero/tests/array/trace-common.py " type="failure"/>
+		</testcase>
+		<testcase classname="testcase_prospero" name="test_prospero_text_using_PIN_traces" time="1302.064811" timestamp="2021_0802_18:42:26.572609 utc">
+			<skipped message="test_prospero_text_using_PIN_traces: Requires PIN, but Env Var 'INTEL_PIN_DIR' is not found or path does not exist." type="skipped"/>
+		</testcase>
+		<testcase classname="testcase_prospero" name="test_prospero_text_using_TAR_traces" time="2.463504" timestamp="2021_0802_18:42:26.580802 utc">
+			<error message="IndexError: list index out of range " type="error"/>
+		</testcase>
+		<testcase classname="testcase_prospero" name="test_prospero_text_withdramsim_using_PIN_traces" time="1304.544562" timestamp="2021_0802_18:42:29.052324 utc">
+			<skipped message="test_prospero_text_withdramsim_using_PIN_traces: Requires PIN, but Env Var 'INTEL_PIN_DIR' is not found or path does not exist." type="skipped"/>
+		</testcase>
+		<testcase classname="testcase_prospero" name="test_prospero_text_withdramsim_using_TAR_traces" time="0.379288" timestamp="2021_0802_18:42:29.060537 utc">
+			<failure message="AssertionError: SST returned 255; while running /home/xianwei/local/sstcore-11.0.0/bin/sst  --model-options=&quot;--TraceType=text --UseDramSim=yes&quot; /home/xianwei/scratch/src/sst-elements-library-11.0.0/src/sst/elements/prospero/tests/array/trace-common.py " type="failure"/>
+		</testcase>
+	</testsuite>
+</testsuites>

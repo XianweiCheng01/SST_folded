@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" name="SST TESTING FRAMEWORKS" tests="11" time="5.70392751694">
+	<testsuite disabled="0" errors="0" failures="0" name="testsuite_default_CramSim" skipped="0" tests="11" time="5.70392751694">
+		<testcase classname="testcase_CramSim_Component" name="test_CramSim_1_R" time="0.868389" timestamp="2021_0802_18:20:44.522262 utc"/>
+		<testcase classname="testcase_CramSim_Component" name="test_CramSim_1_RW" time="0.443197" timestamp="2021_0802_18:20:45.394691 utc"/>
+		<testcase classname="testcase_CramSim_Component" name="test_CramSim_1_W" time="0.442017" timestamp="2021_0802_18:20:45.841968 utc"/>
+		<testcase classname="testcase_CramSim_Component" name="test_CramSim_2_R" time="0.492959" timestamp="2021_0802_18:20:46.288042 utc"/>
+		<testcase classname="testcase_CramSim_Component" name="test_CramSim_2_W" time="0.442294" timestamp="2021_0802_18:20:46.785108 utc"/>
+		<testcase classname="testcase_CramSim_Component" name="test_CramSim_4_R" time="0.443098" timestamp="2021_0802_18:20:47.231448 utc"/>
+		<testcase classname="testcase_CramSim_Component" name="test_CramSim_4_W" time="0.445121" timestamp="2021_0802_18:20:47.678608 utc"/>
+		<testcase classname="testcase_CramSim_Component" name="test_CramSim_5_R" time="0.495851" timestamp="2021_0802_18:20:48.127765 utc"/>
+		<testcase classname="testcase_CramSim_Component" name="test_CramSim_5_W" time="0.543040" timestamp="2021_0802_18:20:48.627670 utc"/>
+		<testcase classname="testcase_CramSim_Component" name="test_CramSim_6_R" time="0.545406" timestamp="2021_0802_18:20:49.174818 utc"/>
+		<testcase classname="testcase_CramSim_Component" name="test_CramSim_6_W" time="0.542555" timestamp="2021_0802_18:20:49.724294 utc"/>
+	</testsuite>
+</testsuites>

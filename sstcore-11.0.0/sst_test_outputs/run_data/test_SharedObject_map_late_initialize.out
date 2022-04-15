@@ -1,0 +1,33 @@
+['--param=object_type:map', '--param=num_entities:12', '--param=late_initialize:true']
+{'object_type': 'map', 'num_entities': '12', 'late_initialize': 'true'}
+FATAL:  SST Core: Attempting to initialize SharedObject this_should_fail after the init() phase
+WARNING: Building component "obj0" with no links assigned.
+WARNING: Building component "obj1" with no links assigned.
+WARNING: Building component "obj2" with no links assigned.
+WARNING: Building component "obj3" with no links assigned.
+WARNING: Building component "obj4" with no links assigned.
+WARNING: Building component "obj5" with no links assigned.
+WARNING: Building component "obj6" with no links assigned.
+WARNING: Building component "obj7" with no links assigned.
+WARNING: Building component "obj8" with no links assigned.
+WARNING: Building component "obj9" with no links assigned.
+WARNING: Building component "obj10" with no links assigned.
+WARNING: Building component "obj11" with no links assigned.
+SST Fatal Backtrace Information:
+    0 : /home/xianwei/local/sstcore-11.0.0/bin/sst(_ZNK3SST6Output5fatalEjPKcS2_iS2_z+0x409) [0x562280a3bee9]
+    1 : /home/xianwei/local/sstcore-11.0.0/lib/sstcore/libcoreTestElement.so(_ZN3SST6Shared23SharedObjectDataManager19getSharedObjectDataINS0_11SharedArrayIiE4DataEEEPT_NSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x88) [0x7f3031ab6458]
+    2 : /home/xianwei/local/sstcore-11.0.0/lib/sstcore/libcoreTestElement.so(_ZN3SST6Shared11SharedArrayIiE10initializeERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEmiNS0_12SharedObject11verify_typeE+0xa6) [0x7f3031ab67b6]
+    3 : /home/xianwei/local/sstcore-11.0.0/lib/sstcore/libcoreTestElement.so(_ZN3SST30CoreTestSharedObjectsComponent30coreTestSharedObjectsComponent5setupEv+0x1fd) [0x7f3031ab1d9d]
+    4 : /home/xianwei/local/sstcore-11.0.0/bin/sst(_ZN3SST15Simulation_impl5setupEv+0x7e) [0x562280a43bce]
+    5 : /home/xianwei/local/sstcore-11.0.0/bin/sst(+0xa6795) [0x5622809f1795]
+    6 : /home/xianwei/local/sstcore-11.0.0/bin/sst(main+0xf47) [0x5622809df5e7]
+    7 : /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7) [0x7f303deccbf7]
+    8 : /home/xianwei/local/sstcore-11.0.0/bin/sst(_start+0x2a) [0x5622809f10aa]
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 0 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------

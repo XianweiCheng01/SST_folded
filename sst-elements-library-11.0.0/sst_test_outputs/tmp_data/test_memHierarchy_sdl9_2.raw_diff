@@ -1,0 +1,14 @@
+9,10c9,10
+< TrivialCPU cpu3 Finished after 1000 issued reads, 1000 returned (104384 clocks)
+< 	50 Noncacheable Reads
+---
+> TrivialCPU cpu7 Finished after 1000 issued reads, 1000 returned (104578 clocks)
+> 	49 Noncacheable Reads
+20a21,23
+> TrivialCPU cpu3 Finished after 1000 issued reads, 1000 returned (104384 clocks)
+> 	50 Noncacheable Reads
+> 	5 Noncacheable Writes
+29,31d31
+< 	5 Noncacheable Writes
+< TrivialCPU cpu7 Finished after 1000 issued reads, 1000 returned (104578 clocks)
+< 	49 Noncacheable Reads

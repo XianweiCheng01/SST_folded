@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" name="SST TESTING FRAMEWORKS" tests="1" time="0.288825035095">
+	<testsuite disabled="0" errors="0" failures="0" name="testsuite_default_UnitAlgebra" skipped="0" tests="1" time="0.288825035095">
+		<testcase classname="testcase_UnitAlgebra" name="test_UnitAlgebra" time="0.288825" timestamp="2021_0729_21:13:43.503346 utc"/>
+	</testsuite>
+</testsuites>

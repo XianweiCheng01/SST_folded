@@ -1,0 +1,10 @@
+EMBER: using param directory: paramFiles
+EMBER: platform: default
+EMBER: network: topology=torus shape=10
+EMBER: numNodes=10 numNics=10
+EMBER: network: BW=4GB/s pktSize=2048B flitSize=8B
+EMBER: Job=0, nidList='0-9'
+EMBER: Motif='ShmemAlltoall32 printResults=0 logPE_stride=2 PE_start=1 nelems=2'
+0:ShmemAlltoall: num_pes=10 nelems=2 type="unsigned int"
+0:ShmemAlltoall: PE_start=1 logPE_stride=2 PE_size=3
+Simulation is complete, simulated time: 10.931 us

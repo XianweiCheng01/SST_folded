@@ -1,0 +1,32 @@
+['--param=object_type:map', '--param=num_entities:12', '--param=full_initialization:false', '--param=late_write:true']
+{'object_type': 'map', 'num_entities': '12', 'full_initialization': 'false', 'late_write': 'true'}
+FATAL:  SST Core: ERROR: write to SharedMap test_shared_map after publish() was called
+WARNING: Building component "obj0" with no links assigned.
+WARNING: Building component "obj1" with no links assigned.
+WARNING: Building component "obj2" with no links assigned.
+WARNING: Building component "obj3" with no links assigned.
+WARNING: Building component "obj4" with no links assigned.
+WARNING: Building component "obj5" with no links assigned.
+WARNING: Building component "obj6" with no links assigned.
+WARNING: Building component "obj7" with no links assigned.
+WARNING: Building component "obj8" with no links assigned.
+WARNING: Building component "obj9" with no links assigned.
+WARNING: Building component "obj10" with no links assigned.
+WARNING: Building component "obj11" with no links assigned.
+SST Fatal Backtrace Information:
+    0 : /home/xianwei/local/sstcore-11.0.0/bin/sst(_ZNK3SST6Output5fatalEjPKcS2_iS2_z+0x409) [0x558eb5c6aee9]
+    1 : /home/xianwei/local/sstcore-11.0.0/lib/sstcore/libcoreTestElement.so(+0x67948) [0x7fbebc083948]
+    2 : /home/xianwei/local/sstcore-11.0.0/lib/sstcore/libcoreTestElement.so(_ZN3SST30CoreTestSharedObjectsComponent30coreTestSharedObjectsComponent5setupEv+0x27d) [0x7fbebc083e1d]
+    3 : /home/xianwei/local/sstcore-11.0.0/bin/sst(_ZN3SST15Simulation_impl5setupEv+0x7e) [0x558eb5c72bce]
+    4 : /home/xianwei/local/sstcore-11.0.0/bin/sst(+0xa6795) [0x558eb5c20795]
+    5 : /home/xianwei/local/sstcore-11.0.0/bin/sst(main+0xf47) [0x558eb5c0e5e7]
+    6 : /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7) [0x7fbec8473bf7]
+    7 : /home/xianwei/local/sstcore-11.0.0/bin/sst(_start+0x2a) [0x558eb5c200aa]
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 0 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------

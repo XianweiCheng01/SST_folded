@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="0" failures="0" name="SST TESTING FRAMEWORKS" tests="5" time="20.1573939323">
+	<testsuite disabled="0" errors="0" failures="0" name="testsuite_default_Samba" skipped="0" tests="5" time="20.1573939323">
+		<testcase classname="testcase_Samba_Component" name="test_Samba_gupsgen_mmu" time="0.767959" timestamp="2021_0802_18:21:47.861892 utc"/>
+		<testcase classname="testcase_Samba_Component" name="test_Samba_gupsgen_mmu_4KB" time="0.870524" timestamp="2021_0802_18:21:48.633075 utc"/>
+		<testcase classname="testcase_Samba_Component" name="test_Samba_gupsgen_mmu_three_levels" time="0.922448" timestamp="2021_0802_18:21:49.506875 utc"/>
+		<testcase classname="testcase_Samba_Component" name="test_Samba_stencil3dbench_mmu" time="16.757315" timestamp="2021_0802_18:21:50.432487 utc"/>
+		<testcase classname="testcase_Samba_Component" name="test_Samba_streambench_mmu" time="0.839148" timestamp="2021_0802_18:22:07.192672 utc"/>
+	</testsuite>
+</testsuites>
