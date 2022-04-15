@@ -1,1 +1,32 @@
 There are four folders, graph_500, sstcore, sst-elements and sst-macro
+
+sstcore, sst-elements and sst-macro can be build and installed by refering following links
+https://github.com/sstsimulator/sst-core
+
+https://github.com/sstsimulator/sst-macro/blob/master/manual-sstmacro-11.1.pdf
+
+Add the /directory/of/sst/macro/bin/ to your PATH. after sstcore, sst-elements and sst-macro have been installed.
+Then the graph_500 can be compiled.
+
+Running simulation:
+
+step1: generate graph data
+  set the generate_data in main.c (line 118) to true
+  modifing line 130 in sd1_many.py to decide the graph size based on your requirement
+  running the simulation with 1 node (modify sd1_many.py line 138 to (aprun -n 1 -N 1))
+  cmd: sst sd1_many.py
+step2: running simulation with generated graph data
+
+Using merlin router
+  set the generate_data to false
+  modifing line 130 in sd1_many.py to select the graph data will be used
+  modifing other part of sd1_many.py to configure the system
+  running the simulation
+  cmd: sst sd1_many.py
+
+Using logp switch
+  set the generate_data to false
+  modifing line 7 in parameters.ini to select the graph data will be used
+  modifing parameters.ini and daebug.ini to configure the system
+  running the simulation
+  cmd: pysstmac -f parameters.ini --exe=./graph500_reference_bfs_sssp
