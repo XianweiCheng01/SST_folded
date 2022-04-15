@@ -380,6 +380,8 @@ fflush(stdout);
 
 			fclose(fp_edge);
 			fclose(fp_weight);
+			
+			return 0;
 		}
 /**/
 		if (tg.data_in_file && tg.write_file) {
