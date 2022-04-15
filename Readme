@@ -1,5 +1,7 @@
 There are four folders, graph_500, sstcore, sst-elements and sst-macro
 
+change the name of folder .git_ori under sst-macro to .git
+
 sstcore, sst-elements and sst-macro can be build and installed by refering following links
 https://github.com/sstsimulator/sst-core
 
