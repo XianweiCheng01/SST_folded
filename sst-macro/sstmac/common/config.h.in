@@ -1,0 +1,236 @@
+/* sstmac/common/config.h.in.  Generated from configure.ac by autoheader.  */
+
+/* Track communcation synchronization stats */
+#undef COMM_DELAY_STATS
+
+/* Track communcation synchronization stats */
+#undef COMM_SYNC_STATS
+
+/* The include path for .ini configurations */
+#undef CONFIG_INSTALL_INCLUDE_PATH
+
+/* The include path for .ini configurations */
+#undef CONFIG_SRC_INCLUDE_PATH
+
+/* Track communcation synchronization stats */
+#undef CUSTOM_NEW
+
+/* Define to indicate default environment type (mpi/serial) */
+#undef DEFAULT_ENV_STRING
+
+/* Define to indicate default event manager (event map/clock cycler) */
+#undef DEFAULT_EVENT_MANAGER_STRING
+
+/* Define to indicate default partitioning strategy */
+#undef DEFAULT_PARTITION_STRING
+
+/* Define to indicate default runtime type (mpi/serial) */
+#undef DEFAULT_RUNTIME_STRING
+
+/* Define to indicate distributed memory */
+#undef DISTRIBUTED_MEMORY
+
+/* "Track/allow context switches for debugging purposes" */
+#undef ENABLE_DEBUG_SWAP
+
+/* Contains -Werror flags */
+#undef ERROR_CFLAGS
+
+/* Contains -Werror flags */
+#undef ERROR_CXXFLAGS
+
+/* "Call graph utility is not available for use" */
+#undef HAVE_CALL_GRAPH
+
+/* Define to use C++14 language features */
+#undef HAVE_CXX14
+
+/* Define to use C++17 language features */
+#undef HAVE_CXX17
+
+/* Define to 1 if you have the <dlfcn.h> header file. */
+#undef HAVE_DLFCN_H
+
+/* Whether to compile compatibility with event calendars */
+#undef HAVE_EVENT_CALENDAR
+
+/* Define to 1 if you have the <execinfo.h> header file. */
+#undef HAVE_EXECINFO_H
+
+/* Define to make pth available for threading */
+#undef HAVE_GNU_PTH
+
+/* Define to 1 if you have the <inttypes.h> header file. */
+#undef HAVE_INTTYPES_H
+
+/* Define to 1 if you have the `dl' library (-ldl). */
+#undef HAVE_LIBDL
+
+/* Define to 1 if you have the <memory.h> header file. */
+#undef HAVE_MEMORY_H
+
+/* Define to 1 if you have the <mpi.h> header file. */
+#undef HAVE_MPI_H
+
+/* Define to 1 if you have the `MPI_Init' function. */
+#undef HAVE_MPI_INIT
+
+/* Define to make pthreads available for threading */
+#undef HAVE_PTHREAD
+
+/* Define if pthread_{,attr_}{g,s}etaffinity_np is supported. */
+#undef HAVE_PTHREAD_AFFINITY_NP
+
+/* Define to 1 if you have the <pth.h> header file. */
+#undef HAVE_PTH_H
+
+/* Define to 1 if you have the <Python.h> header file. */
+#undef HAVE_PYTHON_H
+
+/* Define to 1 if you have the <sst/core/component.h> header file. */
+#undef HAVE_SST_CORE_COMPONENT_H
+
+/* Build with sst-elements */
+#undef HAVE_SST_ELEMENTS
+
+/* Define to 1 if you have the
+   <sst/elements/memHierarchy/memHierarchyInterface.h> header file. */
+#undef HAVE_SST_ELEMENTS_MEMHIERARCHY_MEMHIERARCHYINTERFACE_H
+
+/* Define to 1 if you have the <stdint.h> header file. */
+#undef HAVE_STDINT_H
+
+/* Define to 1 if you have the <stdlib.h> header file. */
+#undef HAVE_STDLIB_H
+
+/* Define to 1 if you have the <strings.h> header file. */
+#undef HAVE_STRINGS_H
+
+/* Define to 1 if you have the <string.h> header file. */
+#undef HAVE_STRING_H
+
+/* Define to 1 if you have the <sys/stat.h> header file. */
+#undef HAVE_SYS_STAT_H
+
+/* Define to 1 if you have the <sys/types.h> header file. */
+#undef HAVE_SYS_TYPES_H
+
+/* Define to make ucontext available for threading */
+#undef HAVE_UCONTEXT
+
+/* Define to 1 if you have the <unistd.h> header file. */
+#undef HAVE_UNISTD_H
+
+/* "working MPI not found" */
+#undef HAVE_VALID_MPI
+
+/* Run on integrated SST core */
+#undef INTEGRATED_SST_CORE
+
+/* Define to the sub-directory where libtool stores uninstalled libraries. */
+#undef LT_OBJDIR
+
+/* "the definition of the offsetof macro" */
+#undef OFFSET_OF_MACRO
+
+/* Define OTF2 support as enabled */
+#undef OTF2_ENABLED
+
+/* Name of package */
+#undef PACKAGE
+
+/* Define to the address where bug reports for this package should be sent. */
+#undef PACKAGE_BUGREPORT
+
+/* Define to the full name of this package. */
+#undef PACKAGE_NAME
+
+/* Define to the full name and version of this package. */
+#undef PACKAGE_STRING
+
+/* Define to the one symbol short name of this package. */
+#undef PACKAGE_TARNAME
+
+/* Define to the home page for this package. */
+#undef PACKAGE_URL
+
+/* Define to the version of this package. */
+#undef PACKAGE_VERSION
+
+/* "Build from a repo checkout" */
+#undef REPO_BUILD
+
+/* Whether safe mode should be run with sanity checks */
+#undef SANITY_CHECK
+
+/* The size of `char', as computed by sizeof. */
+#undef SIZEOF_CHAR
+
+/* The size of `double', as computed by sizeof. */
+#undef SIZEOF_DOUBLE
+
+/* The size of `float', as computed by sizeof. */
+#undef SIZEOF_FLOAT
+
+/* The size of `int', as computed by sizeof. */
+#undef SIZEOF_INT
+
+/* The size of `long', as computed by sizeof. */
+#undef SIZEOF_LONG
+
+/* The size of `long double', as computed by sizeof. */
+#undef SIZEOF_LONG_DOUBLE
+
+/* The size of `long long', as computed by sizeof. */
+#undef SIZEOF_LONG_LONG
+
+/* The size of `short', as computed by sizeof. */
+#undef SIZEOF_SHORT
+
+/* The size of `unsigned char', as computed by sizeof. */
+#undef SIZEOF_UNSIGNED_CHAR
+
+/* The size of `unsigned int', as computed by sizeof. */
+#undef SIZEOF_UNSIGNED_INT
+
+/* The size of `unsigned long', as computed by sizeof. */
+#undef SIZEOF_UNSIGNED_LONG
+
+/* The size of `unsigned long long', as computed by sizeof. */
+#undef SIZEOF_UNSIGNED_LONG_LONG
+
+/* The size of `unsigned short', as computed by sizeof. */
+#undef SIZEOF_UNSIGNED_SHORT
+
+/* The size of `void *', as computed by sizeof. */
+#undef SIZEOF_VOID_P
+
+/* Define to 1 if you have the ANSI C header files. */
+#undef STDC_HEADERS
+
+/* Major version number */
+#undef SUBSUBVERSION
+
+/* Major version number */
+#undef SUBVERSION
+
+/* "Whether to enable strict CPU affinity" */
+#undef USE_CPU_AFFINITY
+
+/* "Whether to enable multithreading" */
+#undef USE_MULTITHREAD
+
+/* "Whether to use spin locks for more efficient thread barriers" */
+#undef USE_SPINLOCK
+
+/* Version number of package */
+#undef VERSION
+
+/* VTK is enabled and installed */
+#undef VTK_ENABLED
+
+/* Contains -Werror flags */
+#undef WARNING_CFLAGS
+
+/* Contains -Werror flags */
+#undef WARNING_CXXFLAGS
