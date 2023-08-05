@@ -1,0 +1,26 @@
+include $(top_srcdir)/Makefile.includes
+include $(top_srcdir)/Makefile.link
+
+AM_CXXFLAGS = $(STD_CXXFLAGS) $(ERROR_CXXFLAGS) $(WARNING_CXXFLAGS)
+AM_CFLAGS = $(ERROR_CFLAGS) $(WARNING_CFLAGS)
+
+if INTEGRATED_SST_CORE
+  AM_CXXFLAGS += $(SST_CXXFLAGS)
+endif
+
+if HAVE_CLANG
+#clean up warnings on clang
+endif
+
+if HAVE_GCC
+#clean up warnings on clang
+endif
+
+if HAVE_MACSDK
+AM_CFLAGS += $(MACSDK_CFLAGS)
+AM_CXXFLAGS += $(MACSDK_CXXFLAGS)
+endif
+
+if HAVE_SST_ELEMENTS
+endif
+
