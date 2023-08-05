@@ -1,0 +1,42 @@
+#------------------------------------------------------------------------------------------#
+#  Core tests                                                                           {{{#
+#------------------------------------------------------------------------------------------#
+
+CORE_TEST_DEPS = $(SSTMACEXEC)
+if INTEGRATED_SST_CORE
+CORE_TEST_DEPS += ../sstmac/install/libmacro.la
+endif
+
+CORETESTS+= \
+  test_core_apps_ping_all_torus_macrels \
+  test_core_apps_ping_all_cascade_macrels \
+  test_core_apps_ping_all_null_arb \
+  test_core_apps_ping_all_torus_pisces \
+  test_core_apps_ping_all_torus_pisces_new \
+  test_core_apps_ping_all_torus_pisces_ugal \
+  test_core_apps_ping_all_torus_valiant \
+  test_core_apps_ping_all_hypercube
+
+#  test_core_apps_ping_all_big_dfly_snappr \
+#  test_core_apps_ping_all_dfly_plus_qos \
+#  test_core_apps_ping_all_cascade_valiant  
+#  test_core_apps_ping_all_cascade_pisces_ugal \
+#test_core_apps_ping_all_fully_connected \
+#test_core_apps_ping_all_fully_connected_valiant \
+#test_core_apps_ping_all_star \
+#test_core_apps_ping_all_branched_star \
+#test_core_apps_ping_all_branched_torus
+
+test_core_apps_mpi_%.$(CHKSUF): $(CORE_TEST_DEPS)
+	$(PYRUNTEST) 10 $(top_srcdir) $@ 't > 2 and t < 2.2' \
+    $(MPI_LAUNCHER) $(SSTMACEXEC) -f $(srcdir)/test_configs/test_mpi_$*.ini --no-wall-time $(THREAD_ARGS)
+
+test_core_apps_ping_all_dfly_plus_qo%.$(CHKSUF): $(SSTMACEXEC)
+	$(PYRUNTEST) 15 $(top_srcdir) $@ True $(SSTMACEXEC) -f $(srcdir)/test_configs/test_ping_all_dfly_plus_qo$*.ini --no-wall-time
+
+test_core_apps_ping_%.$(CHKSUF): $(CORE_TEST_DEPS)
+	$(PYRUNTEST) 10 $(top_srcdir) $@ 't > 5 and t < 5.2' \
+    $(MPI_LAUNCHER) $(SSTMACEXEC) -f $(srcdir)/test_configs/test_ping_$*.ini --no-wall-time $(THREAD_ARGS)
+
+	
+

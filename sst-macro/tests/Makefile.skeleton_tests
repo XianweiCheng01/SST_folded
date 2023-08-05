@@ -1,0 +1,144 @@
+
+SKELETONCASES= 
+
+#------------------------------------------------------------------------------------------#
+#  Skeleton tests (installcheck)                                                        {{{#
+#------------------------------------------------------------------------------------------#
+
+if INTEGRATED_SST_CORE
+if HAVE_CLANG
+SKELETONCASES += liblulesh libhpcg libcomd libpic
+endif
+else
+#else no integrated core
+if HAVE_CLANG
+#  memoize #not currently working TODO
+SKELETONCASES += \
+  openmp \
+  overhead_test
+
+#  memoize 
+
+#if HAVE_CXX14
+#SKELETONCASES += \
+#  unique_ptr_test \
+#  template_global_test
+#endif
+#end cxx14
+
+SKELETONCASES += lulesh2.0.3 hpcg-3.0 CoMD pic
+endif
+#end have clang
+
+#SKELETONCASES += \
+#  boxml 
+#  traffic 
+
+SKELETONCASES += \
+  sst_component_example \
+  multiapp \
+  sendrecv
+
+if !HAVE_UBUNTU
+SKELETONCASES +=  matmul 
+endif
+
+endif #Integrated core
+
+SKELETONTESTS = $(SKELETONCASES:%=test_skeleton_%)
+
+skeletons:
+	rm -fr skeletons
+	cp -fpR $(top_srcdir)/skeletons .
+	cp -fpR $(top_srcdir)/skeletons/tests/* skeletons
+	chmod -R u+w skeletons # required for make distcheck (makes files r/o)
+
+pots:
+	rm -fr pots
+	cp -fpR $(top_srcdir)/skeletons/CoMD/pots .
+	chmod -R u+w pots # required for make distcheck (makes files r/o)
+
+
+if INTEGRATED_SST_CORE
+.PHONY: skeletons pots
+libcomd.so: skeletons
+	cd skeletons/CoMD; PATH=$(bindir):$$PATH $(MAKE) libcomd.so
+
+test_skeleton_libcomd.$(CHKSUF): libcomd.so pots
+	SST_LIB_PATH=$(SST_LIB_PATH):$(PWD)/skeletons/CoMD \
+	$(PYRUNTEST) 3 $(top_srcdir) $@ Exact \
+    $(top_builddir)/bin/pysstmac --exe=skeletons/CoMD/libcomd.so -f skeletons/CoMD/parameters.ini 
+
+skeletons/lulesh2.0.3/liblulesh.so: skeletons
+	cd skeletons/lulesh2.0.3; PATH=$(bindir):$$PATH $(MAKE) liblulesh.so
+
+test_skeleton_liblulesh.$(CHKSUF): skeletons/lulesh2.0.3/liblulesh.so
+	SST_LIB_PATH=$(SST_LIB_PATH):$(PWD)/skeletons/lulesh2.0.3 \
+    $(PYRUNTEST) 3 $(top_srcdir) $@ Exact \
+    $(top_builddir)/bin/pysstmac --exe=skeletons/lulesh2.0.3/liblulesh.so -f skeletons/lulesh2.0.3/parameters.ini 
+
+skeletons/pic/libpic.so: skeletons
+	cd skeletons/pic; PATH=$(bindir):$$PATH $(MAKE) libpic.so
+
+test_skeleton_libpic.$(CHKSUF): skeletons/pic/libpic.so
+	SST_LIB_PATH=$(SST_LIB_PATH):$(PWD)/skeletons/pic \
+    $(PYRUNTEST) 3 $(top_srcdir) $@ Exact \
+    $(top_builddir)/bin/pysstmac --exe=skeletons/pic/libpic.so -f skeletons/pic/parameters.ini 
+
+skeletons/hpcg-3.0/libhpcg.so: skeletons
+	cd skeletons/hpcg-3.0; PATH=$(bindir):$$PATH $(MAKE) libhpcg.so
+
+test_skeleton_libhpcg.$(CHKSUF): skeletons/hpcg-3.0/libhpcg.so
+	SST_LIB_PATH=$(SST_LIB_PATH):$(PWD)/skeletons/hpcg-3.0 \
+    $(PYRUNTEST) 3 $(top_srcdir) $@ Exact \
+    $(top_builddir)/bin/pysstmac --exe=skeletons/hpcg-3.0/libhpcg.so -f skeletons/hpcg-3.0/parameters.ini 
+else
+.PHONY: skeletons pots
+$(SKELETONCASES): skeletons
+	cd skeletons/$@; PATH=$(bindir):$$PATH $(MAKE) 
+
+test_skeleton_boxml.$(CHKSUF): boxml
+	$(PYRUNTEST) 2 $(top_srcdir) $@ text=finalized \
+    $(SSTMACEXEC) --exe=./skeletons/boxml/runboxml \
+    -f $(top_srcdir)/skeletons/boxml/example/parameters.ini \
+    -p node.app1.boxml_boxfile=$(top_srcdir)/skeletons/boxml/example/ks.4.new.boxes.xml \
+    -p node.app1.boxml_eventfiles=[$(top_srcdir)/skeletons/boxml/example/test-mlmg-4-4.xml]
+
+test_skeleton_memoize.$(CHKSUF): memoize
+	SST_LIB_PATH=skeletons/memoize \
+	$(PYRUNTEST) 10 $(top_srcdir) $@ 't > 1.8 and t < 2.2' \
+    SST_LIB_PATH=$(top_builddir)/tests/skeletons/memoize \
+    $(SSTMACEXEC) -f $(top_srcdir)/skeletons/tests/memoize/parameters.ini --no-wall-time
+
+test_skeleton_multiapp.$(CHKSUF): multiapp
+	SST_LIB_PATH=skeletons/multiapp \
+    $(PYRUNTEST) 60 $(top_srcdir) $@ Exact \
+    $(SSTMACEXEC) -f $(top_builddir)/tests/skeletons/multiapp/parameters.ini --no-wall-time
+
+test_skeleton_sendrecv.$(CHKSUF): sendrecv
+	SST_LIB_PATH=skeletons/sendrecv \
+    $(PYRUNTEST) 60 $(top_srcdir) $@ Exact \
+    $(SSTMACEXEC) \
+      --exe=./skeletons/sendrecv/runsendrecv \
+      --exe=./skeletons/sendrecv/runsendrecv \
+      -f $(top_builddir)/tests/skeletons/sendrecv/parameters.ini \
+      --no-wall-time
+
+test_skeleton_%.$(CHKSUF): % 
+	SST_LIB_PATH=skeletons/$* \
+    $(PYRUNTEST) 60 $(top_srcdir) $@ Exact \
+    $(SSTMACEXEC) --exe=./skeletons/$*/run$* -f $(top_builddir)/tests/skeletons/$*/parameters.ini --no-wall-time
+
+test_skeleton_CoMD.$(CHKSUF): CoMD pots
+	$(PYRUNTEST) 3 $(top_srcdir) $@ Exact \
+    $(SSTMACEXEC) --exe=./skeletons/CoMD/runCoMD -f $(top_srcdir)/skeletons/CoMD/parameters.ini --no-wall-time
+
+test_skeleton_sst_component_example.$(CHKSUF): sst_component_example $(SSTMACEXEC)
+	SST_LIB_PATH=skeletons/sst_component_example \
+	 $(PYRUNTEST) 10 $(top_srcdir) $@ Exact \
+   $(SSTMACEXEC) -f $(top_srcdir)/skeletons/sst_component_example/parameters.ini --no-wall-time
+
+
+endif
+#end integrated core check
+

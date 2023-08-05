@@ -1,0 +1,124 @@
+if HAVE_CLANG
+#------------------------------------------------------------------------------------------#
+#  Allocation tests                                                                     {{{#
+#------------------------------------------------------------------------------------------#
+
+SSTMAC_DEGLOBAL=$(top_builddir)/bin/sstmac_clang
+
+CLANGTESTS = \
+  deglobal_init_fxn_cpp \
+  deglobal_regular_cpp \
+  deglobal_multi_cpp \
+  deglobal_ctor_cpp \
+  deglobal_namespace_cpp \
+  deglobal_array_cpp \
+  deglobal_unique_ptr_cpp \
+  deglobal_multi_array_cpp \
+  deglobal_template_cpp \
+  deglobal_fxn_static_cpp \
+  deglobal_fxn_ptr_ptr_cpp \
+  deglobal_fxn_ptr_array_cpp \
+  deglobal_file_static_cpp \
+  deglobal_cxx_static_cpp \
+  pragma_sst_new_cpp \
+  pragma_sst_overhead_cpp \
+  pragma_sst_init_cpp \
+  pragma_sst_global_cpp \
+  pragma_sst_null_replace_cpp \
+  pragma_sst_null_ptr_cpp \
+  pragma_sst_null_vector_cpp \
+  pragma_sst_scoped_replace_cpp \
+  pragma_sst_replace_cpp \
+  pragma_sst_memory_cpp \
+  pragma_sst_multi_pragma_cpp \
+  pragma_sst_compute_cpp \
+  pragma_sst_compute_global_var_cpp \
+  pragma_sst_loop_count_cpp \
+  pragma_omp_parallel_nthr_cpp \
+  pragma_omp_parallel_cpp \
+  deglobal_array_c \
+  deglobal_regular_c \
+  deglobal_fxn_static_c \
+  pragma_sst_blocking_c \
+  deglobal_anon_c 
+
+if HAVE_CXX14
+CLANGTESTS += \
+  deglobal_lambda_cpp
+endif
+
+#  puppet_pragma_omp_parallel_cpp \
+#  pragma_sst_memoize_cpp \
+#  pragma_sst_implicit_state_cpp 
+#  pragma_sst_memoize_compute_cpp 
+
+#if HAVE_CXX14
+#CLANGTESTS += \
+#  deglobal_cxx_template_static
+#endif
+
+#  deglobal_fxn_template_static_cpp \
+#  deglobal_cxx_template_member  #C++14, not required yet
+
+#the CHKSUF will get appended to this later
+CLANGCHECKTESTS=$(CLANGTESTS:%=test_clang_%)
+
+CLANGTEMP=$(CLANGTESTS:%=test_clang_%.tmp-out)
+
+.PRECIOUS: $(CLANGTEMP)
+
+test_clang_%.$(CHKSUF): test_clang_%.tmp-out
+	$(top_builddir)/tests/checkdiff $< $(top_srcdir)
+
+test_clang_%_cpp.tmp-out: sst.pp.%.cc $(SSTMAC_DEGLOBAL) 
+	-$(CXX) -std=c++11 -c $< -o tmp.o \
+    -I$(top_srcdir) -I$(top_builddir) -I$(top_srcdir)/include \
+    -I$(top_srcdir)/sprockit -I$(top_builddir)/sprockit \
+    -include sstmac/compute.h -include sstmac/skeleton.h \
+    -include tests/clang_src2src/remove_warnings.h \
+    2>&1 /dev/null | grep error >& $@
+	-cat $< | grep -v '^#' >> $@
+	-cat sstGlobals.pp.$*.cc.cpp >> $@
+	rm -f sstGlobals.pp.$*.cc.cpp tmp.o sst.pp.$*.cc pp.$*.cc
+
+test_clang_%_c.tmp-out: sst.pp.%.c $(SSTMAC_DEGLOBAL) 
+	-$(CC) -c $< -o tmp.o \
+    -I$(top_srcdir) -I$(top_builddir) -I$(top_srcdir)/include \
+    -I$(top_srcdir)/sprockit -I$(top_builddir)/sprockit \
+    -include sstmac/compute.h -include sstmac/skeleton.h \
+    -include tests/clang_src2src/remove_warnings.h \
+    2>&1 /dev/null | grep error >& $@
+	-cat $< | grep -v '^#' >> $@
+	-cat sstGlobals.pp.$*.c.cpp >> $@
+	rm -f sstGlobals.pp.$*.c.cpp tmp.o sst.pp.$*.c pp.$*.c
+
+sst.pp.pragma_sst_memoize.cc: pp.pragma_sst_memoize.cc $(SSTMAC_DEGLOBAL)
+	-SSTMAC_CLANG_TEST_PREFIX=xyz SSTMAC_MEMOIZE=1 SSTMAC_DELETE_TEMPS=0 \
+  $(SSTMAC_DEGLOBAL) $< -- -std=c++11 $(MACSDK_CXXFLAGS)
+
+sst.pp.pragma_sst_memoize_compute.cc: pp.pragma_sst_memoize_compute.cc $(SSTMAC_DEGLOBAL)
+	-SSTMAC_CLANG_TEST_PREFIX=xyz SSTMAC_SKELETONIZE=1 SSTMAC_DELETE_TEMPS=0 \
+  $(SSTMAC_DEGLOBAL) $< -- -std=c++11
+
+sst.pp.puppet_%.cc: pp.puppet_%.cc $(SSTMAC_DEGLOBAL)
+	-SSTMAC_CLANG_TEST_PREFIX=xyz SSTMAC_DELETE_TEMPS=0 \
+  $(SSTMAC_DEGLOBAL) --puppetize $< -- -std=c++11
+
+sst.pp.%.cc: pp.%.cc $(SSTMAC_DEGLOBAL)
+	-SSTMAC_CLANG_TEST_PREFIX=xyz SSTMAC_SKELETONIZE=1 SSTMAC_DELETE_TEMPS=0 \
+  $(SSTMAC_DEGLOBAL) $< -- -std=c++11 $(MACSDK_CXXFLAGS)
+
+pp.puppet_%.cc: $(top_srcdir)/tests/clang_src2src/puppet_%.cc $(SSTMAC_DEGLOBAL)
+	-$(CXX) -std=c++11 -E $< >& $@
+
+pp.%.cc: $(top_srcdir)/tests/clang_src2src/%.cc $(SSTMAC_DEGLOBAL)
+	-$(CXX) -std=c++11 -E $< >& $@
+
+sst.pp.%.c: pp.%.c $(SSTMAC_DEGLOBAL)
+	-SSTMAC_CLANG_TEST_PREFIX=xyz SSTMAC_SKELETONIZE=1 SSTMAC_DELETE_TEMPS=0 \
+  $(SSTMAC_DEGLOBAL) $< -- $(MACSDK_CXXFLAGS)
+
+pp.%.c: $(top_srcdir)/tests/clang_src2src/%.c $(SSTMAC_DEGLOBAL)
+	-$(CC) -E $< >& $@
+
+endif

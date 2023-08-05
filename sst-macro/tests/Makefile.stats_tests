@@ -1,0 +1,139 @@
+.PHONY: histogram \
+  ftq_app1 \
+  spyplot \
+  spyplot_collectives \
+  parallel_histogram parallel_spyplot \
+  bytes_sent_torus \
+  bytes_sent_fattree \
+  bytes_sent_cascade
+
+
+if !INTEGRATED_SST_CORE
+#------------------------------------------------------------------------------------------#
+#  Stats tests                                                                          {{{#
+#------------------------------------------------------------------------------------------#
+
+STATSTESTS = \
+  output_graph_torus \
+  output_graph_dragonfly \
+  test_stats_ftq \
+  test_stats_spyplot 
+
+#STATSTESTS += \
+#  test_stats_msg_size_histogram \
+#  test_stats_spyplot \
+#  test_stats_spyplot_collectives \
+#  test_stats_bytes_sent_torus \
+#  test_stats_bytes_sent_fattree \
+#  histogram.p \
+#  histogram.dat \
+#  spyplot.bytes.csv \
+#  spyplot.num_messages.csv \
+#  spyplot_collectives.bytes.csv \
+#  spyplot_collectives.num_messages.csv \
+#  bytes_sent_torus.dat \
+#  bytes_sent_fattree.dat 
+
+#  ftq_app1.p 
+#  ftq_app1.dat 
+
+#  spyplot.bytes.png 
+#  spyplot.num_messages.png 
+
+if COMM_DELAY_STATS
+endif
+
+if COMM_SYNC_STATS
+if DO_CALL_GRAPH_TEST
+#don't do this test unless also including comm sync stats
+SINGLETESTS += test_stats_call_graph
+endif
+SINGLETESTS += test_stats_sync
+endif
+
+
+test_output_graph_%.$(CHKSUF): $(SSTMACEXEC)
+	$(PYRUNTEST) 5 $(top_srcdir) tmp_$@ notime \
+	$(SSTMACEXEC) -f $(srcdir)/test_configs/$*_graph.ini \
+     --graph=output_graph_$* --no-wall-time
+
+output_graph_%.$(CHKSUF): $(SSTMACEXEC) test_output_graph_%.$(CHKSUF)
+	$(PYRUNTEST) 5 $(top_srcdir) $@ notime $(NOOP) $@
+
+test.callgrind.$(CHKSUF): $(SSTMACEXEC) test_stat_graphviz.$(CHKSUF)
+	-mv -f test.callgrind.out test.callgrind.chk-out
+
+%.dat.$(CHKSUF): %
+	$(PYRUNTEST) 5 $(top_srcdir) $@ notime $(NOOP) $@
+%.p.$(CHKSUF): %
+	$(PYRUNTEST) 5 $(top_srcdir) $@ notime $(NOOP) $@
+%.bytes.png.$(CHKSUF): %
+	$(PYRUNTEST) 5 $(top_srcdir) $@ notime $(NOOP) $@
+%.bytes.csv.$(CHKSUF): %
+	$(PYRUNTEST) 5 $(top_srcdir) $@ notime $(NOOP) $@
+%.num_messages.png.$(CHKSUF): %
+	$(PYRUNTEST) 5 $(top_srcdir) $@ notime $(NOOP) $@
+%.num_messages.csv.$(CHKSUF): %
+	$(PYRUNTEST) 5 $(top_srcdir) $@ notime $(NOOP) $@
+
+sync_stats:
+	$(PYRUNTEST) 5 $(top_srcdir) test_sync_stats_tmp.$(CHKSUF) True \
+    $(SSTMACEXEC) -f $(srcdir)/test_configs/test_sync_stats.ini --no-wall-time 
+test_sync_stats.$(CHKSUF): sync_stats
+	$(PYRUNTEST) 5 $(top_srcdir) test_sync_stats.$(CHKSUF) notime cat commStats.0.out 
+  
+histogram:
+	$(PYRUNTEST) 5 $(top_srcdir) test_stats_msg_size_histogram.$(CHKSUF) True \
+    $(SSTMACEXEC) -f $(srcdir)/test_configs/test_stats_msg_size_histogram.ini --low-res-timer --no-wall-time 
+test_stats_msg_size_histogram.$(CHKSUF): histogram
+
+spyplot:
+	$(PYRUNTEST) 5 $(top_srcdir) test_stats_spyplot.$(CHKSUF) True \
+    $(SSTMACEXEC) -f $(srcdir)/test_configs/test_stats_spyplot.ini --low-res-timer --no-wall-time  
+test_stats_spyplot.$(CHKSUF): spyplot
+
+spyplot_collectives:
+	$(PYRUNTEST) 5 $(top_srcdir) test_stats_spyplot_collectives.$(CHKSUF) True \
+    $(SSTMACEXEC) -f $(srcdir)/test_configs/test_stats_spyplot_collectives.ini --no-wall-time  
+test_stats_spyplot_collectives.$(CHKSUF): spyplot_collectives
+
+test_stats_%.$(CHKSUF): $(SSTMACEXEC)
+	$(PYRUNTEST) 10 $(top_srcdir) $@ True \
+    $(SSTMACEXEC) -f $(srcdir)/test_configs/test_stats_$*.ini --low-res-timer --no-wall-time  
+
+parallel_histogram:
+	@launcher_test_args@ $(SSTMACEXEC) -f $(srcdir)/test_configs/test_stats_msg_size_histogram.ini @mt_cmdline_args@ --low-res-timer --no-wall-time > test_stats_msg_size_histogram.$(CHKSUF)
+	mv -f parallel_histogram.p   parallel_histogram.p.$(CHKSUF)
+	mv -f parallel_histogram.dat parallel_histogram.dat.$(CHKSUF)
+parallel_test_stats_msg_size_histogram.$(CHKSUF): parallel_histogram
+parallel_histogram.dat.$(CHKSUF): parallel_histogram
+parallel_histogram.p.$(CHKSUF): parallel_histogram
+
+parallel_spyplot:
+	@launcher_test_args@ $(SSTMACEXEC) -f $(srcdir)/test_configs/test_stats_spyplot.ini @mt_cmdline_args@ --low-res-timer --no-wall-time > test_stats_spyplot.$(CHKSUF)
+	mv -f parallel_spyplot.bytes.png parallel_spyplot.bytes.png.$(CHKSUF)
+	mv -f parallel_spyplot.bytes.csv parallel_spyplot.bytes.csv.$(CHKSUF)
+	mv -f parallel_spyplot.num_messages.png parallel_spyplot.num_messages.png.$(CHKSUF)
+	mv -f parallel_spyplot.num_messages.csv parallel_spyplot.num_messages.csv.$(CHKSUF)
+parallel_test_stats_spyplot.$(CHKSUF): parallel_spyplot
+parallel_spyplot.bytes.png.$(CHKSUF): parallel_spyplot
+parallel_spyplot.bytes.csv.$(CHKSUF): parallel_spyplot
+parallel_spyplot.num_messages.png.$(CHKSUF): parallel_spyplot
+parallel_spyplot.num_messages.csv.$(CHKSUF): parallel_spyplot
+
+
+bytes_sent_torus: 
+	$(PYRUNTEST) 5 $(top_srcdir) test_stats_$@.$(CHKSUF) True \
+    $(SSTMACEXEC) -f $(srcdir)/test_configs/test_stats_$@.ini --low-res-timer --no-wall-time  
+test_stats_bytes_sent_torus.chk-out: bytes_sent_torus
+
+bytes_sent_fattree: 
+	$(PYRUNTEST) 5 $(top_srcdir) test_stats_$@.$(CHKSUF) True \
+    $(SSTMACEXEC) -f $(srcdir)/test_configs/test_stats_$@.ini --low-res-timer --no-wall-time  
+test_stats_bytes_sent_fattree.chk-out: bytes_sent_fattree
+
+
+endif
+#### not integrated core
+
+

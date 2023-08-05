@@ -1,0 +1,137 @@
+#------------------------------------------------------------------------------------------#
+#  Core tests                                                                           {{{#
+#------------------------------------------------------------------------------------------#
+
+
+CORETESTS+= \
+  test_sumi_collective \
+  test_core_apps_fft \
+  test_core_apps_halo3d \
+  test_core_apps_sweep3d \
+  test_core_apps_ping_pong_snappr \
+  test_core_apps_ping_pong_mem_thrash \
+  test_core_apps_ping_all_dfly_snappr \
+  test_core_apps_ping_all_dfly_snappr_rr \
+  test_core_apps_ping_all_dfly_plus_snappr \
+  test_core_apps_ping_all_dfly_plus_qos \
+  test_core_apps_ping_all_dfly_plus_qos_capped \
+  test_core_apps_ping_all_dfly_plus_qos_none \
+  test_core_apps_ping_all_dfly_plus_qos_mixed \
+  test_core_apps_ping_all_hypercube_snappr \
+  test_core_apps_ping_all_dfly_qos_credits \
+  test_core_apps_ping_all_dfly_vl_credits \
+  test_core_apps_ping_all_dfly_vl_queue_snappr \
+  test_core_apps_mem_bandwidth_snappr1 \
+  test_core_apps_mem_bandwidth_snappr4 \
+  test_core_apps_mem_bandwidth_pisces1 \
+  test_core_apps_mem_bandwidth_pisces4 \
+  test_core_apps_smp_collectives_optimized \
+  test_core_apps_smp_collectives_unoptimized \
+  test_core_apps_direct_alltoall \
+  test_core_apps_bruck_alltoall \
+  test_core_apps_ring_allgather \
+  test_core_apps_tournament_dragonfly \
+  test_core_apps_ping_all_dragonfly_par \
+  test_core_apps_ping_all_dragonfly_par_small \
+  test_core_apps_ping_all_dragonfly_par_alltoall \
+  test_core_apps_ping_all_dragonfly_par_single \
+  test_core_apps_ping_all_dragonfly_par_single2 \
+  test_core_apps_ping_all_dragonfly_ugal \
+  test_core_apps_ping_all_dragonfly_valiant \
+  test_core_apps_ping_all_dragonfly_plus \
+  test_core_apps_ping_all_dragonfly_plus_par \
+  test_core_apps_ping_all_dragonfly_plus_par_small \
+  test_core_apps_ping_all_dragonfly \
+  test_core_apps_ping_all_dragonfly_minimal \
+  test_core_apps_ping_all_file \
+  test_core_apps_ping_all_hypercube_par \
+  test_core_apps_ping_all_ns \
+  test_core_apps_ping_all_random_macrels \
+  test_core_apps_ping_all_torus_sculpin \
+  test_core_apps_compute \
+  test_core_apps_host_compute \
+  test_core_apps_stop_time \
+  test_core_apps_ping_pong \
+  test_core_apps_ping_pong_slow \
+  test_core_apps_ping_all_tree_table \
+  test_core_apps_ping_all_tree_table_vcs \
+  test_core_apps_ping_all_port_channel \
+  test_core_apps_ping_all_fattree2 \
+  test_core_apps_ping_all_fattree4 \
+  test_core_apps_ping_all_fattree_tapered
+
+#  test_core_apps_ping_all_torus_pos_snappr \
+#  test_core_apps_ping_all_fat_tree_snappr \
+#  test_core_apps_distributed_service 
+#  test_core_apps_ping_all_cascade
+
+test_sumi_%.$(CHKSUF): sumi/sst_%
+	$(PYRUNTEST) 5 $(top_srcdir) $@ Exact sumi/sst_$* -f $(srcdir)/sumi/ini/test_sst_$*.ini --no-wall-time
+
+test_core_apps_compute.$(CHKSUF): $(SSTMACEXEC)
+	$(PYRUNTEST) 6 $(top_srcdir) $@ Exact \
+    $(SSTMACEXEC) --no-wall-time -f $(srcdir)/test_configs/test_compute_api.ini 
+
+test_core_apps_ping_all_tree_table.$(CHKSUF): $(SSTMACEXEC)
+	$(PYRUNTEST) 15 $(top_srcdir) $@ Exact \
+   $(SSTMACEXEC) -f $(srcdir)/test_configs/test_ping_all_tree_table.ini \
+   -p topology.routing_tables=$(top_srcdir)/tests/test_configs/rtr_tbl.json \
+   --no-wall-time
+
+test_core_apps_ping_all_tree_table_vcs.$(CHKSUF): $(SSTMACEXEC)
+	$(PYRUNTEST) 15 $(top_srcdir) $@ Exact \
+   $(SSTMACEXEC) -f $(srcdir)/test_configs/test_ping_all_tree_table_vcs.ini \
+   -p topology.routing_tables=$(top_srcdir)/tests/test_configs/rtr_tbl.json \
+   --no-wall-time
+
+test_core_apps_ping_all_file.$(CHKSUF): $(SSTMACEXEC)
+	$(PYRUNTEST) 15 $(top_srcdir) $@ Exact \
+   $(SSTMACEXEC) -f $(srcdir)/test_configs/test_ping_all_file.ini \
+   -p topology.routing_tables=$(top_srcdir)/tests/test_configs/rtr_tbl_file_topology1.json \
+   -p topology.filename=$(top_srcdir)/tests/test_configs/file_topology1.json \
+   --no-wall-time
+
+test_core_apps_ping_all_port_channel.$(CHKSUF): $(SSTMACEXEC)
+	$(PYRUNTEST) 15 $(top_srcdir) $@ Exact \
+   $(SSTMACEXEC) -f $(srcdir)/test_configs/test_ping_all_file.ini \
+   -p topology.routing_tables=$(top_srcdir)/tests/test_configs/testbed_rtr_tbl.json \
+   -p topology.filename=$(top_srcdir)/tests/test_configs/testbed_topology.json \
+   --no-wall-time
+
+test_core_apps_ping_all_tiled_cascade.$(CHKSUF): $(SSTMACEXEC)
+	$(PYRUNTEST) 15 $(top_srcdir) $@ Exact \
+   $(SSTMACEXEC) -f $(srcdir)/test_configs/test_ping_all_tiled_cascade.ini --no-wall-time
+
+test_core_apps_host_compute.$(CHKSUF): $(CORE_TEST_DEPS)
+	$(PYRUNTEST) 20 $(top_srcdir) $@ 't>0.1' \
+    $(MPI_LAUNCHER) $(SSTMACEXEC) -f $(srcdir)/test_configs/test_host_compute.ini --no-wall-time $(THREAD_ARGS)
+
+test_core_apps_ping_all_tiled_torus.$(CHKSUF): $(SSTMACEXEC)
+	$(PYRUNTEST) 15 $(top_srcdir) $@ True $(SSTMACEXEC) -f $(srcdir)/test_configs/test_ping_all_tiled_torus.ini --no-wall-time
+
+test_core_apps_ping_pong.$(CHKSUF): $(SSTMACEXEC)
+	$(PYRUNTEST) 15 $(top_srcdir) $@ True $(SSTMACEXEC) -f $(srcdir)/test_configs/test_ping_pong.ini --no-wall-time
+
+test_core_apps_ping_pong_snappr.$(CHKSUF): $(SSTMACEXEC)
+	$(PYRUNTEST) 15 $(top_srcdir) $@ True $(SSTMACEXEC) -f $(srcdir)/test_configs/test_ping_pong_snappr.ini --no-wall-time
+
+test_core_apps_ping_pong_mem_thrash.$(CHKSUF): $(SSTMACEXEC)
+	$(PYRUNTEST) 15 $(top_srcdir) $@ True $(SSTMACEXEC) -f $(srcdir)/test_configs/test_ping_pong_mem_thrash.ini --no-wall-time
+
+test_core_apps_ping_pong_slow.$(CHKSUF): $(SSTMACEXEC)
+	$(PYRUNTEST) 15 $(top_srcdir) $@ True $(SSTMACEXEC) -f $(srcdir)/test_configs/test_ping_pong_slow.ini --no-wall-time
+
+test_core_apps_ping_pong_amm4.$(CHKSUF): $(SSTMACEXEC)
+	$(PYRUNTEST) 15 $(top_srcdir) $@ True $(SSTMACEXEC) -f $(srcdir)/test_configs/test_ping_pong_amm4.ini --no-wall-time
+
+test_core_apps_ping_pong_amm4_slow.$(CHKSUF): $(SSTMACEXEC)
+	$(PYRUNTEST) 15 $(top_srcdir) $@ True $(SSTMACEXEC) -f $(srcdir)/test_configs/test_ping_pong_amm4_slow.ini --no-wall-time
+
+test_core_apps_%.$(CHKSUF): $(CORE_TEST_DEPS)
+	$(PYRUNTEST) 10 $(top_srcdir) $@ Exact \
+    $(MPI_LAUNCHER) $(SSTMACEXEC) -f $(srcdir)/test_configs/test_$*.ini --no-wall-time $(THREAD_ARGS)
+
+test_stats_%s.$(CHKSUF): $(CORE_TEST_DEPS)
+	$(PYRUNTEST) 10 $(top_srcdir) $@ True \
+    $(SSTMACEXEC) -f $(srcdir)/test_configs/test_stats_$*.ini --low-res-timer --no-wall-time  
+

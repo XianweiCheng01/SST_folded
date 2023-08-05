@@ -1,0 +1,97 @@
+.PHONY: traces
+.PHONY: otf2_traces
+
+if !INTEGRATED_SST_CORE
+# These are each run by a specific rule
+SINGLETESTS = \
+  test_utilities \
+  test_pthread \
+  test_blas \
+  test_blas_finegrained 
+# std::thread tests don't work with newer libc++
+# (we were being badly standards non-compliant to make it work and got bit)
+# test_tls could/should be reimplemented using pthread
+#  test_std_thread test_tls
+
+test_utilities.$(CHKSUF): test_utilities
+	$(PYRUNTEST) 6 $(top_srcdir) $@ notime ./test_utilities 
+
+test_blas.$(CHKSUF): test_blas
+	$(PYRUNTEST) 6 $(top_srcdir) $@ 't > 0.08 and t < 0.1' \
+    ./test_blas --no-wall-time -f $(srcdir)/test_configs/test_compute_blas.ini 
+
+test_blas_finegrained.$(CHKSUF): test_blas
+	$(PYRUNTEST) 6 $(top_srcdir) $@ 't > 0.08 and t < 0.1' \
+    ./test_blas --no-wall-time -f $(srcdir)/test_configs/test_compute_blas_finegrained.ini 
+
+test_pthread.$(CHKSUF): test_pthread
+	$(PYRUNTEST) 6 $(top_srcdir) $@ True \
+    ./test_pthread --no-wall-time -f $(srcdir)/test_configs/pthread.ini 
+
+test_std_thread.$(CHKSUF): test_std_thread
+	$(PYRUNTEST) 6 $(top_srcdir) $@ True \
+    ./test_std_thread --no-wall-time -f $(srcdir)/test_configs/std_thread.ini 
+
+test_tls.$(CHKSUF): test_tls
+	$(PYRUNTEST) 6 $(top_srcdir) $@ True \
+    ./test_tls --no-wall-time -f $(srcdir)/test_configs/tls.ini 
+
+if HAVE_OTF2
+SINGLETESTS += test_otf2 test_otf2_write
+endif
+
+if ENABLE_DEBUG
+SINGLETESTS += \
+  test_dumpi_manager \
+  test_dumpi_terminate \
+  test_dumpi_bgp
+endif
+
+
+#------------------------------------------------------------------------------------------#
+#  DUMPI-related tests                                                                  {{{#
+#------------------------------------------------------------------------------------------#
+
+traces:
+	rm -fr *.bin *.meta *.map
+	cp -f $(top_srcdir)/tests/test_traces/* ./
+	chmod u+w *.bin *.meta *.map # required for make distcheck (makes files r/o)
+
+test_dumpi_manager.$(CHKSUF): $(SSTMACEXEC) traces
+	$(PYRUNTEST) 5 $(top_srcdir) $@ Exact \
+    $(SSTMACEXEC) -f $(srcdir)/test_configs/test_dumpi_manager.ini \
+          -d indexing,allocation --no-wall-time 
+
+test_dumpi_terminate.$(CHKSUF): $(SSTMACEXEC) traces
+	$(PYRUNTEST) 5 $(top_srcdir) $@ Exact \
+    $(SSTMACEXEC) -f $(srcdir)/test_configs/test_dumpi_manager.ini \
+          -d indexing,allocation --no-wall-time -p node.app1.parsedumpi_terminate_count=1
+
+test_dumpi_bgp.$(CHKSUF): $(SSTMACEXEC) traces
+	$(PYRUNTEST) 5 $(top_srcdir) $@ Exact \
+    $(SSTMACEXEC) -f $(srcdir)/test_configs/test_dumpi_bgp.ini \
+          -d indexing,allocation --no-wall-time 
+
+#------------------------------------------------------------------------------------------#
+#  OTF2-related tests                                                                  {{{#
+#------------------------------------------------------------------------------------------#
+
+otf2_traces:
+	rm -fr traces *.otf2 *.cubex *.cfg *.def *.backup
+	cp -rf $(top_srcdir)/tests/otf2_test_traces/* ./
+	chmod u+w traces *.otf2 *.cubex *.cfg *.def *.backup # required for make distcheck (makes files r/o)
+
+test_otf2.$(CHKSUF): $(SSTMACEXEC) otf2_traces
+	$(PYRUNTEST) 5 $(top_srcdir) $@ True \
+    $(SSTMACEXEC) -f $(srcdir)/test_configs/test_otf2_coverage.ini \
+          -d mpi --no-wall-time
+
+test_otf2_write.$(CHKSUF): $(SSTMACEXEC) 
+	$(PYRUNTEST) 5 $(top_srcdir) $@ True \
+    $(SSTMACEXEC) -f $(srcdir)/test_configs/test_otf2_write.ini \
+          --no-wall-time
+
+endif
+#### not integrated core
+
+
