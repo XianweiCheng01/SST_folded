@@ -12,6 +12,9 @@ Then the graph_500 can be compiled.
 
 Running simulation:
 
+Running simulation with the sd1_many.py in sst-macro/skeletons/hpcg-3.0, it build a system with merlin routers.
+
+
 step1: generate graph data
   set the generate_data in main.c (line 118) to true
   modifing line 130 in sd1_many.py to decide the graph size based on your requirement
