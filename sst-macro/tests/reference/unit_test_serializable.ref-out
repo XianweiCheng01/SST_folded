@@ -1,0 +1,7 @@
+SUCCESS: serialization size test_serializable.cc:85
+SUCCESS: serialization size test_serializable.cc:96
+SUCCESS: element a test_serializable.cc:98
+SUCCESS: element b test_serializable.cc:99
+SUCCESS: element c test_serializable.cc:100
+SUCCESS: element d test_serializable.cc:101
+SUCCESS: element e test_serializable.cc:102
